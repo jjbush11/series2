@@ -1,0 +1,72 @@
+[
+    {
+        "name": "File A",
+        "size": 400,
+        "poc": 20,
+        "path": "main/src",
+        "clones": ["a", "b", "c", "d"]
+    },
+    {
+        "name": "File B",
+        "size": 250,
+        "poc": 15,
+        "path": "main/src",
+        "clones": ["b", "e", "f"]
+    },
+    {
+        "name": "File C",
+        "size": 600,
+        "poc": 30,
+        "path": "main/components",
+        "clones": ["c", "g", "h"]
+    },
+    {
+        "name": "File D",
+        "size": 800,
+        "poc": 50,
+        "path": "main/models",
+        "clones": ["j", "k", "c", "m"]
+    },
+    {
+        "name": "File E",
+        "size": 100,
+        "poc": 5,
+        "path": "main/helpers",
+        "clones": ["n", "a"]
+    },
+    {
+        "name": "File F",
+        "size": 350,
+        "poc": 25,
+        "path": "main/src",
+        "clones": ["o", "b", "q"]
+    },
+    {
+        "name": "File G",
+        "size": 500,
+        "poc": 40,
+        "path": "main/components",
+        "clones": ["r", "s", "t", "u"]
+    },
+    {
+        "name": "File H",
+        "size": 200,
+        "poc": 10,
+        "path": "main/views",
+        "clones": ["v", "w", "x", "g"]
+    },
+    {
+        "name": "File I",
+        "size": 750,
+        "poc": 45,
+        "path": "main/models",
+        "clones": ["y", "z", "k"]
+    },
+    {
+        "name": "File J",
+        "size": 150,
+        "poc": 8,
+        "path": "main/tests",
+        "clones": ["aa", "bb", "b"]
+    }
+]

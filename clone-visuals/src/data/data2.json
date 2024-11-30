@@ -1,0 +1,48 @@
+[
+    {
+      "name": "main",
+      "children": [
+        {
+          "name": "src",
+          "children": [
+            { "name": "File A", "size": 400, "poc": 20, "clones": ["a", "b", "c", "d"] },
+            { "name": "File B", "size": 250, "poc": 15, "clones": ["b", "e", "f"] },
+            { "name": "File F", "size": 350, "poc": 25, "clones": ["o", "b", "q"] }
+          ]
+        },
+        {
+          "name": "components",
+          "children": [
+            { "name": "File C", "size": 600, "poc": 30, "clones": ["c", "g", "h"] },
+            { "name": "File G", "size": 500, "poc": 40, "clones": ["r", "s", "t", "u"] }
+          ]
+        },
+        {
+          "name": "models",
+          "children": [
+            { "name": "File D", "size": 800, "poc": 50, "clones": ["j", "k", "c", "m"] },
+            { "name": "File I", "size": 750, "poc": 45, "clones": ["y", "z", "k"] }
+          ]
+        },
+        {
+          "name": "helpers",
+          "children": [
+            { "name": "File E", "size": 100, "poc": 5, "clones": ["n", "a"] }
+          ]
+        },
+        {
+          "name": "views",
+          "children": [
+            { "name": "File H", "size": 200, "poc": 10, "clones": ["v", "w", "x", "g"] }
+          ]
+        },
+        {
+          "name": "tests",
+          "children": [
+            { "name": "File J", "size": 150, "poc": 8, "clones": ["aa", "bb", "b"] }
+          ]
+        }
+      ]
+    }
+  ]
+  
