@@ -1,31 +1,26 @@
 import json
 
 def main():
-     # Read in json data 
+    # Read in json data 
     with open("data/data2.json", "r") as json_file:
-        data = json.load(json_file)
+        initial_data = json.load(json_file)
    
     with open("data/shared_clones.json", "r") as json_file:
-        shared_clones = json.load(json_file)
-
-    # Get what clones are in each file 
-    file_clones = extract_clones(data)    
-
-    clone_files = get_clone_files(shared_clones)
-
-    # print(file_clones) # {'File A': ['a', 'b', 'c', 'd'], 'File B': ['b', 'e', 'f']...}
-    # print(clone_files) # {'a': ['File A'], 'b': ['File A', 'File B'], 'c': ['File A', 'File B', 'File C']...
-
-    connected_clones = get_connected_clones(file_clones, clone_files)
+        initial_shared_clones = json.load(json_file)
     
-     # Convert sets to lists for JSON serialization
-    connected_clones = {file: list(clones) for file, clones in connected_clones.items()}
+    # merge_json(initial_data, initial_shared_clones)
+    # Write to new json file 
+    with open("data/connected_clones.json", "r") as json_file:
+        initial_connected_clones = json.load(json_file)
 
-    # Replace the clones field in the original data
-    replace_clones(data, connected_clones)
+    # Add depth and write it to a new json file 
+    add_depth(initial_connected_clones[0])
 
-    with open("data/connected_clones.json", "w") as json_file:
-        json.dump(data, json_file, indent=2)
+    print(initial_connected_clones)
+
+    with open("data/connected_clones_depth.json", "w") as json_file:
+        json.dump(initial_connected_clones, json_file, indent=2)
+
     
 
 
@@ -81,5 +76,38 @@ def replace_clones(data, connected_clones):
 
     for item in data:
         traverse(item)
+
+def merge_json(initial_data, initial_shared_clones):
+    
+
+    # Get what clones are in each file 
+    file_clones = extract_clones(initial_data)    
+
+    clone_files = get_clone_files(initial_shared_clones)
+
+    # print(file_clones) # {'File A': ['a', 'b', 'c', 'd'], 'File B': ['b', 'e', 'f']...}
+    # print(clone_files) # {'a': ['File A'], 'b': ['File A', 'File B'], 'c': ['File A', 'File B', 'File C']...
+
+    connected_clones = get_connected_clones(file_clones, clone_files)
+    
+     # Convert sets to lists for JSON serialization
+    connected_clones = {file: list(clones) for file, clones in connected_clones.items()}
+
+    # Replace the clones field in the original data
+    replace_clones(initial_data, connected_clones)
+
+    with open("data/connected_clones.json", "w") as json_file:
+        json.dump(initial_data, json_file, indent=2)
+
+def add_depth(node, depth=0):
+    node['depth'] = depth
+    if 'children' in node:
+        for child in node['children']:
+            add_depth(child, depth + 1)
+
+def write_depth():
+    with open("data/connected_clones.json", "r") as json_file:
+        initial_connected_clones = json.load(json_file)
+
 
 main()

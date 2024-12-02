@@ -1,29 +1,30 @@
 import React, { useState } from 'react';
 import { Treemap, Tooltip } from 'recharts';
 import { scaleLinear } from 'd3-scale';
-import data from '../data/data2.json';
+import data from '../data/connected_clones.json';
 
 // Color scaler to give heat map effect
 const colorScale = scaleLinear()
   .domain([0, 100])
   .range(['#ffffff', '#a80000']);
 
+  const colorScaleDepth = scaleLinear()
+  .domain([0, 100])
+  .range(['#f169ff', '#55285a']);
+
 const TreeMap = () => {
   // Keeps track of currently clicked on file and updates if its clicked on
-  const [selectedNode, setSelectedNode] = useState(null);
+  const [selectedNode, setSelectedNode] = useState(false);
 
   // Custom node rendering
   // Uused for the heat map effect on each file rectangle 
   const heatedCell = (props) => {
-    const { x, y, width, height, name, poc, clones } = props;
+    const { x, y, width, height, name, poc, clones, depth } = props;
     // Check if current node and selected node are the same 
     console.log("selectedNode: ", selectedNode);
     const isSelected = selectedNode && selectedNode.name === name; 
     console.log("Related: ", selectedNode.related);
     console.log("Name ", name);
-    // for (let i = 0; i < selectedNode.related.length; i++) {
-    //   console.log(selectedNode.related[i]);
-    // }
     const isRelated = selectedNode && selectedNode.related.includes(name);
     const fillColor = isSelected
       ? '#0000ff' // Blue for selected node
@@ -32,7 +33,14 @@ const TreeMap = () => {
       : colorScale(poc);
 
     return (
-      <g onClick={() => setSelectedNode({ name, related: clones || [] })}>
+      // On first click make the rect the selected, on second click, unselect
+      <g onClick={() =>  {
+        if (isSelected) {
+          setSelectedNode(false);
+        } else {
+          setSelectedNode({ name, related: clones || [] });
+        }
+      }}>
         <rect
           x={x}
           y={y}
@@ -40,7 +48,7 @@ const TreeMap = () => {
           height={height}
           style={{
             fill: fillColor,
-            stroke: '#fff',
+            stroke: colorScaleDepth(depth),
             cursor: 'pointer',
           }}
         />
