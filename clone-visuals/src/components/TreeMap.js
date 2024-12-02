@@ -15,9 +15,15 @@ const TreeMap = () => {
   // Custom node rendering
   // Uused for the heat map effect on each file rectangle 
   const heatedCell = (props) => {
-    console.log('heatedCell props:', props); // Add this line for debugging
     const { x, y, width, height, name, poc, clones } = props;
-    const isSelected = selectedNode && selectedNode.name === name; // Check if current node and selected node are the same 
+    // Check if current node and selected node are the same 
+    console.log("selectedNode: ", selectedNode);
+    const isSelected = selectedNode && selectedNode.name === name; 
+    console.log("Related: ", selectedNode.related);
+    console.log("Name ", name);
+    // for (let i = 0; i < selectedNode.related.length; i++) {
+    //   console.log(selectedNode.related[i]);
+    // }
     const isRelated = selectedNode && selectedNode.related.includes(name);
     const fillColor = isSelected
       ? '#0000ff' // Blue for selected node
@@ -43,7 +49,8 @@ const TreeMap = () => {
             x={x + width / 2}
             y={y + height / 2}
             textAnchor="middle"
-            fill="#000"
+            fill="#000000" 
+            stroke="#000"
             fontSize={12}
           >
             {name}
@@ -62,18 +69,14 @@ const TreeMap = () => {
         dataKey="size"
         stroke="#fff"
         content={heatedCell}
-      />
+      >
       <Tooltip
         content={({ payload }) => {
-          // if (!payload) {
-          //   console.error('Payload is undefined:', props); // Add this line for debugging
-          //   return null;
-          // }
           if (payload && payload.length) {
-            const { name, size, poc } = payload[0].payload;
+            const { size, poc } = payload[0].payload;
+            console.log(payload);
             return (
               <div style={{ backgroundColor: '#fff', padding: '5px', border: '1px solid #ccc' }}>
-                <p>{`Name: ${name}`}</p>
                 <p>{`Size: ${size} LOC`}</p>
                 <p>{`Clones: ${poc}%`}</p>
               </div>
@@ -82,6 +85,7 @@ const TreeMap = () => {
           return null;
         }}
       />
+      </Treemap>
     </div>
   );
 };

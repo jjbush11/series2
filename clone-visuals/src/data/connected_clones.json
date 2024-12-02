@@ -1,0 +1,173 @@
+[
+  {
+    "name": "main",
+    "children": [
+      {
+        "name": "src",
+        "children": [
+          {
+            "name": "File A",
+            "size": 400,
+            "poc": 20,
+            "clones": [
+              "File A",
+              "File D",
+              "File C",
+              "File B"
+            ]
+          },
+          {
+            "name": "File B",
+            "size": 250,
+            "poc": 15,
+            "clones": [
+              "File D",
+              "File B",
+              "File A",
+              "File F",
+              "File E",
+              "File C"
+            ]
+          },
+          {
+            "name": "File F",
+            "size": 350,
+            "poc": 25,
+            "clones": [
+              "File G",
+              "File D",
+              "File B",
+              "File A",
+              "File F",
+              "File E",
+              "File C"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "components",
+        "children": [
+          {
+            "name": "File C",
+            "size": 600,
+            "poc": 30,
+            "clones": [
+              "File G",
+              "File D",
+              "File B",
+              "File A",
+              "File F",
+              "File E",
+              "File H",
+              "File C"
+            ]
+          },
+          {
+            "name": "File G",
+            "size": 500,
+            "poc": 40,
+            "clones": [
+              "File G",
+              "File D",
+              "File B",
+              "File J",
+              "File A",
+              "File F",
+              "File E",
+              "File I",
+              "File H",
+              "File C"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "models",
+        "children": [
+          {
+            "name": "File D",
+            "size": 800,
+            "poc": 50,
+            "clones": [
+              "File G",
+              "File D",
+              "File B",
+              "File J",
+              "File A",
+              "File F",
+              "File E",
+              "File I",
+              "File H",
+              "File C"
+            ]
+          },
+          {
+            "name": "File I",
+            "size": 750,
+            "poc": 45,
+            "clones": [
+              "File D",
+              "File B",
+              "File A",
+              "File F",
+              "File E",
+              "File C"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "helpers",
+        "children": [
+          {
+            "name": "File E",
+            "size": 100,
+            "poc": 5,
+            "clones": [
+              "File A",
+              "File D",
+              "File C",
+              "File B"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "views",
+        "children": [
+          {
+            "name": "File H",
+            "size": 200,
+            "poc": 10,
+            "clones": [
+              "File G",
+              "File D",
+              "File B",
+              "File A",
+              "File F",
+              "File E",
+              "File C"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "tests",
+        "children": [
+          {
+            "name": "File J",
+            "size": 150,
+            "poc": 8,
+            "clones": [
+              "File A",
+              "File D",
+              "File C",
+              "File B"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

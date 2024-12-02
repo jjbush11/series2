@@ -7,7 +7,7 @@
           "children": [
             { "name": "File A", "size": 400, "poc": 20, "clones": ["a", "b", "c", "d"] },
             { "name": "File B", "size": 250, "poc": 15, "clones": ["b", "e", "f"] },
-            { "name": "File F", "size": 350, "poc": 25, "clones": ["o", "b", "q"] }
+            { "name": "File F", "size": 350, "poc": 25, "clones": ["a", "o", "b", "q"] }
           ]
         },
         {
@@ -39,7 +39,7 @@
         {
           "name": "tests",
           "children": [
-            { "name": "File J", "size": 150, "poc": 8, "clones": ["aa", "bb", "b"] }
+            { "name": "File J", "size": 150, "poc": 8, "clones": ["a", "b", "x"] }
           ]
         }
       ]
