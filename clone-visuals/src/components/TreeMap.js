@@ -10,7 +10,7 @@ const colorScale = scaleLinear()
 
   const colorScaleDepth = scaleLinear()
   .domain([0, 100])
-  .range(['#f169ff', '#55285a']);
+  .range(['#f169ff', '#ff6726']);
 
 const TreeMap = () => {
   // Keeps track of currently clicked on file and updates if its clicked on
@@ -19,12 +19,9 @@ const TreeMap = () => {
   // Custom node rendering
   // Uused for the heat map effect on each file rectangle 
   const heatedCell = (props) => {
-    const { x, y, width, height, name, poc, clones, depth } = props;
+    const { x, y, width, height, name, poc, clones, depth, children } = props;
     // Check if current node and selected node are the same 
-    console.log("selectedNode: ", selectedNode);
     const isSelected = selectedNode && selectedNode.name === name; 
-    console.log("Related: ", selectedNode.related);
-    console.log("Name ", name);
     const isRelated = selectedNode && selectedNode.related.includes(name);
     const fillColor = isSelected
       ? '#0000ff' // Blue for selected node
@@ -32,9 +29,13 @@ const TreeMap = () => {
       ? '#00a800' // Green for related nodes
       : colorScale(poc);
 
+    const borderColor = children ? '#000000' : '#ffffff'; //depth === 1 ? '#000000' : '#ffffff';
+    const borderWidth = children ? 10 : 1; // Thicker border for parent nodes
+
     return (
       // On first click make the rect the selected, on second click, unselect
-      <g onClick={() =>  {
+      <g onClick={(e) =>  {
+        e.stopPropagation();
         if (isSelected) {
           setSelectedNode(false);
         } else {
@@ -48,7 +49,8 @@ const TreeMap = () => {
           height={height}
           style={{
             fill: fillColor,
-            stroke: colorScaleDepth(depth),
+            stroke: borderColor,
+            strokeWidth: borderWidth,
             cursor: 'pointer',
           }}
         />
@@ -75,7 +77,7 @@ const TreeMap = () => {
         height={400}
         data={data}
         dataKey="size"
-        stroke="#fff"
+        stroke="#000"
         content={heatedCell}
       >
       <Tooltip

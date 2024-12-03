@@ -8,18 +8,18 @@ def main():
     with open("data/shared_clones.json", "r") as json_file:
         initial_shared_clones = json.load(json_file)
     
-    # merge_json(initial_data, initial_shared_clones)
+    merge_json(initial_data, initial_shared_clones)
     # Write to new json file 
-    with open("data/connected_clones.json", "r") as json_file:
-        initial_connected_clones = json.load(json_file)
+    # with open("data/connected_clones.json", "r") as json_file:
+    #     initial_connected_clones = json.load(json_file)
 
-    # Add depth and write it to a new json file 
-    add_depth(initial_connected_clones[0])
+    # # Add depth and write it to a new json file 
+    # add_depth(initial_connected_clones[0])
 
-    print(initial_connected_clones)
+    # print(initial_connected_clones)
 
-    with open("data/connected_clones_depth.json", "w") as json_file:
-        json.dump(initial_connected_clones, json_file, indent=2)
+    # with open("data/connected_clones_depth.json", "w") as json_file:
+    #     json.dump(initial_connected_clones, json_file, indent=2)
 
     
 

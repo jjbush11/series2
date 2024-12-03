@@ -11,9 +11,12 @@
             "poc": 20,
             "clones": [
               "File A",
+              "File F",
+              "File J",
+              "File E",
+              "File B",
               "File D",
-              "File C",
-              "File B"
+              "File C"
             ]
           },
           {
@@ -21,12 +24,10 @@
             "size": 250,
             "poc": 15,
             "clones": [
-              "File D",
-              "File B",
               "File A",
+              "File B",
               "File F",
-              "File E",
-              "File C"
+              "File J"
             ]
           },
           {
@@ -34,13 +35,11 @@
             "size": 350,
             "poc": 25,
             "clones": [
-              "File G",
-              "File D",
-              "File B",
               "File A",
               "File F",
+              "File J",
               "File E",
-              "File C"
+              "File B"
             ]
           }
         ]
@@ -53,13 +52,10 @@
             "size": 600,
             "poc": 30,
             "clones": [
-              "File G",
-              "File D",
-              "File B",
               "File A",
-              "File F",
-              "File E",
+              "File G",
               "File H",
+              "File D",
               "File C"
             ]
           },
@@ -68,16 +64,7 @@
             "size": 500,
             "poc": 40,
             "clones": [
-              "File G",
-              "File D",
-              "File B",
-              "File J",
-              "File A",
-              "File F",
-              "File E",
-              "File I",
-              "File H",
-              "File C"
+              "File G"
             ]
           }
         ]
@@ -90,15 +77,9 @@
             "size": 800,
             "poc": 50,
             "clones": [
-              "File G",
-              "File D",
-              "File B",
-              "File J",
               "File A",
-              "File F",
-              "File E",
               "File I",
-              "File H",
+              "File D",
               "File C"
             ]
           },
@@ -107,12 +88,8 @@
             "size": 750,
             "poc": 45,
             "clones": [
-              "File D",
-              "File B",
-              "File A",
-              "File F",
-              "File E",
-              "File C"
+              "File I",
+              "File D"
             ]
           }
         ]
@@ -126,9 +103,9 @@
             "poc": 5,
             "clones": [
               "File A",
-              "File D",
-              "File C",
-              "File B"
+              "File E",
+              "File F",
+              "File J"
             ]
           }
         ]
@@ -142,12 +119,9 @@
             "poc": 10,
             "clones": [
               "File G",
-              "File D",
-              "File B",
-              "File A",
-              "File F",
-              "File E",
-              "File C"
+              "File C",
+              "File H",
+              "File J"
             ]
           }
         ]
@@ -161,8 +135,10 @@
             "poc": 8,
             "clones": [
               "File A",
-              "File D",
-              "File C",
+              "File F",
+              "File J",
+              "File H",
+              "File E",
               "File B"
             ]
           }
