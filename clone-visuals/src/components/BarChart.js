@@ -1,6 +1,6 @@
 import React from "react";
 import { Bar } from "react-chartjs-2";
-import processedData from "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/data/data_for_bar_chart.json";
+import processedData from "../data/data_for_bar_chart.json";
 
 import {
   Chart as ChartJS,
@@ -23,7 +23,9 @@ const BarChart = () => {
       {
         label: "LOC Size x Clone Count",
         data: dataValues,
-        backgroundColor: "rgba(75, 192, 192, 0.6)",
+        backgroundColor: dataValues.map((_, index) =>
+          index === clickedIndex ? "rgba(255, 99, 132, 0.6)" : "rgba(75, 192, 192, 0.6)"
+        ),
         borderColor: "rgba(75, 192, 192, 1)",
         borderWidth: 1,
       },
