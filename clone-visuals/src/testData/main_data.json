@@ -1,0 +1,97 @@
+[
+    {
+        "name": "main",
+        "children": [
+            {
+                "name": "src",
+                "children": [
+                    { "name": "File A1", "size": 450, "poc": 25, "clones": ["a", "b", "c"] },
+                    { "name": "File B2", "size": 230, "poc": 10, "clones": ["d", "e", "f"] },
+                    { "name": "File C3", "size": 380, "poc": 35, "clones": ["g", "h", "i"] },
+                    { "name": "File D4", "size": 410, "poc": 20, "clones": ["j", "k", "l"] },
+                    { "name": "File E5", "size": 330, "poc": 18, "clones": ["m", "n"] },
+                    { "name": "File AA1", "size": 500, "poc": 30, "clones": ["o", "p", "q"] },
+                    { "name": "File BB2", "size": 470, "poc": 25, "clones": ["r", "s", "t"] },
+                    { "name": "File CC3", "size": 400, "poc": 32, "clones": ["u", "v"] },
+                    { "name": "File DD4", "size": 450, "poc": 20, "clones": ["w", "x", "y"] },
+                    { "name": "File EE5", "size": 370, "poc": 24, "clones": ["z", "a", "b"] }
+                ]
+            },
+            {
+                "name": "components",
+                "children": [
+                    { "name": "File F6", "size": 600, "poc": 40, "clones": ["o", "p", "q"] },
+                    { "name": "File G7", "size": 520, "poc": 50, "clones": ["r", "s", "t"] },
+                    { "name": "File H8", "size": 480, "poc": 45, "clones": ["u", "v"] },
+                    { "name": "File I9", "size": 610, "poc": 30, "clones": ["w", "x", "y"] },
+                    { "name": "File J10", "size": 490, "poc": 22, "clones": ["z", "a", "b"] },
+                    { "name": "File FF6", "size": 610, "poc": 35, "clones": ["c", "d", "e"] },
+                    { "name": "File GG7", "size": 530, "poc": 45, "clones": ["f", "g"] },
+                    { "name": "File HH8", "size": 510, "poc": 40, "clones": ["h", "i", "j"] },
+                    { "name": "File II9", "size": 620, "poc": 36, "clones": ["k", "l", "m"] },
+                    { "name": "File JJ10", "size": 490, "poc": 38, "clones": ["n", "o", "p"] }
+                ]
+            },
+            {
+                "name": "models",
+                "children": [
+                    { "name": "File K11", "size": 750, "poc": 55, "clones": ["c", "d", "e"] },
+                    { "name": "File L12", "size": 680, "poc": 48, "clones": ["f", "g"] },
+                    { "name": "File M13", "size": 720, "poc": 60, "clones": ["h", "i", "j"] },
+                    { "name": "File N14", "size": 660, "poc": 52, "clones": ["k", "l", "m"] },
+                    { "name": "File O15", "size": 700, "poc": 47, "clones": ["n", "o", "p"] },
+                    { "name": "File KK11", "size": 800, "poc": 57, "clones": ["q", "r"] },
+                    { "name": "File LL12", "size": 690, "poc": 50, "clones": ["s", "t"] },
+                    { "name": "File MM13", "size": 740, "poc": 63, "clones": ["u", "v", "w"] },
+                    { "name": "File NN14", "size": 700, "poc": 55, "clones": ["x", "y", "z"] },
+                    { "name": "File OO15", "size": 720, "poc": 59, "clones": ["a", "b", "c"] }
+                ]
+            },
+            {
+                "name": "helpers",
+                "children": [
+                    { "name": "File P16", "size": 120, "poc": 8, "clones": ["q", "r"] },
+                    { "name": "File Q17", "size": 200, "poc": 15, "clones": ["s", "t", "u"] },
+                    { "name": "File R18", "size": 250, "poc": 18, "clones": ["v", "w"] },
+                    { "name": "File S19", "size": 180, "poc": 12, "clones": ["x", "y", "z"] },
+                    { "name": "File T20", "size": 140, "poc": 10, "clones": ["a", "b", "c"] },
+                    { "name": "File PP16", "size": 150, "poc": 11, "clones": ["d", "e"] },
+                    { "name": "File QQ17", "size": 220, "poc": 16, "clones": ["f", "g"] },
+                    { "name": "File RR18", "size": 280, "poc": 19, "clones": ["h", "i", "j"] },
+                    { "name": "File SS19", "size": 210, "poc": 14, "clones": ["k", "l", "m"] },
+                    { "name": "File TT20", "size": 160, "poc": 12, "clones": ["n", "o", "p"] }
+                ]
+            },
+            {
+                "name": "views",
+                "children": [
+                    { "name": "File U21", "size": 360, "poc": 20, "clones": ["d", "e", "f"] },
+                    { "name": "File V22", "size": 400, "poc": 22, "clones": ["g", "h", "i"] },
+                    { "name": "File W23", "size": 370, "poc": 24, "clones": ["j", "k", "l"] },
+                    { "name": "File X24", "size": 410, "poc": 26, "clones": ["m", "n", "o"] },
+                    { "name": "File Y25", "size": 390, "poc": 28, "clones": ["p", "q", "r"] },
+                    { "name": "File UU21", "size": 380, "poc": 22, "clones": ["s", "t"] },
+                    { "name": "File VV22", "size": 420, "poc": 25, "clones": ["u", "v", "w"] },
+                    { "name": "File WW23", "size": 390, "poc": 27, "clones": ["x", "y", "z"] },
+                    { "name": "File XX24", "size": 430, "poc": 29, "clones": ["a", "b", "c"] },
+                    { "name": "File YY25", "size": 400, "poc": 30, "clones": ["d", "e", "f"] }
+                ]
+            },
+            {
+                "name": "tests",
+                "children": [
+                    { "name": "File Z26", "size": 190, "poc": 14, "clones": ["s", "t", "u"] },
+                    { "name": "File A27", "size": 210, "poc": 16, "clones": ["v", "w", "x"] },
+                    { "name": "File B28", "size": 170, "poc": 12, "clones": ["y", "z", "a"] },
+                    { "name": "File C29", "size": 200, "poc": 10, "clones": ["b", "c", "d"] },
+                    { "name": "File D30", "size": 220, "poc": 18, "clones": ["e", "f", "g"] },
+                    { "name": "File ZZ26", "size": 250, "poc": 15, "clones": ["h", "i", "j"] },
+                    { "name": "File AA27", "size": 230, "poc": 18, "clones": ["k", "l", "m"] },
+                    { "name": "File BB28", "size": 180, "poc": 13, "clones": ["n", "o", "p"] },
+                    { "name": "File CC29", "size": 210, "poc": 17, "clones": ["q", "r", "s"] },
+                    { "name": "File DD30", "size": 240, "poc": 20, "clones": ["t", "u", "v"] }
+                ]
+            }
+        ]
+    }
+]

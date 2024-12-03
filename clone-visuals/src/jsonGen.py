@@ -2,15 +2,15 @@ import json
 
 def main():
     # Read in json data 
-    with open("data/data2.json", "r") as json_file:
+    with open("testData/main_data.json", "r") as json_file:
         initial_data = json.load(json_file)
    
-    with open("data/shared_clones.json", "r") as json_file:
+    with open("testData/shared_clones.json", "r") as json_file:
         initial_shared_clones = json.load(json_file)
     
     merge_json(initial_data, initial_shared_clones)
     # Write to new json file 
-    # with open("data/connected_clones.json", "r") as json_file:
+    # with open("testData/connected_clones.json", "r") as json_file:
     #     initial_connected_clones = json.load(json_file)
 
     # # Add depth and write it to a new json file 
@@ -96,7 +96,7 @@ def merge_json(initial_data, initial_shared_clones):
     # Replace the clones field in the original data
     replace_clones(initial_data, connected_clones)
 
-    with open("data/connected_clones.json", "w") as json_file:
+    with open("testData/connected_clones.json", "w") as json_file:
         json.dump(initial_data, json_file, indent=2)
 
 def add_depth(node, depth=0):
