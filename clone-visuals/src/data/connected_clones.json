@@ -1,15 +1,15 @@
 [
   {
-    "name": "main",
+    "path": "main",
     "children": [
       {
-        "name": "src",
+        "path": "src",
         "children": [
           {
-            "name": "File A",
+            "path": "File A",
             "size": 400,
             "poc": 20,
-            "clones": [
+            "hasClonesIn": [
               "File A",
               "File F",
               "File J",
@@ -20,7 +20,7 @@
             ]
           },
           {
-            "name": "File B",
+            "path": "File B",
             "size": 250,
             "poc": 15,
             "clones": [
@@ -31,7 +31,7 @@
             ]
           },
           {
-            "name": "File F",
+            "path": "File F",
             "size": 350,
             "poc": 25,
             "clones": [
@@ -45,10 +45,10 @@
         ]
       },
       {
-        "name": "components",
+        "path": "components",
         "children": [
           {
-            "name": "File C",
+            "path": "File C",
             "size": 600,
             "poc": 30,
             "clones": [
@@ -60,7 +60,7 @@
             ]
           },
           {
-            "name": "File G",
+            "path": "File G",
             "size": 500,
             "poc": 40,
             "clones": [
@@ -70,10 +70,10 @@
         ]
       },
       {
-        "name": "models",
+        "path": "models",
         "children": [
           {
-            "name": "File D",
+            "path": "File D",
             "size": 800,
             "poc": 50,
             "clones": [
@@ -84,7 +84,7 @@
             ]
           },
           {
-            "name": "File I",
+            "path": "File I",
             "size": 750,
             "poc": 45,
             "clones": [
@@ -95,10 +95,10 @@
         ]
       },
       {
-        "name": "helpers",
+        "path": "helpers",
         "children": [
           {
-            "name": "File E",
+            "path": "File E",
             "size": 100,
             "poc": 5,
             "clones": [
@@ -111,10 +111,10 @@
         ]
       },
       {
-        "name": "views",
+        "path": "views",
         "children": [
           {
-            "name": "File H",
+            "path": "File H",
             "size": 200,
             "poc": 10,
             "clones": [
@@ -127,10 +127,10 @@
         ]
       },
       {
-        "name": "tests",
+        "path": "tests",
         "children": [
           {
-            "name": "File J",
+            "path": "File J",
             "size": 150,
             "poc": 8,
             "clones": [

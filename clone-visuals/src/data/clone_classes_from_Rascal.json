@@ -1,0 +1,91 @@
+[
+    {
+      "classID": "A",
+      "locSize": "10",
+      "example": "int x int y int z int z some valid java code",
+      "clones": [
+        {
+          "cloneID": "A.a",
+          "file": "fileA",
+          "location": "fileA/<10,20>"
+        },
+        {
+          "cloneID": "A.b",
+          "file": "fileA",
+          "location": "fileA/<21,30>"
+        },
+        {
+          "cloneID": "A.c",
+          "file": "fileB",
+          "location": "fileB/<31,40>"
+        }
+      ]
+    },
+    {
+      "classID": "B",
+      "locSize": "15",
+      "example": "int a int b int c int d some valid java code for class B",
+      "clones": [
+        {
+          "cloneID": "B.a",
+          "file": "fileB",
+          "location": "fileB/<50,64>"
+        },
+        {
+          "cloneID": "B.b",
+          "file": "fileC",
+          "location": "fileC/<70,84>"
+        }
+      ]
+    },
+    {
+      "classID": "C",
+      "locSize": "20",
+      "example": "public static void main(String[] args) { // Some Java code }",
+      "clones": [
+        {
+          "cloneID": "C.a",
+          "file": "fileC",
+          "location": "fileC/<90,109>"
+        },
+        {
+          "cloneID": "C.b",
+          "file": "fileD",
+          "location": "fileD/<10,29>"
+        },
+        {
+          "cloneID": "C.c",
+          "file": "fileD",
+          "location": "fileD/<40,59>"
+        },
+        {
+          "cloneID": "C.d",
+          "file": "fileE",
+          "location": "fileE/<70,89>"
+        }
+      ]
+    },
+    {
+      "classID": "D",
+      "locSize": "6",
+      "example": "String name; int age; valid method in Java",
+      "clones": [
+        {
+          "cloneID": "D.a",
+          "file": "fileE",
+          "location": "fileE/<100,105>"
+        },
+        {
+          "cloneID": "D.b",
+          "file": "fileF",
+          "location": "fileF/<110,115>"
+        },
+        {
+          "cloneID": "D.c",
+          "file": "fileF",
+          "location": "fileF/<120,125>"
+        }
+      ]
+    }
+  ]
+  
