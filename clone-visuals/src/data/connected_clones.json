@@ -1,13 +1,43 @@
 [
   {
-    "name": "main",
+    "path": "main",
     "children": [
       {
-        "name": "src",
+        "path": "src",
         "children": [
           {
+<<<<<<< HEAD
             "name": "File A1",
             "size": 450,
+=======
+            "path": "File A",
+            "size": 400,
+            "poc": 20,
+            "hasClonesIn": [
+              "File A",
+              "File F",
+              "File J",
+              "File E",
+              "File B",
+              "File D",
+              "File C"
+            ]
+          },
+          {
+            "path": "File B",
+            "size": 250,
+            "poc": 15,
+            "clones": [
+              "File A",
+              "File B",
+              "File F",
+              "File J"
+            ]
+          },
+          {
+            "path": "File F",
+            "size": 350,
+>>>>>>> cabaac85c568aba2eac882323f7b5861beb14fd4
             "poc": 25,
             "clones": [
               "File A1",
@@ -126,10 +156,14 @@
         ]
       },
       {
-        "name": "components",
+        "path": "components",
         "children": [
           {
+<<<<<<< HEAD
             "name": "File F6",
+=======
+            "path": "File C",
+>>>>>>> cabaac85c568aba2eac882323f7b5861beb14fd4
             "size": 600,
             "poc": 40,
             "clones": [
@@ -143,6 +177,7 @@
             ]
           },
           {
+<<<<<<< HEAD
             "name": "File G7",
             "size": 520,
             "poc": 50,
@@ -216,6 +251,10 @@
           {
             "name": "File HH8",
             "size": 510,
+=======
+            "path": "File G",
+            "size": 500,
+>>>>>>> cabaac85c568aba2eac882323f7b5861beb14fd4
             "poc": 40,
             "clones": [
               "File NN14",
@@ -254,12 +293,18 @@
         ]
       },
       {
-        "name": "models",
+        "path": "models",
         "children": [
           {
+<<<<<<< HEAD
             "name": "File K11",
             "size": 750,
             "poc": 55,
+=======
+            "path": "File D",
+            "size": 800,
+            "poc": 50,
+>>>>>>> cabaac85c568aba2eac882323f7b5861beb14fd4
             "clones": [
               "File A1",
               "File OO15",
@@ -270,9 +315,15 @@
             ]
           },
           {
+<<<<<<< HEAD
             "name": "File L12",
             "size": 680,
             "poc": 48,
+=======
+            "path": "File I",
+            "size": 750,
+            "poc": 45,
+>>>>>>> cabaac85c568aba2eac882323f7b5861beb14fd4
             "clones": [
               "File C3",
               "File QQ17",
@@ -380,12 +431,18 @@
         ]
       },
       {
-        "name": "helpers",
+        "path": "helpers",
         "children": [
           {
+<<<<<<< HEAD
             "name": "File P16",
             "size": 120,
             "poc": 8,
+=======
+            "path": "File E",
+            "size": 100,
+            "poc": 5,
+>>>>>>> cabaac85c568aba2eac882323f7b5861beb14fd4
             "clones": [
               "File KK11",
               "File QQ17",
@@ -505,12 +562,18 @@
         ]
       },
       {
-        "name": "views",
+        "path": "views",
         "children": [
           {
+<<<<<<< HEAD
             "name": "File U21",
             "size": 360,
             "poc": 20,
+=======
+            "path": "File H",
+            "size": 200,
+            "poc": 10,
+>>>>>>> cabaac85c568aba2eac882323f7b5861beb14fd4
             "clones": [
               "File A1",
               "File KK11",
@@ -628,12 +691,18 @@
         ]
       },
       {
-        "name": "tests",
+        "path": "tests",
         "children": [
           {
+<<<<<<< HEAD
             "name": "File Z26",
             "size": 190,
             "poc": 14,
+=======
+            "path": "File J",
+            "size": 150,
+            "poc": 8,
+>>>>>>> cabaac85c568aba2eac882323f7b5861beb14fd4
             "clones": [
               "File VV22",
               "File KK11",
