@@ -18,3 +18,17 @@ code {
   align-items: center;
   height: 100vh; /* Full viewport height */
 }
+
+.side-by-side-container {
+  display: flex;
+  justify-content: space-between; /* Space between the columns */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Optional: Add some space between the columns */
+}
+
+.side-by-side-container > div {
+  flex: 1; /* Each column takes up equal space */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}

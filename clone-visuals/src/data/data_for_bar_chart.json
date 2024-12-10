@@ -1,24 +1,24 @@
 [
     {
-        "classID": "A",
+        "classID": "a",
         "locCloneProduct": 30,
         "locSize": 10,
         "occurrences": 3
     },
     {
-        "classID": "B",
+        "classID": "b",
         "locCloneProduct": 30,
         "locSize": 15,
         "occurrences": 2
     },
     {
-        "classID": "C",
+        "classID": "c",
         "locCloneProduct": 80,
         "locSize": 20,
         "occurrences": 4
     },
     {
-        "classID": "D",
+        "classID": "d",
         "locCloneProduct": 18,
         "locSize": 6,
         "occurrences": 3

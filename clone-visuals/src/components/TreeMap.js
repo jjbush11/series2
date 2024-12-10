@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Treemap, Tooltip } from 'recharts';
 import { scaleLinear } from 'd3-scale';
 import data from '../testData/connected_clones.json';
@@ -12,12 +12,20 @@ const colorScale = scaleLinear()
   .domain([0, 100])
   .range(['#f169ff', '#ff6726']);
 
-const TreeMap = () => {
+const TreeMap = ({ selectedCloneClass }) => {
   // Keeps track of currently clicked on file and updates if its clicked on
   const [selectedNode, setSelectedNode] = useState(false);
 
+  useEffect(() => {
+    if (selectedCloneClass) {
+      setSelectedNode({ related: selectedCloneClass });
+    } else {
+      setSelectedNode(false);
+    }
+  }, [selectedCloneClass]);
+
   // Custom node rendering
-  // Uused for the heat map effect on each file rectangle 
+  // Used for the heat map effect on each file rectangle 
   const heatedCell = (props) => {
     const { x, y, width, height, name, poc, clones, children } = props;
     // Check if current node and selected node are the same 

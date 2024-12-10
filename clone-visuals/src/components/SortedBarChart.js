@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { ResponsiveBar } from "@nivo/bar";
-import rawData from "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/data/data_for_bar_chart.json";
+import rawData from "../data/data_for_bar_chart.json";
 
-const SortedBarChart = () => {
+const SortedBarChart = ({ onBarClick }) => {
   const [selectedBar, setSelectedBar] = useState(null);
 
   // Sort data by locCloneProduct in descending order
@@ -107,7 +107,10 @@ const SortedBarChart = () => {
         motionConfig="wobbly"
         role="application"
         ariaLabel="Bar chart showing LOC size x clone count"
-        onClick={(data) => setSelectedBar(data.classID)} // Update selectedBar state on click
+        onClick={(data) => { 
+          setSelectedBar(data.indexValue)
+          onBarClick(data.indexValue)
+        }} // Update selectedBar state on click
       />
     </div>
   );
