@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Treemap, Tooltip } from 'recharts';
 import { scaleLinear } from 'd3-scale';
-import data from '../testData/connected_clones.json';
+import data from '../finalData/treeMap.json';
 
 // Color scaler to give heat map effect
 const colorScale = scaleLinear()
@@ -27,10 +27,10 @@ const TreeMap = ({ selectedCloneClass }) => {
   // Custom node rendering
   // Used for the heat map effect on each file rectangle 
   const heatedCell = (props) => {
-    const { x, y, width, height, name, poc, clones, children } = props;
+    const { x, y, width, height, name, poc, clones, children, path } = props;
     // Check if current node and selected node are the same 
     const isSelected = selectedNode && selectedNode.name === name; 
-    const isRelated = selectedNode && selectedNode.related.includes(name);
+    const isRelated = selectedNode && selectedNode.related.includes(path);
     const fillColor = isSelected
       ? '#0000ff' // Blue for selected node
       : isRelated
@@ -91,12 +91,13 @@ const TreeMap = ({ selectedCloneClass }) => {
       <Tooltip
         content={({ payload }) => {
           if (payload && payload.length) {
-            const { name, size, poc } = payload[0].payload;
+            const { name, size, poc, path } = payload[0].payload;
             return (
               <div style={{ backgroundColor: '#fff', padding: '5px', border: '1px solid #ccc' }}>
                 <p>{`Name: ${name}`}</p>
                 <p>{`Size: ${size} LOC`}</p>
-                <p>{`Clones: ${poc}%`}</p>
+                <p>{`Clones: ${poc.toFixed(2)}%`}</p>
+                <p>{`Path: ${path}`}</p>
               </div>
             );
           }

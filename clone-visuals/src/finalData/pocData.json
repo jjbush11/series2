@@ -1,0 +1,60 @@
+[
+  {
+    "name": "rascalTestJava",
+    "children": [
+      {
+        "name": "comp",
+        "children": [
+          {
+            "name": "compHelper.java",
+            "size": 15,
+            "path": "rascalTestJava/src/Main.java",
+            "clones": [
+              "eb2528b21f5bc77b6f5d6e8b0de3634d",
+              "8c0e61c99af8723fef5ae2118149cbcb",
+              "62f040103a9d943fba5505b511a3c02f",
+              "55207110234ca7aab6803fd4be1ab445",
+              "3867d7cdeb22a4e8cb4682f0dfaeb553",
+              "0e6b3075d21400f496d05b8093e65514"
+            ],
+            "poc": 60.0
+          }
+        ]
+      },
+      {
+        "name": "src",
+        "children": [
+          {
+            "name": "Main.java",
+            "size": 40,
+            "path": "rascalTestJava/src/Main.java",
+            "clones": [
+              "eb2528b21f5bc77b6f5d6e8b0de3634d",
+              "071424fe5aca8f504a0e847feea1721a",
+              "8c0e61c99af8723fef5ae2118149cbcb",
+              "d2b0c988413e68e0c32b542470414426",
+              "62f040103a9d943fba5505b511a3c02f",
+              "55207110234ca7aab6803fd4be1ab445",
+              "3867d7cdeb22a4e8cb4682f0dfaeb553",
+              "1d6e248be861e37d8ddc4dbd9ff08254"
+            ],
+            "poc": 35.0
+          },
+          {
+            "name": "Helper.java",
+            "size": 23,
+            "path": "rascalTestJava/src/Main.java",
+            "clones": [
+              "40e6dd47c61a7a033ed8c4e33a2af29c",
+              "071424fe5aca8f504a0e847feea1721a",
+              "8c0e61c99af8723fef5ae2118149cbcb",
+              "0ca71cbe5eacc84926209943940c3d47",
+              "0e6b3075d21400f496d05b8093e65514"
+            ],
+            "poc": 43.47826086956522
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TreeMap from './TreeMap';
 import SortedBarChart from './SortedBarChart';
 import ImpactScore from './ImpactScore';
-import sharedClones from '../testData/shared_clones'
+import sharedClones from '../finalData/sharedClones.json'
 
 export default function Dashboard() {
   const [selectedCloneClass, setSelectedCloneClass] = useState(null);

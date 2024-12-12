@@ -1,0 +1,68 @@
+[
+  {
+    "clone": "3867d7cdeb22a4e8cb4682f0dfaeb553",
+    "occurrences": 2,
+    "locCloneProduct": 4,
+    "cloneSize": 2
+  },
+  {
+    "clone": "1d6e248be861e37d8ddc4dbd9ff08254",
+    "occurrences": 3,
+    "locCloneProduct": 9,
+    "cloneSize": 3
+  },
+  {
+    "clone": "62f040103a9d943fba5505b511a3c02f",
+    "occurrences": 2,
+    "locCloneProduct": 4,
+    "cloneSize": 2
+  },
+  {
+    "clone": "071424fe5aca8f504a0e847feea1721a",
+    "occurrences": 2,
+    "locCloneProduct": 4,
+    "cloneSize": 2
+  },
+  {
+    "clone": "55207110234ca7aab6803fd4be1ab445",
+    "occurrences": 2,
+    "locCloneProduct": 4,
+    "cloneSize": 2
+  },
+  {
+    "clone": "40e6dd47c61a7a033ed8c4e33a2af29c",
+    "occurrences": 2,
+    "locCloneProduct": 12,
+    "cloneSize": 6
+  },
+  {
+    "clone": "0ca71cbe5eacc84926209943940c3d47",
+    "occurrences": 2,
+    "locCloneProduct": 4,
+    "cloneSize": 2
+  },
+  {
+    "clone": "8c0e61c99af8723fef5ae2118149cbcb",
+    "occurrences": 4,
+    "locCloneProduct": 64,
+    "cloneSize": 16
+  },
+  {
+    "clone": "d2b0c988413e68e0c32b542470414426",
+    "occurrences": 1,
+    "locCloneProduct": 4,
+    "cloneSize": 4
+  },
+  {
+    "clone": "0e6b3075d21400f496d05b8093e65514",
+    "occurrences": 2,
+    "locCloneProduct": 4,
+    "cloneSize": 2
+  },
+  {
+    "clone": "eb2528b21f5bc77b6f5d6e8b0de3634d",
+    "occurrences": 2,
+    "locCloneProduct": 4,
+    "cloneSize": 2
+  }
+]

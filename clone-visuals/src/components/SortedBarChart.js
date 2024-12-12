@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ResponsiveBar } from "@nivo/bar";
-import rawData from "../data/data_for_bar_chart.json";
+import rawData from "../finalData/barChart.json";
 
 const SortedBarChart = ({ onBarClick }) => {
   const [selectedBar, setSelectedBar] = useState(null);
@@ -23,13 +23,13 @@ const SortedBarChart = ({ onBarClick }) => {
       <ResponsiveBar
         data={sortedData}
         keys={["locCloneProduct"]}
-        indexBy="classID"
-        margin={{ top: 50, right: 130, bottom: 60, left: 80 }} // Adjust margins for alignment
+        indexBy="clone"
+        margin={{ top: 50, right: 130, bottom: 130, left: 100 }} // Adjust margins for alignment
         padding={0.3}
         valueScale={{ type: "linear" }}
         indexScale={{ type: "band", round: true }}
         colors={({ data }) =>
-          data.classID === selectedBar ? "rgb(255, 127, 14)" : "rgb(31, 119, 180)"
+          data.clone === selectedBar ? "rgb(255, 127, 14)" : "rgb(31, 119, 180)"
         } // Change bar color based on selection
         borderColor={{ from: "color", modifiers: [["darker", 1.6]] }}
         axisTop={null}
@@ -37,7 +37,7 @@ const SortedBarChart = ({ onBarClick }) => {
         axisBottom={{
           tickSize: 5,
           tickPadding: 5,
-          tickRotation: 0,
+          tickRotation: 90,
           legend: "Class ID",
           legendPosition: "middle",
           legendOffset: 40, // Adjust legend offset
@@ -50,7 +50,7 @@ const SortedBarChart = ({ onBarClick }) => {
           legendPosition: "middle",
           legendOffset: -50, // Adjust legend offset
         }}
-        tooltip={({ id, value, data }) => (
+        tooltip={({ clone, value, data }) => (
           <div
             style={{
               padding: "10px",
@@ -59,11 +59,11 @@ const SortedBarChart = ({ onBarClick }) => {
               borderRadius: "5px",
             }}
           >
-            <strong>{`Class ID: ${data.classID}`}</strong>
+            <strong>{`Class ID: ${data.clone}`}</strong>
             <br />
             {`LOC x Clones: ${value}`}
             <br />
-            {`LOC Size: ${data.locSize}`}
+            {`LOC Size: ${data.cloneSize}`}
             <br />
             {`Occurrences: ${data.occurrences}`}
           </div>

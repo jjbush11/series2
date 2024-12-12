@@ -1,0 +1,50 @@
+[
+  {
+    "name": "rascalTestJava",
+    "children": [
+      {
+        "name": "comp",
+        "children": [
+          {
+            "name": "compHelper.java",
+            "size": 15,
+            "path": "rascalTestJava/src/Main.java",
+            "clones": [
+              "rascalTestJava/comp/compHelper.java",
+              "rascalTestJava/src/Helper.java",
+              "rascalTestJava/src/Main.java"
+            ],
+            "poc": 60.0
+          }
+        ]
+      },
+      {
+        "name": "src",
+        "children": [
+          {
+            "name": "Main.java",
+            "size": 40,
+            "path": "rascalTestJava/src/Main.java",
+            "clones": [
+              "rascalTestJava/comp/compHelper.java",
+              "rascalTestJava/src/Helper.java",
+              "rascalTestJava/src/Main.java"
+            ],
+            "poc": 35.0
+          },
+          {
+            "name": "Helper.java",
+            "size": 23,
+            "path": "rascalTestJava/src/Main.java",
+            "clones": [
+              "rascalTestJava/comp/compHelper.java",
+              "rascalTestJava/src/Helper.java",
+              "rascalTestJava/src/Main.java"
+            ],
+            "poc": 43.47826086956522
+          }
+        ]
+      }
+    ]
+  }
+]
