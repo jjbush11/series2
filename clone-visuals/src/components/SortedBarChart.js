@@ -1,12 +1,18 @@
 import React, { useState } from "react";
 import { ResponsiveBar } from "@nivo/bar";
-import rawData from "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/data/data_for_bar_chart.json";
+import rawData from "../finalData/barChart.json";
 
-const SortedBarChart = () => {
+const SortedBarChart = ({ onBarClick }) => {
   const [selectedBar, setSelectedBar] = useState(null);
 
   // Sort data by locCloneProduct in descending order
   const sortedData = [...rawData].sort((a, b) => b.locCloneProduct - a.locCloneProduct);
+
+  // Create a map of clone to cloneID for label formatting
+  const cloneToCloneIDMap = sortedData.reduce((acc, item) => {
+    acc[item.clone] = item.cloneID;
+    return acc;
+  }, {});
 
   return (
     <div
@@ -23,13 +29,13 @@ const SortedBarChart = () => {
       <ResponsiveBar
         data={sortedData}
         keys={["locCloneProduct"]}
-        indexBy="classID"
-        margin={{ top: 50, right: 130, bottom: 60, left: 80 }} // Adjust margins for alignment
+        indexBy="clone"
+        margin={{ top: 50, right: 130, bottom: 130, left: 100 }} // Adjust margins for alignment
         padding={0.3}
         valueScale={{ type: "linear" }}
         indexScale={{ type: "band", round: true }}
         colors={({ data }) =>
-          data.classID === selectedBar ? "rgb(255, 127, 14)" : "rgb(31, 119, 180)"
+          data.clone === selectedBar ? "rgb(255, 127, 14)" : "rgb(31, 119, 180)"
         } // Change bar color based on selection
         borderColor={{ from: "color", modifiers: [["darker", 1.6]] }}
         axisTop={null}
@@ -41,6 +47,8 @@ const SortedBarChart = () => {
           legend: "Class ID",
           legendPosition: "middle",
           legendOffset: 40, // Adjust legend offset
+          // tickValues: sortedData.map(item => item.clone), // Use clone values for ticks
+          format: d => cloneToCloneIDMap[d],
         }}
         axisLeft={{
           tickSize: 5,
@@ -50,7 +58,7 @@ const SortedBarChart = () => {
           legendPosition: "middle",
           legendOffset: -50, // Adjust legend offset
         }}
-        tooltip={({ id, value, data }) => (
+        tooltip={({ clone, value, data }) => (
           <div
             style={{
               padding: "10px",
@@ -59,11 +67,11 @@ const SortedBarChart = () => {
               borderRadius: "5px",
             }}
           >
-            <strong>{`Class ID: ${data.classID}`}</strong>
+            <strong>{`Class ID: ${data.cloneID}`}</strong>
             <br />
             {`LOC x Clones: ${value}`}
             <br />
-            {`LOC Size: ${data.locSize}`}
+            {`LOC Size: ${data.cloneSize}`}
             <br />
             {`Occurrences: ${data.occurrences}`}
           </div>
@@ -107,7 +115,11 @@ const SortedBarChart = () => {
         motionConfig="wobbly"
         role="application"
         ariaLabel="Bar chart showing LOC size x clone count"
-        onClick={(data) => setSelectedBar(data.classID)} // Update selectedBar state on click
+        onClick={(data) => { 
+          setSelectedBar(data.indexValue)
+          onBarClick(data.indexValue)
+          console.log(data.indexValue)
+        }} // Update selectedBar state on click
       />
     </div>
   );

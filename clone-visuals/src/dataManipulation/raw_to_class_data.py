@@ -2,7 +2,7 @@ import json
 
 def main():
     # Read in json data 
-    with open("/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/data/clone_classes_from_Rascal.json", "r") as json_file:
+    with open("data/clone_classes_from_Rascal.json", "r") as json_file:
         raw_data = json.load(json_file)
 
     processed_data = []
@@ -18,7 +18,7 @@ def main():
             "occurrences": clone_count
         })
     #Save the processed data to a JSON file
-    output_file = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/data/class_data.json"
+    output_file = "data/class_data.json"
     with open(output_file, "w") as f:
         json.dump(processed_data, f, indent=4)
 

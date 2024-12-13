@@ -1,0 +1,194 @@
+[
+  {
+    "path": "rascalTestJava/comp/compHelper.java",
+    "size": 15,
+    "example": " x + y;\r",
+    "cloneID": "59561b76c9076a3f2f1c90e25a13cc10",
+    "clone": "3867d7cdeb22a4e8cb4682f0dfaeb553",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": " x + y;\r",
+    "cloneID": "12d6e9dcf59ef08aa5d5293942e833f5",
+    "clone": "3867d7cdeb22a4e8cb4682f0dfaeb553",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": " System.out.println(\"Hello, world!\");\r",
+    "cloneID": "e206e5285e9d997f631098768898a1d3",
+    "clone": "1d6e248be861e37d8ddc4dbd9ff08254",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": " System.out.println(\"Hello, world!\");\r",
+    "cloneID": "7b1ec8958d8066e660c5866ab0eef234",
+    "clone": "1d6e248be861e37d8ddc4dbd9ff08254",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": " System.out.println(\"Hello, world!\");\r",
+    "cloneID": "b74bdefef7f5b9074a741e2c40bc30b3",
+    "clone": "1d6e248be861e37d8ddc4dbd9ff08254",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/comp/compHelper.java",
+    "size": 15,
+    "example": " int y) {\r",
+    "cloneID": "97084d925f96b77414b614d01b34b078",
+    "clone": "62f040103a9d943fba5505b511a3c02f",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": " int y) {\r",
+    "cloneID": "831c8003d45fb0b5091ee89bdb3a0343",
+    "clone": "62f040103a9d943fba5505b511a3c02f",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Helper.java",
+    "size": 23,
+    "example": "(String[] args) {\r",
+    "cloneID": "2f33c0458a11cf3cbc4d05650b332fe4",
+    "clone": "071424fe5aca8f504a0e847feea1721a",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": "(String[] args) {\r",
+    "cloneID": "162ee78d690397d6ed8b5362f72a170c",
+    "clone": "071424fe5aca8f504a0e847feea1721a",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/comp/compHelper.java",
+    "size": 15,
+    "example": " System.out.println(y);\r",
+    "cloneID": "95f53f7ccebf8775b020806875081f62",
+    "clone": "55207110234ca7aab6803fd4be1ab445",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": " System.out.println(y);\r",
+    "cloneID": "3a07c1db686606e44ac459021ce826bb",
+    "clone": "55207110234ca7aab6803fd4be1ab445",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Helper.java",
+    "size": 23,
+    "example": " if (x==0) {\r            int James = 99;\r        }",
+    "cloneID": "914eff5a066ee64a81e41f1238e2f93d",
+    "clone": "40e6dd47c61a7a033ed8c4e33a2af29c",
+    "cloneSize": 3
+  },
+  {
+    "path": "rascalTestJava/src/Helper.java",
+    "size": 23,
+    "example": " if (x==0) {\r            int James = 99;\r        }",
+    "cloneID": "b48d8759a3cf2907c2995f2568768f3a",
+    "clone": "40e6dd47c61a7a033ed8c4e33a2af29c",
+    "cloneSize": 3
+  },
+  {
+    "path": "rascalTestJava/src/Helper.java",
+    "size": 23,
+    "example": " System.out.println(\"Hello James and Jan I am a helper\");\r",
+    "cloneID": "2a8de75d1a11d1ea3ba0adc2c024da70",
+    "clone": "0ca71cbe5eacc84926209943940c3d47",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Helper.java",
+    "size": 23,
+    "example": " System.out.println(\"Hello James and Jan I am a helper\");\r",
+    "cloneID": "b8b63edeb18467edf3154c80b2605d90",
+    "clone": "0ca71cbe5eacc84926209943940c3d47",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/comp/compHelper.java",
+    "size": 15,
+    "example": " if (true) {\r            int x =           1;\r            System.out.println(x);\r        }",
+    "cloneID": "e1afb250a0592564bcb3bd8a038c7ae2",
+    "clone": "8c0e61c99af8723fef5ae2118149cbcb",
+    "cloneSize": 4
+  },
+  {
+    "path": "rascalTestJava/src/Helper.java",
+    "size": 23,
+    "example": " if (true) {\r            int x =           1;\r            System.out.println(x);\r        }",
+    "cloneID": "ee74e01c9420381b289d75bb1978036e",
+    "clone": "8c0e61c99af8723fef5ae2118149cbcb",
+    "cloneSize": 4
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": " if (true) {\r            int x =           1;\r            System.out.println(x);\r        }",
+    "cloneID": "f7b0b70894bf71f730303345ad587b7f",
+    "clone": "8c0e61c99af8723fef5ae2118149cbcb",
+    "cloneSize": 4
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": " if (true) {\r                int x =           1;\r                System.out.println(x);\r            }",
+    "cloneID": "abd9425601a170950d5abb710a7e6ac3",
+    "clone": "d2b0c988413e68e0c32b542470414426",
+    "cloneSize": 4
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": " if (true) {\r            int x =           1;\r            System.out.println(x);\r        }",
+    "cloneID": "f795afaf63991589ffd7d78193032a55",
+    "clone": "8c0e61c99af8723fef5ae2118149cbcb",
+    "cloneSize": 4
+  },
+  {
+    "path": "rascalTestJava/comp/compHelper.java",
+    "size": 15,
+    "example": " System.out.println(\"Helper and I shared a clone!\");\r",
+    "cloneID": "6d3c2c333ca96a4dcdfb5cf53c62a55e",
+    "clone": "0e6b3075d21400f496d05b8093e65514",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Helper.java",
+    "size": 23,
+    "example": " System.out.println(\"Helper and I shared a clone!\");\r",
+    "cloneID": "7939078ff0bcded6c7a5dfc6bd967d05",
+    "clone": "0e6b3075d21400f496d05b8093e65514",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/comp/compHelper.java",
+    "size": 15,
+    "example": "(int x, int y) {\r",
+    "cloneID": "97084d925f96b77414b614d01b34b078",
+    "clone": "eb2528b21f5bc77b6f5d6e8b0de3634d",
+    "cloneSize": 1
+  },
+  {
+    "path": "rascalTestJava/src/Main.java",
+    "size": 40,
+    "example": "(int x, int y) {\r",
+    "cloneID": "831c8003d45fb0b5091ee89bdb3a0343",
+    "clone": "eb2528b21f5bc77b6f5d6e8b0de3634d",
+    "cloneSize": 1
+  }
+]
