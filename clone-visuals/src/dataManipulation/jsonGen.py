@@ -44,7 +44,7 @@ def main():
 
 def remove_locs_per_file_personal_path(file_path, path_to_remove, write_path):
     
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     # Modify the paths
@@ -52,11 +52,11 @@ def remove_locs_per_file_personal_path(file_path, path_to_remove, write_path):
         item[0]['path'] = item[0]['path'].replace(path_to_remove, '')
 
     # Write the updated data back to the file
-    with open(write_path, 'w') as file:
+    with open(write_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=2)
 
 def remove_clone_class_personal_path(file_path, path_to_remove, write_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     # Modify the paths
@@ -64,7 +64,7 @@ def remove_clone_class_personal_path(file_path, path_to_remove, write_path):
         item['path'] = item['path'].replace(path_to_remove, '')
 
     # Write the updated data back to the file
-    with open(write_path, 'w') as file:
+    with open(write_path, 'w', encoding='utf-8') as file:
         json.dump(data, file, indent=2)
 
 def generate_hash(value):
@@ -72,10 +72,10 @@ def generate_hash(value):
 
 def extract_code_snippets(clone_class_path_file, locs_per_file_path_file, output_file):
     # Load the JSON data from the files
-    with open(clone_class_path_file, 'r') as file:
+    with open(clone_class_path_file, 'r', encoding='utf-8') as file:
         clone_class_data = json.load(file)
     
-    with open(locs_per_file_path_file, 'r') as file:
+    with open(locs_per_file_path_file, 'r', encoding='utf-8') as file:
         locs_per_file_data = json.load(file)
     
     # Create a dictionary for quick lookup of locs per file data by path
@@ -120,12 +120,12 @@ def extract_code_snippets(clone_class_path_file, locs_per_file_path_file, output
             output_data.append(output_entry)
     
     # Write the output data to the file
-    with open(output_file, 'w') as file:
+    with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(output_data, file, indent=2)
 
 def generate_shared_clones(input_file, output_file):
     # Load the JSON data from the input file
-    with open(input_file, 'r') as file:
+    with open(input_file, 'r', encoding='utf-8') as file:
         code_examples = json.load(file)
     
     # Create a dictionary to store the shared clones
@@ -141,12 +141,12 @@ def generate_shared_clones(input_file, output_file):
     shared_clones = {k: list(v) for k, v in shared_clones.items()}
     
     # Write the shared clones data to the output file
-    with open(output_file, 'w') as file:
+    with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(shared_clones, file, indent=2)
 
 def generate_data_for_bar_chart(input_file, output_file):
     # Load the JSON data from the input file
-    with open(input_file, 'r') as file:
+    with open(input_file, 'r', encoding='utf-8') as file:
         code_examples = json.load(file)
     
     # Create dictionaries to store the locCloneProduct and occurrences data
@@ -172,67 +172,74 @@ def generate_data_for_bar_chart(input_file, output_file):
             'clone': clone_hash,
             'cloneID': clone_ids[clone_hash],
             'occurrences': occurrences[clone_hash],
-            'locCloneProduct': occurrences[clone_hash] * total_clone_size,
-            'cloneSize': total_clone_size
+            'locCloneProduct': total_clone_size,
+            'cloneSize': clone_size
         }
         output_data.append(output_entry)
     
     # Write the output data to the file
-    with open(output_file, 'w') as file:
+    with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(output_data, file, indent=2)
 
 
 def reformat_to_show_structure(input_file, output_file):
     # Load the JSON data from the input file
-    with open(input_file, 'r') as file:
+    with open(input_file, 'r', encoding='utf-8') as file:
         code_examples = json.load(file)
     
     # Create a dictionary to store the reformatted data
-    reformatted_data = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
+    reformatted_data = defaultdict(lambda: defaultdict(lambda: defaultdict(dict)))
     
     # Populate the dictionary with reformatted data
     for example in code_examples:
         path_parts = example['path'].split('/')
-        root = path_parts[0]
-        subdir = path_parts[1]
-        filename = path_parts[2]
-        
-        reformatted_data[root][subdir][filename].append({
+        current_level = reformatted_data
+        for part in path_parts[:-1]:
+            if part not in current_level:
+                current_level[part] = defaultdict(dict)
+            current_level = current_level[part]
+        filename = path_parts[-1]
+        if filename not in current_level:
+            current_level[filename] = []
+        current_level[filename].append({
             'name': example['cloneID'],
             'size': example['size'],
             'clones': example['clone'],
             'path': example['path']
         })
     
-    # Convert the dictionary to the desired format
-    output_data = []
-    for root, subdirs in reformatted_data.items():
-        root_entry = {'name': root, 'children': []}
-        for subdir, files in subdirs.items():
-            subdir_entry = {'name': subdir, 'children': []}
-            for filename, clones in files.items():
+    # Function to recursively convert the dictionary to the desired format
+    def convert_to_hierarchy(data):
+        result = []
+        for key, value in data.items():
+            if isinstance(value, dict):
+                children = convert_to_hierarchy(value)
+                result.append({'name': key, 'children': children})
+            else:
                 clones_set = set()
-                for clone in clones:
+                for clone in value:
                     clones_set.add(clone['clones'])
-                subdir_entry['children'].append({
-                    'name': filename,
-                    'size': clones[0]['size'],
-                    'path': clones[0]['path'],
+                result.append({
+                    'name': key,
+                    'size': value[0]['size'],
+                    'path': value[0]['path'],
                     'clones': list(clones_set)
                 })
-            root_entry['children'].append(subdir_entry)
-        output_data.append(root_entry)
+        return result
+    
+    # Convert the dictionary to the desired format
+    output_data = convert_to_hierarchy(reformatted_data)
     
     # Write the output data to the file
-    with open(output_file, 'w') as file:
+    with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(output_data, file, indent=2)
 
 def calculate_poc(code_example_file, hierarchy_data_file, output_file):
     # Load the JSON data from the files
-    with open(code_example_file, 'r') as file:
+    with open(code_example_file, 'r', encoding='utf-8') as file:
         code_examples = json.load(file)
     
-    with open(hierarchy_data_file, 'r') as file:
+    with open(hierarchy_data_file, 'r', encoding='utf-8') as file:
         hierarchy_data = json.load(file)
     
     # Create a dictionary to store the clone sizes
@@ -260,15 +267,15 @@ def calculate_poc(code_example_file, hierarchy_data_file, output_file):
         update_poc(root)
     
     # Write the updated hierarchy data to the output file
-    with open(output_file, 'w') as file:
+    with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(hierarchy_data, file, indent=2)
 
 def update_clones_field(poc_data_file, shared_clones_file, output_file):
     # Load the JSON data from the files
-    with open(poc_data_file, 'r') as file:
+    with open(poc_data_file, 'r', encoding='utf-8') as file:
         poc_data = json.load(file)
     
-    with open(shared_clones_file, 'r') as file:
+    with open(shared_clones_file, 'r', encoding='utf-8') as file:
         shared_clones = json.load(file)
     
     # Create a dictionary to store the file locations for each clone
@@ -293,7 +300,7 @@ def update_clones_field(poc_data_file, shared_clones_file, output_file):
         update_clones(root)
     
     # Write the updated hierarchy data to the output file
-    with open(output_file, 'w') as file:
+    with open(output_file, 'w', encoding='utf-8') as file:
         json.dump(poc_data, file, indent=2)
 
 

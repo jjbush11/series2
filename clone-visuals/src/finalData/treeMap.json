@@ -1,47 +1,1238 @@
 [
   {
-    "name": "rascalTestJava",
+    "name": "smallsql",
     "children": [
       {
-        "name": "comp",
+        "name": "smallsql0.21_src",
         "children": [
           {
-            "name": "compHelper.java",
-            "size": 15,
-            "path": "rascalTestJava/comp/compHelper.java",
-            "clones": [
-              "rascalTestJava/comp/compHelper.java",
-              "rascalTestJava/src/Helper.java",
-              "rascalTestJava/src/Main.java"
-            ],
-            "poc": 60.0
-          }
-        ]
-      },
-      {
-        "name": "src",
-        "children": [
-          {
-            "name": "Main.java",
-            "size": 40,
-            "path": "rascalTestJava/src/Main.java",
-            "clones": [
-              "rascalTestJava/src/Main.java",
-              "rascalTestJava/src/Helper.java",
-              "rascalTestJava/comp/compHelper.java"
-            ],
-            "poc": 35.0
-          },
-          {
-            "name": "Helper.java",
-            "size": 23,
-            "path": "rascalTestJava/src/Helper.java",
-            "clones": [
-              "rascalTestJava/src/Main.java",
-              "rascalTestJava/src/Helper.java",
-              "rascalTestJava/comp/compHelper.java"
-            ],
-            "poc": 43.47826086956522
+            "name": "src",
+            "children": [
+              {
+                "name": "smallsql",
+                "children": [
+                  {
+                    "name": "database",
+                    "children": [
+                      {
+                        "name": "Utils.java",
+                        "size": 477,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Utils.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
+                        ],
+                        "poc": 4.40251572327044
+                      },
+                      {
+                        "name": "IndexNode.java",
+                        "size": 451,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/IndexNode.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/IndexNode.java"
+                        ],
+                        "poc": 0.4434589800443459
+                      },
+                      {
+                        "name": "ExpressionFunction.java",
+                        "size": 124,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunction.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunction.java"
+                        ],
+                        "poc": 6.451612903225806
+                      },
+                      {
+                        "name": "FileIndexNode.java",
+                        "size": 99,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/FileIndexNode.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/FileIndexNode.java"
+                        ],
+                        "poc": 3.0303030303030303
+                      },
+                      {
+                        "name": "CommandSelect.java",
+                        "size": 570,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/CommandSelect.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/CommandSelect.java"
+                        ],
+                        "poc": 1.9298245614035088
+                      },
+                      {
+                        "name": "SSDatabaseMetaData.java",
+                        "size": 1039,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
+                        ],
+                        "poc": 1.539942252165544
+                      },
+                      {
+                        "name": "ExpressionFunctionReturnInt.java",
+                        "size": 97,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnInt.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnInt.java"
+                        ],
+                        "poc": 12.371134020618557
+                      },
+                      {
+                        "name": "ExpressionFunctionTimestampDiff.java",
+                        "size": 170,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLocate.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampAdd.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnInt.java"
+                        ],
+                        "poc": 10.0
+                      },
+                      {
+                        "name": "ExpressionFunctionReturnString.java",
+                        "size": 93,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
+                        ],
+                        "poc": 30.107526881720432
+                      },
+                      {
+                        "name": "ExpressionFunctionReturnP1StringAndBinary.java",
+                        "size": 91,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
+                        ],
+                        "poc": 30.76923076923077
+                      },
+                      {
+                        "name": "StorePageMap.java",
+                        "size": 266,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/StorePageMap.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/StorePageMap.java"
+                        ],
+                        "poc": 0.37593984962406013
+                      },
+                      {
+                        "name": "SQLParser.java",
+                        "size": 2007,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+                        ],
+                        "poc": 2.391629297458894
+                      },
+                      {
+                        "name": "Index.java",
+                        "size": 547,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Index.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Index.java"
+                        ],
+                        "poc": 2.010968921389397
+                      },
+                      {
+                        "name": "View.java",
+                        "size": 146,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/View.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/View.java"
+                        ],
+                        "poc": 0.684931506849315
+                      },
+                      {
+                        "name": "ExpressionFunctionBitLen.java",
+                        "size": 64,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionBitLen.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionBitLen.java"
+                        ],
+                        "poc": 10.9375
+                      },
+                      {
+                        "name": "ExpressionFunctionOctetLen.java",
+                        "size": 64,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionOctetLen.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionOctetLen.java"
+                        ],
+                        "poc": 10.9375
+                      },
+                      {
+                        "name": "StoreImpl.java",
+                        "size": 1548,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
+                        ],
+                        "poc": 1.03359173126615
+                      },
+                      {
+                        "name": "ExpressionFunctionTimestampAdd.java",
+                        "size": 144,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampAdd.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampAdd.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLocate.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java"
+                        ],
+                        "poc": 2.7777777777777777
+                      },
+                      {
+                        "name": "MutableNumeric.java",
+                        "size": 594,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/MutableNumeric.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableNumeric.java"
+                        ],
+                        "poc": 2.0202020202020203
+                      },
+                      {
+                        "name": "ExpressionFunctionReturnP1Number.java",
+                        "size": 98,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1Number.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1Number.java"
+                        ],
+                        "poc": 4.081632653061225
+                      },
+                      {
+                        "name": "ExpressionArithmetic.java",
+                        "size": 1015,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionArithmetic.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionArithmetic.java"
+                        ],
+                        "poc": 0.5911330049261084
+                      },
+                      {
+                        "name": "ExpressionFunctionTruncate.java",
+                        "size": 71,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTruncate.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRound.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMod.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionATan2.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTruncate.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionPower.java"
+                        ],
+                        "poc": 26.76056338028169
+                      },
+                      {
+                        "name": "ExpressionFunctionRound.java",
+                        "size": 71,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRound.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRound.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMod.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionATan2.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTruncate.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionPower.java"
+                        ],
+                        "poc": 26.76056338028169
+                      },
+                      {
+                        "name": "IndexDescription.java",
+                        "size": 278,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescription.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Table.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/TableView.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescription.java"
+                        ],
+                        "poc": 5.0359712230215825
+                      },
+                      {
+                        "name": "TableView.java",
+                        "size": 194,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/TableView.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/TableView.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescription.java"
+                        ],
+                        "poc": 7.216494845360824
+                      },
+                      {
+                        "name": "JoinScroll.java",
+                        "size": 181,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/JoinScroll.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/JoinScroll.java"
+                        ],
+                        "poc": 6.629834254143646
+                      },
+                      {
+                        "name": "Table.java",
+                        "size": 568,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Table.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Table.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescription.java"
+                        ],
+                        "poc": 6.338028169014084
+                      },
+                      {
+                        "name": "IndexDescriptions.java",
+                        "size": 141,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescriptions.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescriptions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Strings.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ForeignKeys.java"
+                        ],
+                        "poc": 6.382978723404255
+                      },
+                      {
+                        "name": "Strings.java",
+                        "size": 84,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Strings.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescriptions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Strings.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Columns.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ForeignKeys.java"
+                        ],
+                        "poc": 9.523809523809524
+                      },
+                      {
+                        "name": "Columns.java",
+                        "size": 161,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Columns.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Columns.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ForeignKeys.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Strings.java"
+                        ],
+                        "poc": 4.968944099378882
+                      },
+                      {
+                        "name": "ForeignKeys.java",
+                        "size": 76,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ForeignKeys.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescriptions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Strings.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Columns.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ForeignKeys.java"
+                        ],
+                        "poc": 10.526315789473683
+                      },
+                      {
+                        "name": "LongTreeList.java",
+                        "size": 623,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java"
+                        ],
+                        "poc": 1.7656500802568218
+                      },
+                      {
+                        "name": "DateTime.java",
+                        "size": 802,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/DateTime.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/DateTime.java"
+                        ],
+                        "poc": 1.6209476309226933
+                      },
+                      {
+                        "name": "Where.java",
+                        "size": 187,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Where.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SortedResult.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Scrollable.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Distinct.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Where.java"
+                        ],
+                        "poc": 11.229946524064172
+                      },
+                      {
+                        "name": "Distinct.java",
+                        "size": 145,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Distinct.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SortedResult.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Scrollable.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Distinct.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Where.java"
+                        ],
+                        "poc": 14.482758620689657
+                      },
+                      {
+                        "name": "Money.java",
+                        "size": 141,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Money.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Money.java"
+                        ],
+                        "poc": 5.673758865248227
+                      },
+                      {
+                        "name": "SSConnection.java",
+                        "size": 392,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/SSConnection.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSConnection.java"
+                        ],
+                        "poc": 0.5102040816326531
+                      },
+                      {
+                        "name": "Scrollable.java",
+                        "size": 245,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Scrollable.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Scrollable.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Distinct.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SortedResult.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Where.java"
+                        ],
+                        "poc": 8.16326530612245
+                      },
+                      {
+                        "name": "MemoryResult.java",
+                        "size": 334,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/MemoryResult.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MemoryResult.java"
+                        ],
+                        "poc": 0.29940119760479045
+                      },
+                      {
+                        "name": "SSPreparedStatement.java",
+                        "size": 338,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/SSPreparedStatement.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSPreparedStatement.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
+                        ],
+                        "poc": 5.621301775147929
+                      },
+                      {
+                        "name": "ExpressionFunctionAbs.java",
+                        "size": 111,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionAbs.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnFloat.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionAbs.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionFloor.java"
+                        ],
+                        "poc": 9.00900900900901
+                      },
+                      {
+                        "name": "ExpressionFunctionFloor.java",
+                        "size": 53,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionFloor.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnFloat.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionAbs.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionFloor.java"
+                        ],
+                        "poc": 18.867924528301888
+                      },
+                      {
+                        "name": "ExpressionFunctionReturnFloat.java",
+                        "size": 87,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnFloat.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnFloat.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionAbs.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionFloor.java"
+                        ],
+                        "poc": 5.747126436781609
+                      },
+                      {
+                        "name": "ExpressionFunctionDayOfYear.java",
+                        "size": 54,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfYear.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionHour.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMinute.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionYear.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfYear.java"
+                        ],
+                        "poc": 1.8518518518518516
+                      },
+                      {
+                        "name": "ExpressionFunctionHour.java",
+                        "size": 54,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionHour.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionHour.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMinute.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionYear.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfYear.java"
+                        ],
+                        "poc": 1.8518518518518516
+                      },
+                      {
+                        "name": "ExpressionFunctionYear.java",
+                        "size": 54,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionYear.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionHour.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMinute.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionYear.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfYear.java"
+                        ],
+                        "poc": 1.8518518518518516
+                      },
+                      {
+                        "name": "ExpressionFunctionMonth.java",
+                        "size": 54,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMonth.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionHour.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMinute.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionYear.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfYear.java"
+                        ],
+                        "poc": 1.8518518518518516
+                      },
+                      {
+                        "name": "ExpressionFunctionMinute.java",
+                        "size": 54,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMinute.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionHour.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMinute.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionYear.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfYear.java"
+                        ],
+                        "poc": 1.8518518518518516
+                      },
+                      {
+                        "name": "ExpressionFunctionDayOfMonth.java",
+                        "size": 54,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfMonth.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionHour.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMinute.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionYear.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMonth.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfYear.java"
+                        ],
+                        "poc": 1.8518518518518516
+                      },
+                      {
+                        "name": "Database.java",
+                        "size": 546,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Database.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Database.java"
+                        ],
+                        "poc": 2.0146520146520146
+                      },
+                      {
+                        "name": "MutableLong.java",
+                        "size": 70,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/MutableLong.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableInteger.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableLong.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableDouble.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableFloat.java"
+                        ],
+                        "poc": 8.571428571428571
+                      },
+                      {
+                        "name": "Identity.java",
+                        "size": 124,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Identity.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Identity.java"
+                        ],
+                        "poc": 2.4193548387096775
+                      },
+                      {
+                        "name": "ExpressionFunctionInsert.java",
+                        "size": 90,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionInsert.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionInsert.java"
+                        ],
+                        "poc": 5.555555555555555
+                      },
+                      {
+                        "name": "SQLTokenizer.java",
+                        "size": 947,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/SQLTokenizer.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SQLTokenizer.java"
+                        ],
+                        "poc": 0.8447729672650475
+                      },
+                      {
+                        "name": "SSCallableStatement.java",
+                        "size": 405,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/SSCallableStatement.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSCallableStatement.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
+                        ],
+                        "poc": 3.2098765432098766
+                      },
+                      {
+                        "name": "StorePage.java",
+                        "size": 91,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/StorePage.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ViewResult.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/StorePage.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
+                        ],
+                        "poc": 3.296703296703297
+                      },
+                      {
+                        "name": "SSStatement.java",
+                        "size": 413,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/SSStatement.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSStatement.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
+                        ],
+                        "poc": 1.694915254237288
+                      },
+                      {
+                        "name": "ViewResult.java",
+                        "size": 283,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ViewResult.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ViewResult.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/StorePage.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
+                        ],
+                        "poc": 1.0600706713780919
+                      },
+                      {
+                        "name": "SSResultSet.java",
+                        "size": 935,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSPreparedStatement.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSStatement.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSCallableStatement.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/StorePage.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ViewResult.java"
+                        ],
+                        "poc": 2.5668449197860963
+                      },
+                      {
+                        "name": "Expression.java",
+                        "size": 235,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Expression.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Expression.java"
+                        ],
+                        "poc": 1.276595744680851
+                      },
+                      {
+                        "name": "ExpressionFunctionRepeat.java",
+                        "size": 79,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRepeat.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReplace.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRepeat.java"
+                        ],
+                        "poc": 3.79746835443038
+                      },
+                      {
+                        "name": "ExpressionFunctionReplace.java",
+                        "size": 110,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReplace.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReplace.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRepeat.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionSubstring.java"
+                        ],
+                        "poc": 5.454545454545454
+                      },
+                      {
+                        "name": "MemoryStream.java",
+                        "size": 163,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/MemoryStream.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MemoryStream.java"
+                        ],
+                        "poc": 1.8404907975460123
+                      },
+                      {
+                        "name": "Command.java",
+                        "size": 181,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Command.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Command.java"
+                        ],
+                        "poc": 5.524861878453039
+                      },
+                      {
+                        "name": "IndexScrollStatus.java",
+                        "size": 186,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/IndexScrollStatus.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/IndexScrollStatus.java"
+                        ],
+                        "poc": 13.440860215053762
+                      },
+                      {
+                        "name": "MutableInteger.java",
+                        "size": 70,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/MutableInteger.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableInteger.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableLong.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableDouble.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableFloat.java"
+                        ],
+                        "poc": 4.285714285714286
+                      },
+                      {
+                        "name": "MutableFloat.java",
+                        "size": 70,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/MutableFloat.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableInteger.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableLong.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableDouble.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableFloat.java"
+                        ],
+                        "poc": 4.285714285714286
+                      },
+                      {
+                        "name": "MutableDouble.java",
+                        "size": 70,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/MutableDouble.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableInteger.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableLong.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableDouble.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/MutableFloat.java"
+                        ],
+                        "poc": 4.285714285714286
+                      },
+                      {
+                        "name": "ExpressionFunctionUCase.java",
+                        "size": 62,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionUCase.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLCase.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionUCase.java"
+                        ],
+                        "poc": 6.451612903225806
+                      },
+                      {
+                        "name": "ExpressionFunctionLCase.java",
+                        "size": 62,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLCase.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLCase.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionUCase.java"
+                        ],
+                        "poc": 6.451612903225806
+                      },
+                      {
+                        "name": "TableResult.java",
+                        "size": 406,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/TableResult.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/TableResult.java"
+                        ],
+                        "poc": 0.24630541871921183
+                      },
+                      {
+                        "name": "SmallSQLException.java",
+                        "size": 227,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/SmallSQLException.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SmallSQLException.java"
+                        ],
+                        "poc": 0.4405286343612335
+                      },
+                      {
+                        "name": "ExpressionValue.java",
+                        "size": 700,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionValue.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionValue.java"
+                        ],
+                        "poc": 1.0
+                      },
+                      {
+                        "name": "Expressions.java",
+                        "size": 135,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/DataSources.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescriptions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongLongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Strings.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ForeignKeys.java"
+                        ],
+                        "poc": 7.4074074074074066
+                      },
+                      {
+                        "name": "LongList.java",
+                        "size": 86,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/DataSources.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescriptions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongLongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Strings.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ForeignKeys.java"
+                        ],
+                        "poc": 11.627906976744185
+                      },
+                      {
+                        "name": "CommandInsert.java",
+                        "size": 191,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/CommandInsert.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/CommandInsert.java"
+                        ],
+                        "poc": 2.6178010471204187
+                      },
+                      {
+                        "name": "ExpressionFunctionSubstring.java",
+                        "size": 88,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionSubstring.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReplace.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionSubstring.java"
+                        ],
+                        "poc": 5.681818181818182
+                      },
+                      {
+                        "name": "DataSources.java",
+                        "size": 62,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/DataSources.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongLongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/DataSources.java"
+                        ],
+                        "poc": 11.29032258064516
+                      },
+                      {
+                        "name": "Language",
+                        "children": [
+                          {
+                            "name": "Language.java",
+                            "size": 629,
+                            "path": "smallsql/smallsql0.21_src/src/smallsql/database/Language/Language.java",
+                            "clones": [
+                              "smallsql/smallsql0.21_src/src/smallsql/database/Language/Language.java"
+                            ],
+                            "poc": 0.3179650238473768
+                          }
+                        ]
+                      },
+                      {
+                        "name": "ExpressionFunctionConvert.java",
+                        "size": 264,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionConvert.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionConvert.java"
+                        ],
+                        "poc": 1.893939393939394
+                      },
+                      {
+                        "name": "ExpressionFunctionLeft.java",
+                        "size": 73,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLeft.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRight.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLeft.java"
+                        ],
+                        "poc": 4.10958904109589
+                      },
+                      {
+                        "name": "ExpressionFunctionRight.java",
+                        "size": 73,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRight.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRight.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLeft.java"
+                        ],
+                        "poc": 4.10958904109589
+                      },
+                      {
+                        "name": "ExpressionFunctionATan2.java",
+                        "size": 48,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionATan2.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRound.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMod.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionATan2.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTruncate.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionPower.java"
+                        ],
+                        "poc": 6.25
+                      },
+                      {
+                        "name": "ExpressionFunctionDifference.java",
+                        "size": 65,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDifference.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDifference.java"
+                        ],
+                        "poc": 4.615384615384616
+                      },
+                      {
+                        "name": "ExpressionFunctionPower.java",
+                        "size": 48,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionPower.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRound.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMod.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionATan2.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTruncate.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionPower.java"
+                        ],
+                        "poc": 6.25
+                      },
+                      {
+                        "name": "ExpressionFunctionMod.java",
+                        "size": 50,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMod.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRound.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMod.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionATan2.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTruncate.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionPower.java"
+                        ],
+                        "poc": 6.0
+                      },
+                      {
+                        "name": "ExpressionFunctionLocate.java",
+                        "size": 65,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLocate.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampAdd.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLocate.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java"
+                        ],
+                        "poc": 4.615384615384616
+                      },
+                      {
+                        "name": "GroupResult.java",
+                        "size": 254,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/GroupResult.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/GroupResult.java"
+                        ],
+                        "poc": 4.724409448818897
+                      },
+                      {
+                        "name": "SortedResult.java",
+                        "size": 317,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/SortedResult.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Scrollable.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Distinct.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SortedResult.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Where.java"
+                        ],
+                        "poc": 1.8927444794952681
+                      },
+                      {
+                        "name": "LongLongList.java",
+                        "size": 86,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/LongLongList.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongLongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/DataSources.java"
+                        ],
+                        "poc": 2.3255813953488373
+                      },
+                      {
+                        "name": "CommandCreateDatabase.java",
+                        "size": 61,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/CommandCreateDatabase.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/CommandCreateDatabase.java"
+                        ],
+                        "poc": 3.278688524590164
+                      },
+                      {
+                        "name": "CommandDrop.java",
+                        "size": 76,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/database/CommandDrop.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/CommandDrop.java"
+                        ],
+                        "poc": 2.631578947368421
+                      }
+                    ]
+                  },
+                  {
+                    "name": "junit",
+                    "children": [
+                      {
+                        "name": "TestOperatoren.java",
+                        "size": 281,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestFunctions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestDataTypes.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+                        ],
+                        "poc": 22.064056939501782
+                      },
+                      {
+                        "name": "TestJoins.java",
+                        "size": 218,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+                        ],
+                        "poc": 23.394495412844037
+                      },
+                      {
+                        "name": "BenchTest.java",
+                        "size": 753,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+                        ],
+                        "poc": 10.092961487383798
+                      },
+                      {
+                        "name": "TestDBMetaData.java",
+                        "size": 310,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
+                        ],
+                        "poc": 2.903225806451613
+                      },
+                      {
+                        "name": "TestOrderBy.java",
+                        "size": 821,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
+                        ],
+                        "poc": 21.43727161997564
+                      },
+                      {
+                        "name": "TestExceptionMethods.java",
+                        "size": 309,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestExceptionMethods.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestExceptionMethods.java"
+                        ],
+                        "poc": 2.912621359223301
+                      },
+                      {
+                        "name": "BasicTestCase.java",
+                        "size": 373,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/database/Utils.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestExceptionMethods.java"
+                        ],
+                        "poc": 5.898123324396782
+                      },
+                      {
+                        "name": "TestAlterTable.java",
+                        "size": 117,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable2.java"
+                        ],
+                        "poc": 12.82051282051282
+                      },
+                      {
+                        "name": "TestStatement.java",
+                        "size": 347,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestStatement.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestStatement.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestResultSet.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
+                        ],
+                        "poc": 1.440922190201729
+                      },
+                      {
+                        "name": "TestScrollable.java",
+                        "size": 319,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestStatement.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestResultSet.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
+                        ],
+                        "poc": 9.090909090909092
+                      },
+                      {
+                        "name": "TestResultSet.java",
+                        "size": 282,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestResultSet.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestStatement.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestResultSet.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
+                        ],
+                        "poc": 0.3546099290780142
+                      },
+                      {
+                        "name": "TestThreads.java",
+                        "size": 177,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestThreads.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestThreads.java"
+                        ],
+                        "poc": 5.649717514124294
+                      },
+                      {
+                        "name": "TestTransactions.java",
+                        "size": 509,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
+                        ],
+                        "poc": 6.8762278978389
+                      },
+                      {
+                        "name": "TestDataTypes.java",
+                        "size": 338,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestDataTypes.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestDataTypes.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestFunctions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java"
+                        ],
+                        "poc": 3.2544378698224854
+                      },
+                      {
+                        "name": "TestLanguage.java",
+                        "size": 286,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java"
+                        ],
+                        "poc": 9.44055944055944
+                      },
+                      {
+                        "name": "TestOther.java",
+                        "size": 327,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestOther.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestOther.java"
+                        ],
+                        "poc": 0.3058103975535168
+                      },
+                      {
+                        "name": "TestDeleteUpdate.java",
+                        "size": 162,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestDeleteUpdate.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestDeleteUpdate.java"
+                        ],
+                        "poc": 3.7037037037037033
+                      },
+                      {
+                        "name": "TestFunctions.java",
+                        "size": 418,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestFunctions.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestDataTypes.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestFunctions.java"
+                        ],
+                        "poc": 2.631578947368421
+                      },
+                      {
+                        "name": "TestGroupBy.java",
+                        "size": 378,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestGroupBy.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestGroupBy.java"
+                        ],
+                        "poc": 1.3227513227513228
+                      },
+                      {
+                        "name": "TestAlterTable2.java",
+                        "size": 82,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable2.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable2.java"
+                        ],
+                        "poc": 15.853658536585366
+                      },
+                      {
+                        "name": "TestMoneyRounding.java",
+                        "size": 112,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestDataTypes.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestFunctions.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java"
+                        ],
+                        "poc": 26.785714285714285
+                      },
+                      {
+                        "name": "TestTokenizer.java",
+                        "size": 236,
+                        "path": "smallsql/smallsql0.21_src/src/smallsql/junit/TestTokenizer.java",
+                        "clones": [
+                          "smallsql/smallsql0.21_src/src/smallsql/junit/TestTokenizer.java"
+                        ],
+                        "poc": 3.389830508474576
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
