@@ -8,7 +8,7 @@
           {
             "name": "compHelper.java",
             "size": 15,
-            "path": "rascalTestJava/src/Main.java",
+            "path": "rascalTestJava/comp/compHelper.java",
             "clones": [
               "rascalTestJava/comp/compHelper.java",
               "rascalTestJava/src/Helper.java",
@@ -26,20 +26,20 @@
             "size": 40,
             "path": "rascalTestJava/src/Main.java",
             "clones": [
-              "rascalTestJava/comp/compHelper.java",
+              "rascalTestJava/src/Main.java",
               "rascalTestJava/src/Helper.java",
-              "rascalTestJava/src/Main.java"
+              "rascalTestJava/comp/compHelper.java"
             ],
             "poc": 35.0
           },
           {
             "name": "Helper.java",
             "size": 23,
-            "path": "rascalTestJava/src/Main.java",
+            "path": "rascalTestJava/src/Helper.java",
             "clones": [
-              "rascalTestJava/comp/compHelper.java",
+              "rascalTestJava/src/Main.java",
               "rascalTestJava/src/Helper.java",
-              "rascalTestJava/src/Main.java"
+              "rascalTestJava/comp/compHelper.java"
             ],
             "poc": 43.47826086956522
           }

@@ -5,19 +5,20 @@ import ImpactScore from './ImpactScore';
 import sharedClones from '../finalData/sharedClones.json'
 
 export default function Dashboard() {
-  const [selectedCloneClass, setSelectedCloneClass] = useState(null);
+  const [selectedClone, setSelectedClone] = useState(null);
 
-  const handleBarClick = (classID) => {
-    setSelectedCloneClass(sharedClones[classID]);
+  const handleBarClick = (clone) => {
+    setSelectedClone(clone);
   };
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
       <h1>Clone Detection Dashboard</h1>
-      <TreeMap selectedCloneClass={selectedCloneClass} />
+      <TreeMap selectedCloneClass={sharedClones[selectedClone]} />
       <div className="side-by-side-container">
         <SortedBarChart onBarClick={handleBarClick} />
-        <ImpactScore />
+        <ImpactScore selectedClone={selectedClone} />
+        
       </div>
       
     </div>

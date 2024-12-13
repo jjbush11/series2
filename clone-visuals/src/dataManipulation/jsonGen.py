@@ -152,6 +152,8 @@ def generate_data_for_bar_chart(input_file, output_file):
     # Create dictionaries to store the locCloneProduct and occurrences data
     loc_clone_product = defaultdict(int)
     occurrences = defaultdict(int)
+    clone_ids = {}
+    next_clone_id = 1
     
     # Populate the dictionaries with locCloneProduct and occurrences data
     for example in code_examples:
@@ -159,12 +161,16 @@ def generate_data_for_bar_chart(input_file, output_file):
         clone_size = example['cloneSize']
         loc_clone_product[clone_hash] += clone_size
         occurrences[clone_hash] += 1
+        if clone_hash not in clone_ids:
+            clone_ids[clone_hash] = next_clone_id
+            next_clone_id += 1
     
     # Prepare the output data
     output_data = []
     for clone_hash, total_clone_size in loc_clone_product.items():
         output_entry = {
             'clone': clone_hash,
+            'cloneID': clone_ids[clone_hash],
             'occurrences': occurrences[clone_hash],
             'locCloneProduct': occurrences[clone_hash] * total_clone_size,
             'cloneSize': total_clone_size
@@ -211,7 +217,7 @@ def reformat_to_show_structure(input_file, output_file):
                 subdir_entry['children'].append({
                     'name': filename,
                     'size': clones[0]['size'],
-                    'path': example['path'],
+                    'path': clones[0]['path'],
                     'clones': list(clones_set)
                 })
             root_entry['children'].append(subdir_entry)

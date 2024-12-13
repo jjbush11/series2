@@ -8,6 +8,12 @@ const SortedBarChart = ({ onBarClick }) => {
   // Sort data by locCloneProduct in descending order
   const sortedData = [...rawData].sort((a, b) => b.locCloneProduct - a.locCloneProduct);
 
+  // Create a map of clone to cloneID for label formatting
+  const cloneToCloneIDMap = sortedData.reduce((acc, item) => {
+    acc[item.clone] = item.cloneID;
+    return acc;
+  }, {});
+
   return (
     <div
       style={{
@@ -37,10 +43,12 @@ const SortedBarChart = ({ onBarClick }) => {
         axisBottom={{
           tickSize: 5,
           tickPadding: 5,
-          tickRotation: 90,
+          tickRotation: 0,
           legend: "Class ID",
           legendPosition: "middle",
           legendOffset: 40, // Adjust legend offset
+          // tickValues: sortedData.map(item => item.clone), // Use clone values for ticks
+          format: d => cloneToCloneIDMap[d],
         }}
         axisLeft={{
           tickSize: 5,
@@ -59,7 +67,7 @@ const SortedBarChart = ({ onBarClick }) => {
               borderRadius: "5px",
             }}
           >
-            <strong>{`Class ID: ${data.clone}`}</strong>
+            <strong>{`Class ID: ${data.cloneID}`}</strong>
             <br />
             {`LOC x Clones: ${value}`}
             <br />
@@ -110,6 +118,7 @@ const SortedBarChart = ({ onBarClick }) => {
         onClick={(data) => { 
           setSelectedBar(data.indexValue)
           onBarClick(data.indexValue)
+          console.log(data.indexValue)
         }} // Update selectedBar state on click
       />
     </div>
