@@ -1,2438 +1,926 @@
 [
   {
-    "clone": "7d7e5a0ada7090b3f4eb21f08bcb670e",
+    "clone": "2e362ff93ee82bb39fdc04ef81c5fe00",
     "cloneID": 1,
     "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "257a8d5d468a01ca9e64fd6d08483cc7",
-    "cloneID": 2,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "84a5b4774da9c890bdd88e1f9245d5c5",
-    "cloneID": 3,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1c89d9f6bc5f10517e90d75083dcb222",
-    "cloneID": 4,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "309eea215bba456752ef73734971fe5f",
-    "cloneID": 5,
-    "occurrences": 2,
     "locCloneProduct": 8,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "e75825d74ef549bd0a51abb6f68374e6",
+    "clone": "cd2ab4993a1a9aa81768e9a9a6f3b611",
+    "cloneID": 2,
+    "occurrences": 1,
+    "locCloneProduct": 4,
+    "cloneSize": 9
+  },
+  {
+    "clone": "92520082baa49b1019af85604ce3b7fd",
+    "cloneID": 3,
+    "occurrences": 1,
+    "locCloneProduct": 4,
+    "cloneSize": 9
+  },
+  {
+    "clone": "6f5a5b57e6e22c0b87d0956076f6d7d8",
+    "cloneID": 4,
+    "occurrences": 2,
+    "locCloneProduct": 10,
+    "cloneSize": 9
+  },
+  {
+    "clone": "5feaaa0550f5d00d4a37218f28f61ec6",
+    "cloneID": 5,
+    "occurrences": 6,
+    "locCloneProduct": 6,
+    "cloneSize": 9
+  },
+  {
+    "clone": "a4ffe9cdb5fdf72f43144af803b7d6ec",
     "cloneID": 6,
     "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
+    "locCloneProduct": 2,
+    "cloneSize": 9
   },
   {
-    "clone": "1923019f0eb191e626fb3571caa097bc",
+    "clone": "b5a3f6f3ce96969a0728d9f3e6ceac94",
     "cloneID": 7,
-    "occurrences": 11,
-    "locCloneProduct": 33,
-    "cloneSize": 3
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
   },
   {
-    "clone": "f55ad0c6a40fbbdbc6d0d1a624f2fd17",
+    "clone": "3f372a9d18921498564c6c467d0b92c0",
     "cloneID": 8,
     "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
+    "locCloneProduct": 5,
+    "cloneSize": 9
   },
   {
-    "clone": "1dc30b4685096e312bf25ad253082528",
+    "clone": "44d3c46ff3dda289bb6154195b66dbe5",
     "cloneID": 9,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
+    "occurrences": 1,
+    "locCloneProduct": 5,
+    "cloneSize": 9
   },
   {
-    "clone": "bcf818d541f18573a606b72617c1e2a0",
+    "clone": "86dae10c7f10703e1312a80daf6874f6",
     "cloneID": 10,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
+    "occurrences": 1,
+    "locCloneProduct": 8,
+    "cloneSize": 9
   },
   {
-    "clone": "fbeef0851a23e074d4a5291bfb1a10cb",
+    "clone": "8bad6cdb3f7c343700f8a19ad058d18b",
     "cloneID": 11,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
+    "occurrences": 1,
+    "locCloneProduct": 8,
+    "cloneSize": 9
   },
   {
-    "clone": "2e6c6948bb68acf55c7dc3609fecd189",
+    "clone": "c49b4d145c5ac80e3476888a0620522a",
     "cloneID": 12,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
+    "occurrences": 1,
+    "locCloneProduct": 1,
+    "cloneSize": 9
   },
   {
-    "clone": "fe97dcd931fc05fc4a7cb2efedd49e20",
+    "clone": "52bbe992044d4f7955f68475a343b8d7",
     "cloneID": 13,
     "occurrences": 1,
-    "locCloneProduct": 29,
-    "cloneSize": 3
+    "locCloneProduct": 1,
+    "cloneSize": 9
   },
   {
-    "clone": "962b06a3fad21bae8835bbf68c7d07b2",
+    "clone": "064c816fdac15a0db1ae33c9cb7850b9",
     "cloneID": 14,
-    "occurrences": 1,
-    "locCloneProduct": 29,
-    "cloneSize": 3
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
   },
   {
-    "clone": "4825b964a050610956f21cc722b51dc9",
+    "clone": "69cc33f438c981479d110afd18827c75",
     "cloneID": 15,
     "occurrences": 2,
     "locCloneProduct": 2,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "63872eb1d80d7631ebd2dd99d5ea53df",
+    "clone": "839d2a21bf54b555846154079c116fe4",
     "cloneID": 16,
     "occurrences": 2,
     "locCloneProduct": 8,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "e8ac722c0cd37000d878dbb669492752",
+    "clone": "81e0a802a693f77b77e40c90c05707c6",
     "cloneID": 17,
-    "occurrences": 7,
-    "locCloneProduct": 21,
-    "cloneSize": 3
-  },
-  {
-    "clone": "0df3e71cdd9010064ea49854aa8e082e",
-    "cloneID": 18,
-    "occurrences": 6,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2a7751d4e58cf31646f36a500f6b2da5",
-    "cloneID": 19,
     "occurrences": 2,
     "locCloneProduct": 8,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "bb9b1cc5106241b22d4390119ab47a62",
+    "clone": "1dabf3e8ac65bbcbe62878779fa6305e",
+    "cloneID": 18,
+    "occurrences": 1,
+    "locCloneProduct": 3,
+    "cloneSize": 9
+  },
+  {
+    "clone": "7ce0b5aa55f0d52ac9ce411f359871fd",
+    "cloneID": 19,
+    "occurrences": 1,
+    "locCloneProduct": 3,
+    "cloneSize": 9
+  },
+  {
+    "clone": "5a5bc71ae95e2ca200834662d721b62f",
     "cloneID": 20,
     "occurrences": 2,
     "locCloneProduct": 2,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "0915997096b2add9ec315637a8dfcd10",
+    "clone": "7b99948e83c49bd5010beb733d4d4b15",
     "cloneID": 21,
-    "occurrences": 6,
-    "locCloneProduct": 6,
-    "cloneSize": 3
+    "occurrences": 1,
+    "locCloneProduct": 26,
+    "cloneSize": 9
   },
   {
-    "clone": "4555558e20c67a5a6733ca7e6d6478c3",
+    "clone": "a2aff4d5d77acd50e719fed56c6913c5",
     "cloneID": 22,
     "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
+    "locCloneProduct": 26,
+    "cloneSize": 9
   },
   {
-    "clone": "28540f1dd1c96dd35f26580a823be450",
+    "clone": "9689a3c0a5319eb9094ce88a1be86efa",
     "cloneID": 23,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
+    "occurrences": 2,
+    "locCloneProduct": 8,
+    "cloneSize": 9
   },
   {
-    "clone": "cfdc099cc1e0aa7ac962461701d8da0d",
+    "clone": "ff681f12344fc3c681b50d5e29464534",
     "cloneID": 24,
     "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
+    "locCloneProduct": 13,
+    "cloneSize": 9
   },
   {
-    "clone": "0e9fd7e062419170333e027619ac2775",
+    "clone": "da5224376ab4d52237b16fc51b836821",
     "cloneID": 25,
     "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
+    "locCloneProduct": 13,
+    "cloneSize": 9
   },
   {
-    "clone": "0267e60bc5c96ba6292367c701e8667b",
+    "clone": "7e663d006bf3864e3914cda8c45f80b8",
     "cloneID": 26,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
+    "occurrences": 1,
+    "locCloneProduct": 4,
+    "cloneSize": 9
   },
   {
-    "clone": "e9cfb7ccf0be7eaefe3d95ef6ab86c30",
+    "clone": "f7d89ea8736572281196acb3cae7f22d",
     "cloneID": 27,
-    "occurrences": 10,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "e2b7d861130a4c6c03db8493e6f89563",
-    "cloneID": 28,
-    "occurrences": 22,
-    "locCloneProduct": 22,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b04c8408d2816321d6084414077ec1ac",
-    "cloneID": 29,
-    "occurrences": 8,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a383a273f7f0fe594c9732054363ccae",
-    "cloneID": 30,
-    "occurrences": 1,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "72ef68dcc31cb85fd4da04fdba438189",
-    "cloneID": 31,
-    "occurrences": 1,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1840c55e7b027e1081751afdf84048b2",
-    "cloneID": 32,
-    "occurrences": 4,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "0a37f8b2a67ca40447c563269b27ff59",
-    "cloneID": 33,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1b5e3190af3ad771bc7d7be3e1b2d865",
-    "cloneID": 34,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f19e342c5203c1f2ca7c3a1e4e2f2c69",
-    "cloneID": 35,
-    "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
-  },
-  {
-    "clone": "4e4220c8a2b4df2f32c362fc503dc97f",
-    "cloneID": 36,
-    "occurrences": 2,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "57de4ef6fada00dec3bfcf92763868c9",
-    "cloneID": 37,
-    "occurrences": 1,
-    "locCloneProduct": 7,
-    "cloneSize": 3
-  },
-  {
-    "clone": "5ce372b3b639fca7efc691906f96153a",
-    "cloneID": 38,
-    "occurrences": 1,
-    "locCloneProduct": 7,
-    "cloneSize": 3
-  },
-  {
-    "clone": "bb99f33f9fab0e4b99691fabc439921e",
-    "cloneID": 39,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1249edaf8deb71c0fa4e9160a11a34f9",
-    "cloneID": 40,
-    "occurrences": 1,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d954ad80588577c9889d2f060eadcf78",
-    "cloneID": 41,
-    "occurrences": 1,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "0a965b1f979e5cb4a72629a9ce735f24",
-    "cloneID": 42,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ef6ad308df152ad04b37c7a3dd6b2e45",
-    "cloneID": 43,
-    "occurrences": 12,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "c62d75d8ee3970972353e96406571ff9",
-    "cloneID": 44,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "331ab0f3307d6bc45f063f241a7b42e3",
-    "cloneID": 45,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f91ac3a5c278ac3adaed46e577bfd1b0",
-    "cloneID": 46,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "42e3193092fba6bf6491ddd35d10bbdf",
-    "cloneID": 47,
     "occurrences": 1,
     "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "445444e43fe64c83068ee3a84b537028",
-    "cloneID": 48,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b16bdbf25d115bc6eb447720b4b67b6c",
-    "cloneID": 49,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "294e116d5fc1df5083ca8fb4298ecf18",
-    "cloneID": 50,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "61be9255058b165e0f8cd6c3bea0569a",
-    "cloneID": 51,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3c51704f60eea9f0b94d0c0ebd4d0164",
-    "cloneID": 52,
-    "occurrences": 2,
-    "locCloneProduct": 22,
-    "cloneSize": 3
-  },
-  {
-    "clone": "39ef6e1c33bd7ff4eba993fb713c27bb",
-    "cloneID": 53,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "08f4a18e5d3930c42ea2be8c143df3c3",
-    "cloneID": 54,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "debfde1b1be24d96f0cefc5fd88be9ce",
-    "cloneID": 55,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "c481fd9865d0527dca9d998c3f9072d9",
-    "cloneID": 56,
-    "occurrences": 1,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ee2926afddeda28a930727cfd8e76356",
-    "cloneID": 57,
-    "occurrences": 1,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3d0d055229eaa479e932956a6eb2bebf",
-    "cloneID": 58,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "38f30af45999809dc3a24da3a3f9a2f6",
-    "cloneID": 59,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ad6f567703eb0cbefd045f9b4b2f5899",
-    "cloneID": 60,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "60abb366e753ebaab2637823a88fbbf6",
-    "cloneID": 61,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ca06be02a6c6d7ac47c97086eefc5b36",
-    "cloneID": 62,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "61cec673dd62f07e1d225d9fa99b9973",
-    "cloneID": 63,
-    "occurrences": 13,
-    "locCloneProduct": 52,
-    "cloneSize": 3
-  },
-  {
-    "clone": "4c8286709d771d35746a1c429ab6fa63",
-    "cloneID": 64,
-    "occurrences": 4,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "7e84ae48e3ba95ea042a80dc60697bce",
-    "cloneID": 65,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3bc23895a271296c74ad466770c56d81",
-    "cloneID": 66,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "7886b717d5ac1499f5bc2d78d34578e4",
-    "cloneID": 67,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3f79da2fd8364b69ea864e2d8de37b48",
-    "cloneID": 68,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "e3f226ef98fdc67ed1f5429ae4ee3394",
-    "cloneID": 69,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1a66ad25c85448d37b95c0e0c6b9e957",
-    "cloneID": 70,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "cc44be1b7345d65eba2a395efba82727",
-    "cloneID": 71,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "52aed7df37f4e25ad68c2dfb5e66d217",
-    "cloneID": 72,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "89f0400c573766b15c71796a25a8f22e",
-    "cloneID": 73,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ff0aeca0a85e182fe21c1a1b4e9f0d44",
-    "cloneID": 74,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "51f94471cff4c476541ce3ff8cd55c17",
-    "cloneID": 75,
-    "occurrences": 2,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "653ea336d6c89909ac3e480833630773",
-    "cloneID": 76,
-    "occurrences": 1,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "9d03bd5279ff56a578e8fae166aff547",
-    "cloneID": 77,
-    "occurrences": 3,
-    "locCloneProduct": 15,
-    "cloneSize": 3
-  },
-  {
-    "clone": "7cab59b9197de842d1486f7b42e3a7a4",
-    "cloneID": 78,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "dda5b87c5cde85a0b96156ba1ea4843a",
-    "cloneID": 79,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "cb335b45a64b4c83bc1803e48b77b5f6",
-    "cloneID": 80,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "0e1cbf2103c34502bc48fbaa3dc4afa0",
-    "cloneID": 81,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "e9c32134636ea64085ec1de4adadcdf4",
-    "cloneID": 82,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2a58075ffff5802a703bdb834466b117",
-    "cloneID": 83,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2aa4fb3191de6749a42464c245e43415",
-    "cloneID": 84,
-    "occurrences": 3,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "4796a591e15f86ddc3cbfc0025c9c5d6",
-    "cloneID": 85,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "8955672e6aafe88b295c4039945a5190",
-    "cloneID": 86,
-    "occurrences": 2,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f34625e96d742ae5e57843b45f19c0db",
-    "cloneID": 87,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "9c1e61681137e8cd7ee9b06f438be0cb",
-    "cloneID": 88,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ce9065802b3e219c5603a1493a81b8a9",
-    "cloneID": 89,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "abb1562bf3e89624639975ca178cc08a",
-    "cloneID": 90,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "69f93805c9b1eabdf43c0bd5528c3e28",
-    "cloneID": 91,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b4f5a248047cb93318315e4a5512438e",
-    "cloneID": 92,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b88c8b1d0011067828bccab016a8ad8d",
-    "cloneID": 93,
-    "occurrences": 8,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "dc76088d4bc06d8a5e814aa32c8fc277",
-    "cloneID": 94,
-    "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
-  },
-  {
-    "clone": "744967fb3cd6868c1ee3600489d421c0",
-    "cloneID": 95,
-    "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f86a151e3207150648384b2a92b9bdcf",
-    "cloneID": 96,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "6dd56e440a39ddc37959fad92f633fd8",
-    "cloneID": 97,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "c81779ea81efc13f624971b2aba97202",
-    "cloneID": 98,
-    "occurrences": 1,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "513f3fb46214aa5935dc79d5cf4cd4fc",
-    "cloneID": 99,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2fa0d1847b957d6db1dd2d33cfa4952e",
-    "cloneID": 100,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "22f11e81faa5047115b02a717ec520e6",
-    "cloneID": 101,
-    "occurrences": 6,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "0b0135ecbf58e5941bc6ebac2d436a8f",
-    "cloneID": 102,
-    "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
-  },
-  {
-    "clone": "770b71a770e57a370d52b0a7fb28de39",
-    "cloneID": 103,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "c573a98502db1a3596a7cdc055e2b261",
-    "cloneID": 104,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "5c7ce67370fd2edc98a04a399a10e6c0",
-    "cloneID": 105,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "5873e2111326330ba36c6c901ad59219",
-    "cloneID": 106,
-    "occurrences": 2,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "90227c5c350d1fa7d545bd4d2de12022",
-    "cloneID": 107,
-    "occurrences": 1,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1380a6556284f700a7c8e293bc52a6bb",
-    "cloneID": 108,
-    "occurrences": 1,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "954ea04806032dbb7e6f116e562a9930",
-    "cloneID": 109,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a53a391af1b23e5b531910c4e14bcd71",
-    "cloneID": 110,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f2991a017f3916897e053430cf04b057",
-    "cloneID": 111,
-    "occurrences": 3,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f5f5295fac8bc3cce395c88fe5500d86",
-    "cloneID": 112,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "19c9b44dc53c0e158b7f7d0a830d1d4b",
-    "cloneID": 113,
-    "occurrences": 3,
-    "locCloneProduct": 15,
-    "cloneSize": 3
-  },
-  {
-    "clone": "af55146dc6a57a6411ec653e4d870194",
-    "cloneID": 114,
-    "occurrences": 12,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ff2e57d7c98649910422ab50c9cbd725",
-    "cloneID": 115,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "0b15300557cfef16e91d99b4428f6fbd",
-    "cloneID": 116,
-    "occurrences": 2,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "414d3d39522b9c8e6186aa89d91aa429",
-    "cloneID": 117,
-    "occurrences": 6,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "c1581c8aa0ee1d2efe111f411f59bb52",
-    "cloneID": 118,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "6fb05969fcda8927c92279ff704bf8f2",
-    "cloneID": 119,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f03d72c352edf4a93e2e9cab33459f24",
-    "cloneID": 120,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3b8b607907e21b80917a099d437d0598",
-    "cloneID": 121,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "5cc2b991e1ba65088d8ec0128b0167c4",
-    "cloneID": 122,
-    "occurrences": 1,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3ce42aac955f1ade52102404da7ffb77",
-    "cloneID": 123,
-    "occurrences": 1,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "6e068da435f96944c5b00cbf8ccd94e1",
-    "cloneID": 124,
-    "occurrences": 2,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "497e40535587d4f7f30e2abdcfba55bb",
-    "cloneID": 125,
-    "occurrences": 1,
-    "locCloneProduct": 7,
-    "cloneSize": 3
-  },
-  {
-    "clone": "22c16fc2b1b14118c220d9b153e41e3c",
-    "cloneID": 126,
-    "occurrences": 1,
-    "locCloneProduct": 7,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3b2330ddec9a2751237252bf5691e2e8",
-    "cloneID": 127,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "067934948d53f9ffa53d75b9131fc445",
-    "cloneID": 128,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "8c6f9052f81012882a0a7f1da4835dbf",
-    "cloneID": 129,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "5c8c403eb0bd62ce027164d876b69bc3",
-    "cloneID": 130,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "5325cd202de9cc23a978743ae1d222cc",
-    "cloneID": 131,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "7ad2c50cbdfa106a8a03a3487cc176b0",
-    "cloneID": 132,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a76362ecb2b19d163bbe1d420fbba2d6",
-    "cloneID": 133,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d4bcbe5095c1c2ef0a9df9cfff8052df",
-    "cloneID": 134,
-    "occurrences": 2,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "eb6da32139dbf21c051da4d4f5ae7816",
-    "cloneID": 135,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "35810f26a9e6b32dc033817fdaa3cd6c",
-    "cloneID": 136,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d11746526bc3e1216ea67fc403b064a7",
-    "cloneID": 137,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3e0e231c5d1e5d4fb4e58df27c1747c7",
-    "cloneID": 138,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "68c09a0367b3016c1bac10515b34bc2f",
-    "cloneID": 139,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b6b782ea219ea3471cadbfe929dd6abf",
-    "cloneID": 140,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1ba807928558989a518f10f21c861bdb",
-    "cloneID": 141,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "be34260465676340dca5f3fac1867fd9",
-    "cloneID": 142,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a118264da12a7a49f174391dd0bfa852",
-    "cloneID": 143,
-    "occurrences": 2,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "721e57596bc32dd0cece186ce1595e84",
-    "cloneID": 144,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d79d055f1457a897951507e0f959c020",
-    "cloneID": 145,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "71626d540dc7f6a964cc78d03953d4a2",
-    "cloneID": 146,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2bc7ad4aaf6eecbf1b7cd53da95a764e",
-    "cloneID": 147,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "4be8c6a9a1e1fff7895900b4a1e58b72",
-    "cloneID": 148,
-    "occurrences": 8,
-    "locCloneProduct": 16,
-    "cloneSize": 3
-  },
-  {
-    "clone": "bec9cbb7d2af1868d27afd3e60479247",
-    "cloneID": 149,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "36c08facd4f6774964ae6a393fb9ac87",
-    "cloneID": 150,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f1cf5d049923b12c38de1bab07b9de1d",
-    "cloneID": 151,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f9978dc8bdf5a0f79ce28cf854bb0dc2",
-    "cloneID": 152,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1ae7ffb8a426599d54c956c00cc715d8",
-    "cloneID": 153,
-    "occurrences": 2,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "cdec247734a618f0b6ac3c04afe24bbd",
-    "cloneID": 154,
-    "occurrences": 30,
-    "locCloneProduct": 90,
-    "cloneSize": 3
-  },
-  {
-    "clone": "7209242cd5048ef310fb0b56c120b505",
-    "cloneID": 155,
-    "occurrences": 6,
-    "locCloneProduct": 18,
-    "cloneSize": 3
-  },
-  {
-    "clone": "56b41f09ccec9dd0d5633274617c3ae2",
-    "cloneID": 156,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b45f2a0c2602f7f3b2a524991fe4ab4a",
-    "cloneID": 157,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "4f684f77425a4b1ffe1a3a312fbb1672",
-    "cloneID": 158,
-    "occurrences": 11,
-    "locCloneProduct": 33,
-    "cloneSize": 3
-  },
-  {
-    "clone": "db4e00a8c6d98242658896751436a668",
-    "cloneID": 159,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "9f1170d64dafbfc9b9acaad8ee4a249e",
-    "cloneID": 160,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "42bbb65376ed89471b7f3df236da3cd4",
-    "cloneID": 161,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ac10e7826530a2f88adbe50b2e613de3",
-    "cloneID": 162,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "7a063fc5e5a887369664cfd429f68a75",
-    "cloneID": 163,
-    "occurrences": 3,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "10c931e8cbb8b9300381aff438282f10",
-    "cloneID": 164,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1c40c8d6bf5a944293033b0368421dba",
-    "cloneID": 165,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "4001b4887936a4e2e0c2af69ab45ca50",
-    "cloneID": 166,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d825e07819452f2574f08723bd3210ea",
-    "cloneID": 167,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "8ba29569ddb0e8bb148fb172ef6a3b9e",
-    "cloneID": 168,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "c7911e4e3cf66577692706975b75abd9",
-    "cloneID": 169,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "bd0e5ea918c899556d082738cc6d21c5",
-    "cloneID": 170,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ee54d72db92e3429e095084d12a674d8",
-    "cloneID": 171,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "4a3f69e969a5ead6278b164e4cb5a161",
-    "cloneID": 172,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "4d8f129e4586c19216c0a5b430542e3f",
-    "cloneID": 173,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "20b74f689f5b032ddd9cafdf3e9c4964",
-    "cloneID": 174,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "6638a9d7fd9fc515019a993dbeb06a6c",
-    "cloneID": 175,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "12d986db96b2c08e7fba1f14dafcec18",
-    "cloneID": 176,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a8c50319c6ccc42aa1a2393a28d96e32",
-    "cloneID": 177,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "df6012120d9c45efafdef4c61badfce8",
-    "cloneID": 178,
-    "occurrences": 2,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "322770a0a4eac5f71c99f5cc1afba836",
-    "cloneID": 179,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1680ffd2d479af198915b22061865c46",
-    "cloneID": 180,
-    "occurrences": 3,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1d3836683625e814a819e3065688140d",
-    "cloneID": 181,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "cc43ee9faaadf937df4bf6f64b7bd846",
-    "cloneID": 182,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "7766d5d36186185764befb91352ff3a0",
-    "cloneID": 183,
-    "occurrences": 9,
-    "locCloneProduct": 27,
-    "cloneSize": 3
-  },
-  {
-    "clone": "553dc18730a028f7348740dc95e78486",
-    "cloneID": 184,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d2c4c99cf70578ec32cfd2ad9abe41ed",
-    "cloneID": 185,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a3a9a104043ba49d2f15d7b15c724f6e",
-    "cloneID": 186,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "83088cfac3453ecb6e0ef483c08dfe80",
-    "cloneID": 187,
-    "occurrences": 1,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "52203442404368050bd0272230c26644",
-    "cloneID": 188,
-    "occurrences": 1,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "510e18472491d9f2a4500a88afe1815a",
-    "cloneID": 189,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "fa14590183bbc10bdec25c68d67e796a",
-    "cloneID": 190,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d7b97a6ff8e3ece5bb18d9bba681bcee",
-    "cloneID": 191,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "9db109e662ab8ee84e1a345b42b6d145",
-    "cloneID": 192,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "de6aa7fb59f3190c0b9e157e2a9b1125",
-    "cloneID": 193,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "68a97c8f5c3d929f2b1867cdb43c95d0",
-    "cloneID": 194,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "c821f77239809079077b04f2db37c592",
-    "cloneID": 195,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b047fc55b125e33259bd0de284ab5e3d",
-    "cloneID": 196,
-    "occurrences": 5,
-    "locCloneProduct": 15,
-    "cloneSize": 3
-  },
-  {
-    "clone": "e299257b9032b08a11487ef23f05d88e",
-    "cloneID": 197,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ea753160d953cc8d9e2efc20b867c06e",
-    "cloneID": 198,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1fe0e9b0245ea2465a270f0622a0369b",
-    "cloneID": 199,
-    "occurrences": 2,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "47cdbd06eec1a7acb2162a525c463a71",
-    "cloneID": 200,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
     "clone": "c135f1522741df3074f947b54be052fd",
-    "cloneID": 201,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
+    "cloneID": 28,
+    "occurrences": 1,
+    "locCloneProduct": 1,
+    "cloneSize": 9
   },
   {
-    "clone": "3d5549b3648720631e98cdf2cf0c65f1",
-    "cloneID": 202,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
+    "clone": "5e05b4fe42a45aa9e783e90153b8acca",
+    "cloneID": 29,
+    "occurrences": 1,
+    "locCloneProduct": 1,
+    "cloneSize": 9
   },
   {
-    "clone": "e640ee89fedd926bd2a9a7efdfd30919",
-    "cloneID": 203,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
+    "clone": "65b417253d107c825d768ec2a440601f",
+    "cloneID": 30,
+    "occurrences": 1,
+    "locCloneProduct": 29,
+    "cloneSize": 9
   },
   {
-    "clone": "3462b7d98f603eff84cc49aa752771ee",
-    "cloneID": 204,
+    "clone": "f886e4643255a64e22868a67740e6349",
+    "cloneID": 31,
+    "occurrences": 1,
+    "locCloneProduct": 29,
+    "cloneSize": 9
+  },
+  {
+    "clone": "b5eb33ebe9fc4c7f75baa3aebf63ca81",
+    "cloneID": 32,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "8ed5531aa38ee51bfb2bf3518fef2b6f",
+    "cloneID": 33,
     "occurrences": 8,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "12daec8594669ec46c163faa02751139",
-    "cloneID": 205,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1a5d1b3841e2d06119a50bde3cd7c3f4",
-    "cloneID": 206,
-    "occurrences": 1,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "6ac2e0dd48d357b9d4e50c7ca3d96d84",
-    "cloneID": 207,
-    "occurrences": 1,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ee3995118615d7c6ecad9172f9593366",
-    "cloneID": 208,
-    "occurrences": 2,
-    "locCloneProduct": 18,
-    "cloneSize": 3
-  },
-  {
-    "clone": "6ccaa5587b363cd107892120f193e4aa",
-    "cloneID": 209,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b05d9ced898987255ad4b2669de7ad0d",
-    "cloneID": 210,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d04dac4caf4a5fbdee1bafa7c29a02cc",
-    "cloneID": 211,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "5cbf802609b008770a67e64e67a093bf",
-    "cloneID": 212,
-    "occurrences": 4,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "de0a9dc3f1d2fd83a0dfd9317a6f0439",
-    "cloneID": 213,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a5f5bdbcffc0f83f0762879d323f4bb9",
-    "cloneID": 214,
-    "occurrences": 1,
-    "locCloneProduct": 26,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ee4cfd376f3bed08e39ddb06c8c222c0",
-    "cloneID": 215,
-    "occurrences": 1,
-    "locCloneProduct": 26,
-    "cloneSize": 3
-  },
-  {
-    "clone": "77c73bc2f590218bba90aa9d00f02190",
-    "cloneID": 216,
-    "occurrences": 10,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a6a392ed88fbcb40f3b48d0c9d4099ae",
-    "cloneID": 217,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "c274d9fd6bf6e2bf7fa23ac3bc557531",
-    "cloneID": 218,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "6a33a807804826aee738cd947bad5b6f",
-    "cloneID": 219,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b42e5ddff211d371c84e7c6996fa84e3",
-    "cloneID": 220,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f2539dddb2cb96fe8ddfad88a4c1d8cd",
-    "cloneID": 221,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "77e03d8a9bde32fe82c71cdb0681fde0",
-    "cloneID": 222,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d059d7e22d054b9e53793387ec3205bb",
-    "cloneID": 223,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2913ae4b5fabde4c8e718e0d7b95fd9c",
-    "cloneID": 224,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b9736aab4706d52b71b359e64be94a1e",
-    "cloneID": 225,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "271d3dcc94ce09de450db7327db782a8",
-    "cloneID": 226,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b3912cad732a10993c3e7b882b7f2db1",
-    "cloneID": 227,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "f8987db49d08c3b89a4df04089b4faed",
-    "cloneID": 228,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "6ce96577aaaccf053bff18b843b175fd",
-    "cloneID": 229,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "036c53883c065629aef47fa3940a5404",
-    "cloneID": 230,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "39628f756626a7eada3147e084559491",
-    "cloneID": 231,
-    "occurrences": 1,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "637791274ea8c4fbf5dbfb20c3da482a",
-    "cloneID": 232,
-    "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
-  },
-  {
-    "clone": "68a9fe100f03022fd72d4b14adc5f43d",
-    "cloneID": 233,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b71ad58090870a0d63ab2bfa1acf5a5f",
-    "cloneID": 234,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "590353095fea8ced13c9316444f5601e",
-    "cloneID": 235,
-    "occurrences": 2,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "705dd99d96b4a1322d14464d343aa79e",
-    "cloneID": 236,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "9f0a613a13360a2aabea3add7c3cad47",
-    "cloneID": 237,
-    "occurrences": 4,
-    "locCloneProduct": 40,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a6f6d88b228b92e5b3de20f14f9f1974",
-    "cloneID": 238,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2728299c1920d1fe4941af2b8af4f7ac",
-    "cloneID": 239,
-    "occurrences": 2,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2883dd35132a23909c1dc041a3ff4128",
-    "cloneID": 240,
-    "occurrences": 16,
     "locCloneProduct": 16,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "3f493c5729354cd83bd1b5e86ef1dfb0",
-    "cloneID": 241,
-    "occurrences": 3,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "61366fe56f89f0c4a46cf4179eb0ef02",
-    "cloneID": 242,
-    "occurrences": 2,
+    "clone": "9653d12d835aa5392134dac0c48387a1",
+    "cloneID": 34,
+    "occurrences": 4,
     "locCloneProduct": 8,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "4e59785724f8bba763f050f551567cd1",
-    "cloneID": 243,
-    "occurrences": 6,
-    "locCloneProduct": 18,
-    "cloneSize": 3
+    "clone": "33d3cba38641fd835aba92c43ab880bf",
+    "cloneID": 35,
+    "occurrences": 4,
+    "locCloneProduct": 4,
+    "cloneSize": 9
   },
   {
-    "clone": "2a754074d657f6f40c55560b372b7d8d",
-    "cloneID": 244,
+    "clone": "09419dcd4f636c2b88a5e76963a2a3b8",
+    "cloneID": 36,
+    "occurrences": 4,
+    "locCloneProduct": 4,
+    "cloneSize": 9
+  },
+  {
+    "clone": "499940eef492466881d5c42cb60f4d1d",
+    "cloneID": 37,
     "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2f9ebccfdd44d376b5dd98069b009e1b",
-    "cloneID": 245,
-    "occurrences": 2,
     "locCloneProduct": 6,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "f3c4147eb1ca97e082270d52df8c0fde",
-    "cloneID": 246,
+    "clone": "33ccf74dbff7b18aeac1468cb542fd1b",
+    "cloneID": 38,
     "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
+    "locCloneProduct": 6,
+    "cloneSize": 9
   },
   {
-    "clone": "6a8d98485730ed64f0a56b9e3ccb6c6d",
-    "cloneID": 247,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "11f3a91039be7fdf6ed8ea113b84c6f1",
-    "cloneID": 248,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "8b51e8f0431df6447434a2f75cd17fa7",
-    "cloneID": 249,
+    "clone": "ce9065802b3e219c5603a1493a81b8a9",
+    "cloneID": 39,
     "occurrences": 2,
     "locCloneProduct": 2,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "51a45824413c869ea38d8049f56cb26d",
-    "cloneID": 250,
+    "clone": "a5a9200a09ba0aa1bff3d3b1e4398da5",
+    "cloneID": 40,
     "occurrences": 2,
-    "locCloneProduct": 14,
-    "cloneSize": 3
+    "locCloneProduct": 2,
+    "cloneSize": 9
   },
   {
-    "clone": "6d28f6e18d396f840b5b454d3c3ca31a",
-    "cloneID": 251,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "7c657a6a26f9956210acab0de565ba23",
-    "cloneID": 252,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a73afbde714edb1926a3a7d6cc44f551",
-    "cloneID": 253,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "46c99be165ddff04f7a237f150dfea50",
-    "cloneID": 254,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "cb40e7026c0490c6e0d1be6bc3eb0552",
-    "cloneID": 255,
+    "clone": "3f47bc57d360171c82dc3fcefdaab04b",
+    "cloneID": 41,
     "occurrences": 2,
     "locCloneProduct": 10,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "10e6c1d146bb35ce174afbb0ca1ca92e",
-    "cloneID": 256,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1c604339b86914438ec418b60ac7b475",
-    "cloneID": 257,
-    "occurrences": 1,
-    "locCloneProduct": 9,
-    "cloneSize": 3
-  },
-  {
-    "clone": "6807be67efb2ac091183a427528cce6f",
-    "cloneID": 258,
-    "occurrences": 1,
-    "locCloneProduct": 9,
-    "cloneSize": 3
-  },
-  {
-    "clone": "47135122a06c83a32a2d3b65154491ab",
-    "cloneID": 259,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "22d338d568aafb092c9e4f92e66d1218",
-    "cloneID": 260,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a3cd52974b31b0d4c9c90b3d11682cbd",
-    "cloneID": 261,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d5da733c274f96eec823d84047357bd4",
-    "cloneID": 262,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "6dbe83557a9bb0c85171284a154a9c77",
-    "cloneID": 263,
-    "occurrences": 3,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "157b7d832a23252851e3f1e1887b1045",
-    "cloneID": 264,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "04f11f60cb509f575ad93fd5032bfef3",
-    "cloneID": 265,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "044dca3254369588025f38978314c2cb",
-    "cloneID": 266,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "10846da70085138d04d96523690dcc56",
-    "cloneID": 267,
-    "occurrences": 12,
-    "locCloneProduct": 12,
-    "cloneSize": 3
-  },
-  {
-    "clone": "8a8f9cb2480b29b1972bb318a6302773",
-    "cloneID": 268,
-    "occurrences": 1,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "c086a02b0f931fbcb1a97b0b2e3d772d",
-    "cloneID": 269,
+    "clone": "9f6aeccb20b95276edea068c3dcb0239",
+    "cloneID": 42,
     "occurrences": 2,
     "locCloneProduct": 8,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "a8d1458e2e085a277b998b5ad079c1d4",
-    "cloneID": 270,
+    "clone": "11ddb523b6aed473e3495413cf84a6e9",
+    "cloneID": 43,
     "occurrences": 2,
-    "locCloneProduct": 14,
-    "cloneSize": 3
+    "locCloneProduct": 10,
+    "cloneSize": 9
   },
   {
-    "clone": "c7b97427d2f79b5461ae200bbea12a6d",
-    "cloneID": 271,
+    "clone": "2db34688a19253f3e6102c0990754a28",
+    "cloneID": 44,
+    "occurrences": 2,
+    "locCloneProduct": 12,
+    "cloneSize": 9
+  },
+  {
+    "clone": "4e04c795ecedff617eb147e6d7c93977",
+    "cloneID": 45,
+    "occurrences": 3,
+    "locCloneProduct": 12,
+    "cloneSize": 9
+  },
+  {
+    "clone": "c0747b92e1a8e0856591101fb2229b60",
+    "cloneID": 46,
+    "occurrences": 9,
+    "locCloneProduct": 27,
+    "cloneSize": 9
+  },
+  {
+    "clone": "68c09a0367b3016c1bac10515b34bc2f",
+    "cloneID": 47,
     "occurrences": 2,
     "locCloneProduct": 2,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "c0464e0a70e8bebee921153b7e16e598",
-    "cloneID": 272,
-    "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
-  },
-  {
-    "clone": "67d5261a284d31934ff8be41b3db291d",
-    "cloneID": 273,
-    "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
-  },
-  {
-    "clone": "16256a14eec1c6e6ba4a54af6c950f6e",
-    "cloneID": 274,
+    "clone": "325ed4732f0b8a64c847f02c92587342",
+    "cloneID": 48,
     "occurrences": 2,
     "locCloneProduct": 2,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "32780974ef12148aa891825efdfbe7ba",
-    "cloneID": 275,
+    "clone": "fdbcbee9ec64252c211e2f9e2267e245",
+    "cloneID": 49,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "6e0b048e5ce1a09c77bb6c056f588ef2",
+    "cloneID": 50,
+    "occurrences": 1,
+    "locCloneProduct": 24,
+    "cloneSize": 9
+  },
+  {
+    "clone": "3498e359e6749775db0f64fb9d8f5ffe",
+    "cloneID": 51,
+    "occurrences": 1,
+    "locCloneProduct": 24,
+    "cloneSize": 9
+  },
+  {
+    "clone": "8973205b3f124e41875bdebaf4a51c25",
+    "cloneID": 52,
+    "occurrences": 1,
+    "locCloneProduct": 3,
+    "cloneSize": 9
+  },
+  {
+    "clone": "ddf6d05c55a12875fa5c235ecd250cf5",
+    "cloneID": 53,
+    "occurrences": 1,
+    "locCloneProduct": 3,
+    "cloneSize": 9
+  },
+  {
+    "clone": "00af1091194aff30f81b72f059574f6c",
+    "cloneID": 54,
+    "occurrences": 1,
+    "locCloneProduct": 3,
+    "cloneSize": 9
+  },
+  {
+    "clone": "432fbd19fd29d3850f83279779753bf2",
+    "cloneID": 55,
     "occurrences": 1,
     "locCloneProduct": 11,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "dff85241c0b791c3b37b6c0639e9fa0d",
-    "cloneID": 276,
+    "clone": "010889ea578bee555449b67e66fb8fa0",
+    "cloneID": 56,
     "occurrences": 1,
     "locCloneProduct": 12,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "76f7c8e583bb8b0547273ae428dd2cac",
-    "cloneID": 277,
+    "clone": "ee50936f10c2ae8c5b2c5c24cfd24433",
+    "cloneID": 57,
     "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
+    "locCloneProduct": 5,
+    "cloneSize": 9
   },
   {
-    "clone": "f366bc6ac8ed58e04280b0eb0463da71",
-    "cloneID": 278,
+    "clone": "90d3a5eedcea8c6c7a7205a40d8ea68c",
+    "cloneID": 58,
     "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
+    "locCloneProduct": 5,
+    "cloneSize": 9
   },
   {
-    "clone": "37dab4a3ddfba5a1ac58933eb7cee59b",
-    "cloneID": 279,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "df11b6ba79120dece9da30774cd7c2f2",
-    "cloneID": 280,
-    "occurrences": 2,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "eff508e5f1edc44a0139bda5d6fcc14c",
-    "cloneID": 281,
-    "occurrences": 1,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "59de2ff5b74e1389bc36ca1a3c6508d4",
-    "cloneID": 282,
-    "occurrences": 1,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "60719ecd4144d39398b31810703b431e",
-    "cloneID": 283,
+    "clone": "4e540f285cf04361b2ca57390a87554e",
+    "cloneID": 59,
     "occurrences": 2,
     "locCloneProduct": 8,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "7231c9a8e728f88ab6a2a36f1b4fdd25",
-    "cloneID": 284,
-    "occurrences": 3,
-    "locCloneProduct": 3,
-    "cloneSize": 3
+    "clone": "eb1ee4b6b846958590e62c10e85b2876",
+    "cloneID": 60,
+    "occurrences": 4,
+    "locCloneProduct": 4,
+    "cloneSize": 9
   },
   {
-    "clone": "207a3062ee9255177bbbdf00c7051ea5",
-    "cloneID": 285,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3e0d40caba21e4b7e4a3cf309e13fc9b",
-    "cloneID": 286,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1f9c83802e76bcd1afcb9d163bfb8949",
-    "cloneID": 287,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b6662a4efa5e0c40b501c81dd821ae55",
-    "cloneID": 288,
+    "clone": "07d1e2e54fc442f208dd53ebe3aeb5ab",
+    "cloneID": 61,
     "occurrences": 3,
     "locCloneProduct": 15,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "f32d45d86729c42e05b039d18b415638",
-    "cloneID": 289,
+    "clone": "ce455c7b740c1757ea8969d877a360f6",
+    "cloneID": 62,
+    "occurrences": 4,
+    "locCloneProduct": 4,
+    "cloneSize": 9
+  },
+  {
+    "clone": "43d24d59eab9d95c048d3ed79c305848",
+    "cloneID": 63,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "4acbc2689346701780331b8db4a69911",
+    "cloneID": 64,
+    "occurrences": 2,
+    "locCloneProduct": 6,
+    "cloneSize": 9
+  },
+  {
+    "clone": "51492e324720ee35664c790a62e4b2d2",
+    "cloneID": 65,
+    "occurrences": 2,
+    "locCloneProduct": 18,
+    "cloneSize": 9
+  },
+  {
+    "clone": "3f7aa2c3e3af750b6dfd4259d3e31af8",
+    "cloneID": 66,
     "occurrences": 2,
     "locCloneProduct": 12,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "9d108a96665a77b864e948814eee72a7",
-    "cloneID": 290,
+    "clone": "dfd6ae2867c64b0bb297491598c2e7b3",
+    "cloneID": 67,
     "occurrences": 2,
-    "locCloneProduct": 4,
-    "cloneSize": 3
+    "locCloneProduct": 12,
+    "cloneSize": 9
   },
   {
-    "clone": "8bd5ed21bfbd3f7b5e5b377a8d5f4d5f",
-    "cloneID": 291,
-    "occurrences": 1,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "0d24b7f050fb33c92b8606f211e78a27",
-    "cloneID": 292,
-    "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3b2f34028d375d5484fee5f3825a2bc2",
-    "cloneID": 293,
-    "occurrences": 1,
-    "locCloneProduct": 5,
-    "cloneSize": 3
-  },
-  {
-    "clone": "041ef20967d3de2c013d3e8ac98bb293",
-    "cloneID": 294,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "e45426e2ea583dda06b5cd6ad68cf2f5",
-    "cloneID": 295,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "23c6ada6609060d759706493e8570a60",
-    "cloneID": 296,
+    "clone": "3eec9c67404917443647d295eee6cf65",
+    "cloneID": 68,
     "occurrences": 1,
     "locCloneProduct": 1,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "84190b90c3182038e28595b5d50d19c7",
-    "cloneID": 297,
+    "clone": "2bff0b7032b4d5a3cc499af440e70c89",
+    "cloneID": 69,
     "occurrences": 1,
     "locCloneProduct": 1,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "e765a0a86c923d50244845d320beada2",
-    "cloneID": 298,
+    "clone": "b4b440c62ffad9398d2ef50237d41dad",
+    "cloneID": 70,
     "occurrences": 2,
     "locCloneProduct": 10,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "3d061cf06a9f6447b43b93b0a412889f",
-    "cloneID": 299,
-    "occurrences": 3,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a1146cfdefb28f79731059bad6350ac6",
-    "cloneID": 300,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d0f9c7c735e2b1cd7889bf8cd5f27cc6",
-    "cloneID": 301,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "9fd5c783b103a994830fda1f19b9a274",
-    "cloneID": 302,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "81498872bf322b2780f0dcf5cc51a64d",
-    "cloneID": 303,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "ce636087ef69dac8693962a7d6d29cb7",
-    "cloneID": 304,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "41406d68a797ace7a1973b3e967df675",
-    "cloneID": 305,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3f104423f44f0f3d7c8d8f45a5bd119f",
-    "cloneID": 306,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "8ca339cc969abffafaa6e532d4489336",
-    "cloneID": 307,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "272f28b9785f22cce551c827296c294e",
-    "cloneID": 308,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "004e42de8bd3022e6bb2f63867139186",
-    "cloneID": 309,
-    "occurrences": 5,
-    "locCloneProduct": 15,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2fd04ee8a0c67b2930175fe8d04e1a76",
-    "cloneID": 310,
-    "occurrences": 1,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1f17ce0d162027c8249b2c75b55ea7f3",
-    "cloneID": 311,
-    "occurrences": 3,
-    "locCloneProduct": 9,
-    "cloneSize": 3
-  },
-  {
-    "clone": "da35a9340a99512b552bbfb548b0b482",
-    "cloneID": 312,
-    "occurrences": 1,
-    "locCloneProduct": 24,
-    "cloneSize": 3
-  },
-  {
-    "clone": "96c422c6bd4f428fd84758156498c978",
-    "cloneID": 313,
-    "occurrences": 1,
-    "locCloneProduct": 24,
-    "cloneSize": 3
-  },
-  {
-    "clone": "5eccb54bb38b891b53825f1104a4d6bd",
-    "cloneID": 314,
-    "occurrences": 2,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "956d9977e294981d249cfa4ab8cc1233",
-    "cloneID": 315,
+    "clone": "0fc3150d715e628ed5edbc6ab26800db",
+    "cloneID": 71,
     "occurrences": 1,
     "locCloneProduct": 6,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "99456c2b9c734c2c27e42bb2e79d218b",
-    "cloneID": 316,
+    "clone": "c6c22044097aaf7b46a7ff72a8acc65e",
+    "cloneID": 72,
     "occurrences": 1,
     "locCloneProduct": 6,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "d9051208ca48124f04d09eed59ef01bd",
-    "cloneID": 317,
-    "occurrences": 5,
-    "locCloneProduct": 5,
-    "cloneSize": 3
-  },
-  {
-    "clone": "884ad98164802b291b900e3146661098",
-    "cloneID": 318,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "63a7f5e2f87a6f7bd08352b54f1f262a",
-    "cloneID": 319,
-    "occurrences": 1,
-    "locCloneProduct": 13,
-    "cloneSize": 3
-  },
-  {
-    "clone": "238a31b406f3fcb9048b296fcff49723",
-    "cloneID": 320,
-    "occurrences": 1,
-    "locCloneProduct": 13,
-    "cloneSize": 3
-  },
-  {
-    "clone": "8a7a4ec7daa13449cfdfca84b4aa15cf",
-    "cloneID": 321,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a9865bac8d10293d3593507663005578",
-    "cloneID": 322,
-    "occurrences": 4,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "7f3b36d7ba08020f23ecbf822b743be1",
-    "cloneID": 323,
-    "occurrences": 9,
-    "locCloneProduct": 9,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b7c0733c1baebb5c07c70aa1efa08548",
-    "cloneID": 324,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "dc5ee9aa2bca06cab058cb3c988ab91a",
-    "cloneID": 325,
-    "occurrences": 6,
-    "locCloneProduct": 36,
-    "cloneSize": 3
-  },
-  {
-    "clone": "dc452b85a7d669cae5704675921da377",
-    "cloneID": 326,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "3503f77c2307efdeb1e76ee04b7b52b4",
-    "cloneID": 327,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "a9db94f669e8b4c07deb147a189f8b5e",
-    "cloneID": 328,
-    "occurrences": 2,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "cc95ea36691089ff07dd10c7dabd7e25",
-    "cloneID": 329,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "eea75227cb5e44075552730c08b7c493",
-    "cloneID": 330,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "c13c02377fed66eea0ded24b802fed2c",
-    "cloneID": 331,
-    "occurrences": 4,
-    "locCloneProduct": 24,
-    "cloneSize": 3
-  },
-  {
-    "clone": "1cc213ec580ae4d59a1bb93bd703aa15",
-    "cloneID": 332,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "84d28c497caad6e7d1df8b92d24d0d24",
-    "cloneID": 333,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "2c4d215754723a6590058f003ef613a5",
-    "cloneID": 334,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "e257600cf4f95f4218b47021ffaaafc0",
-    "cloneID": 335,
-    "occurrences": 1,
-    "locCloneProduct": 1,
-    "cloneSize": 3
-  },
-  {
-    "clone": "71b0043403298202d4aaebcf23eb7a9b",
-    "cloneID": 336,
-    "occurrences": 2,
-    "locCloneProduct": 8,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b8ff063dba7985c93732217de673ddba",
-    "cloneID": 337,
-    "occurrences": 5,
-    "locCloneProduct": 10,
-    "cloneSize": 3
-  },
-  {
-    "clone": "65e99494a2f84f966578f5a63c3286c2",
-    "cloneID": 338,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "d95808f036128e3641d7ef30a90aa9de",
-    "cloneID": 339,
-    "occurrences": 1,
-    "locCloneProduct": 4,
-    "cloneSize": 3
-  },
-  {
-    "clone": "b5cf916b9827aec87a3f151f186f3d80",
-    "cloneID": 340,
-    "occurrences": 1,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "52a95427b4bc78266cb0370915ae9666",
-    "cloneID": 341,
-    "occurrences": 1,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "da4b7541847adc4ee2af9929c0411e61",
-    "cloneID": 342,
-    "occurrences": 3,
-    "locCloneProduct": 3,
-    "cloneSize": 3
-  },
-  {
-    "clone": "99c069de10b37bb1e6de24c0e170b08d",
-    "cloneID": 343,
-    "occurrences": 2,
-    "locCloneProduct": 6,
-    "cloneSize": 3
-  },
-  {
-    "clone": "4445a45ebfb770ccb25ffc3af6bf5630",
-    "cloneID": 344,
-    "occurrences": 2,
-    "locCloneProduct": 2,
-    "cloneSize": 3
-  },
-  {
-    "clone": "cd3de21af6649094a68b18d1ced115ac",
-    "cloneID": 345,
+    "clone": "46b30690221e9344f23263fa6f0b23fe",
+    "cloneID": 73,
     "occurrences": 2,
     "locCloneProduct": 14,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "ac2698cff13d98cffe13f1db263a9aee",
-    "cloneID": 346,
+    "clone": "48fe7e9e5996e30ca8cd18e50709f6e5",
+    "cloneID": 74,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "61ef272791085776d8af586716e6fab9",
+    "cloneID": 75,
+    "occurrences": 1,
+    "locCloneProduct": 5,
+    "cloneSize": 9
+  },
+  {
+    "clone": "b022ba7ba87faf938a6650fc476540c3",
+    "cloneID": 76,
+    "occurrences": 2,
+    "locCloneProduct": 10,
+    "cloneSize": 9
+  },
+  {
+    "clone": "1c40c8d6bf5a944293033b0368421dba",
+    "cloneID": 77,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "bd93495edf3bfdc6d809649b80776e47",
+    "cloneID": 78,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "c6d8c300b68f29e6629a1376a45c629d",
+    "cloneID": 79,
     "occurrences": 1,
     "locCloneProduct": 7,
-    "cloneSize": 3
+    "cloneSize": 9
   },
   {
-    "clone": "7df1ec1ad6d1f4f7ba2fd25ab8a66a58",
-    "cloneID": 347,
-    "occurrences": 15,
-    "locCloneProduct": 45,
-    "cloneSize": 3
+    "clone": "1da9d552dc9e5fcf9d1ace8d347d08c0",
+    "cloneID": 80,
+    "occurrences": 1,
+    "locCloneProduct": 7,
+    "cloneSize": 9
   },
   {
-    "clone": "1e227d0beb523a8e245c9c03d68e5c29",
-    "cloneID": 348,
+    "clone": "d706cdbe2cd95c02d973558e518e7240",
+    "cloneID": 81,
+    "occurrences": 2,
+    "locCloneProduct": 8,
+    "cloneSize": 9
+  },
+  {
+    "clone": "a89a87304f4265f4c66cd576e894c091",
+    "cloneID": 82,
+    "occurrences": 1,
+    "locCloneProduct": 4,
+    "cloneSize": 9
+  },
+  {
+    "clone": "edce35112e7a169a41126c5c1c451d6c",
+    "cloneID": 83,
     "occurrences": 1,
     "locCloneProduct": 3,
-    "cloneSize": 3
+    "cloneSize": 9
+  },
+  {
+    "clone": "69732e22d1f4fc5bbf61634d9c6cff57",
+    "cloneID": 84,
+    "occurrences": 2,
+    "locCloneProduct": 8,
+    "cloneSize": 9
+  },
+  {
+    "clone": "fa1307e373ccbd650d65e88c4f3167d3",
+    "cloneID": 85,
+    "occurrences": 2,
+    "locCloneProduct": 6,
+    "cloneSize": 9
+  },
+  {
+    "clone": "a8bf31ca8f01880a738a9833262809f9",
+    "cloneID": 86,
+    "occurrences": 2,
+    "locCloneProduct": 10,
+    "cloneSize": 9
+  },
+  {
+    "clone": "bde72063cc82fb722164b9c7ed2ac903",
+    "cloneID": 87,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "101d9d33db3f5959f2a1719fddd887cc",
+    "cloneID": 88,
+    "occurrences": 3,
+    "locCloneProduct": 15,
+    "cloneSize": 9
+  },
+  {
+    "clone": "fdafe0bfbd97edd5994c1d4806eb9955",
+    "cloneID": 89,
+    "occurrences": 1,
+    "locCloneProduct": 7,
+    "cloneSize": 9
+  },
+  {
+    "clone": "4904c60325062f928232ddde0b7fa99b",
+    "cloneID": 90,
+    "occurrences": 1,
+    "locCloneProduct": 7,
+    "cloneSize": 9
+  },
+  {
+    "clone": "3bc23895a271296c74ad466770c56d81",
+    "cloneID": 91,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "a2a43897b1ea8ca268bcedaf5ca2d093",
+    "cloneID": 92,
+    "occurrences": 2,
+    "locCloneProduct": 10,
+    "cloneSize": 9
+  },
+  {
+    "clone": "86c044c8e87b7d121fa0cb1835017527",
+    "cloneID": 93,
+    "occurrences": 1,
+    "locCloneProduct": 10,
+    "cloneSize": 9
+  },
+  {
+    "clone": "485c66acf2ea4f9d20b32a77cb4ffc4b",
+    "cloneID": 94,
+    "occurrences": 1,
+    "locCloneProduct": 10,
+    "cloneSize": 9
+  },
+  {
+    "clone": "f51e5c14cd3d1351440e0540564a2674",
+    "cloneID": 95,
+    "occurrences": 2,
+    "locCloneProduct": 8,
+    "cloneSize": 9
+  },
+  {
+    "clone": "20fc52fa5867640a4bd53c0d8371869d",
+    "cloneID": 96,
+    "occurrences": 1,
+    "locCloneProduct": 6,
+    "cloneSize": 9
+  },
+  {
+    "clone": "4aea65e9859b76ef60283465d7a4e6d0",
+    "cloneID": 97,
+    "occurrences": 1,
+    "locCloneProduct": 5,
+    "cloneSize": 9
+  },
+  {
+    "clone": "591a1904cef5087763200375a3cee20d",
+    "cloneID": 98,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "95b5c56792f6435e98827f8039df1092",
+    "cloneID": 99,
+    "occurrences": 1,
+    "locCloneProduct": 1,
+    "cloneSize": 9
+  },
+  {
+    "clone": "2952f1fbcce05869186bd8b1af58ebb4",
+    "cloneID": 100,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "5bcc205dcb6f1c4051f635cfbcb77da1",
+    "cloneID": 101,
+    "occurrences": 2,
+    "locCloneProduct": 4,
+    "cloneSize": 9
+  },
+  {
+    "clone": "8fd01846e122474413fe85bb072c771b",
+    "cloneID": 102,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "957ecb15e587b6c9d32f83f5fdfcf931",
+    "cloneID": 103,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "a311b631c77d3f989080c99c954c5466",
+    "cloneID": 104,
+    "occurrences": 1,
+    "locCloneProduct": 4,
+    "cloneSize": 9
+  },
+  {
+    "clone": "ed594d340c1a4614ef08822e36eaf2c0",
+    "cloneID": 105,
+    "occurrences": 3,
+    "locCloneProduct": 12,
+    "cloneSize": 9
+  },
+  {
+    "clone": "767e6098ab55be1da317023b6d747241",
+    "cloneID": 106,
+    "occurrences": 2,
+    "locCloneProduct": 22,
+    "cloneSize": 9
+  },
+  {
+    "clone": "9e0cd4232e4542e4f72d1fd3c3fcefde",
+    "cloneID": 107,
+    "occurrences": 2,
+    "locCloneProduct": 14,
+    "cloneSize": 9
+  },
+  {
+    "clone": "48605f023b46ce26cdae5a1499e4f225",
+    "cloneID": 108,
+    "occurrences": 1,
+    "locCloneProduct": 7,
+    "cloneSize": 9
+  },
+  {
+    "clone": "bef74d5a0e233547f04feb03043caf0a",
+    "cloneID": 109,
+    "occurrences": 1,
+    "locCloneProduct": 4,
+    "cloneSize": 9
+  },
+  {
+    "clone": "4378896a5eb6cb51039ed47adf70a6c6",
+    "cloneID": 110,
+    "occurrences": 1,
+    "locCloneProduct": 4,
+    "cloneSize": 9
+  },
+  {
+    "clone": "af55146dc6a57a6411ec653e4d870194",
+    "cloneID": 111,
+    "occurrences": 6,
+    "locCloneProduct": 6,
+    "cloneSize": 9
+  },
+  {
+    "clone": "8701cf863e8ea5a898266d9f04cd100d",
+    "cloneID": 112,
+    "occurrences": 4,
+    "locCloneProduct": 12,
+    "cloneSize": 9
+  },
+  {
+    "clone": "9c44cd16c745be19560efcbbf0ae94ce",
+    "cloneID": 113,
+    "occurrences": 2,
+    "locCloneProduct": 8,
+    "cloneSize": 9
+  },
+  {
+    "clone": "4594bf77606f26323bc5a1305eafbcbc",
+    "cloneID": 114,
+    "occurrences": 2,
+    "locCloneProduct": 8,
+    "cloneSize": 9
+  },
+  {
+    "clone": "f78c2903c75d8ffe96bf28767abc2e0a",
+    "cloneID": 115,
+    "occurrences": 2,
+    "locCloneProduct": 14,
+    "cloneSize": 9
+  },
+  {
+    "clone": "32d7cfb1a7f1c0aa7248c08cfe4479b9",
+    "cloneID": 116,
+    "occurrences": 2,
+    "locCloneProduct": 8,
+    "cloneSize": 9
+  },
+  {
+    "clone": "d0d4d6d950e2e7a586ee4144114e6ce1",
+    "cloneID": 117,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "c116e34905e5c7fdbc36089acd86313d",
+    "cloneID": 118,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "5ccda0ea5f881cbc68e5571506e34f37",
+    "cloneID": 119,
+    "occurrences": 4,
+    "locCloneProduct": 40,
+    "cloneSize": 9
+  },
+  {
+    "clone": "775f18b9dfa82be9218f369f88a0ecf2",
+    "cloneID": 120,
+    "occurrences": 2,
+    "locCloneProduct": 10,
+    "cloneSize": 9
+  },
+  {
+    "clone": "9e8b6213362c60bd2c4149262010cedd",
+    "cloneID": 121,
+    "occurrences": 1,
+    "locCloneProduct": 6,
+    "cloneSize": 9
+  },
+  {
+    "clone": "66b4c19b50daef42b7c18dd127d7bf5f",
+    "cloneID": 122,
+    "occurrences": 1,
+    "locCloneProduct": 6,
+    "cloneSize": 9
+  },
+  {
+    "clone": "6efaefb946d2eb71b1bde7848dbc6fb9",
+    "cloneID": 123,
+    "occurrences": 2,
+    "locCloneProduct": 12,
+    "cloneSize": 9
+  },
+  {
+    "clone": "ec72b560ae5eaadcbeb9ef7f2790b9c7",
+    "cloneID": 124,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "8912000eb0d87030bf881a2b916e441d",
+    "cloneID": 125,
+    "occurrences": 3,
+    "locCloneProduct": 3,
+    "cloneSize": 9
+  },
+  {
+    "clone": "2a55e26081f975f6244188b105ac1a60",
+    "cloneID": 126,
+    "occurrences": 6,
+    "locCloneProduct": 36,
+    "cloneSize": 9
+  },
+  {
+    "clone": "b8ffa3b98e66ac254ba036edb00a7716",
+    "cloneID": 127,
+    "occurrences": 2,
+    "locCloneProduct": 2,
+    "cloneSize": 9
+  },
+  {
+    "clone": "08f5635ac4fd4923b4d19f5936968447",
+    "cloneID": 128,
+    "occurrences": 2,
+    "locCloneProduct": 8,
+    "cloneSize": 9
+  },
+  {
+    "clone": "d7a1caa8042a6e00cf45060e3d48504a",
+    "cloneID": 129,
+    "occurrences": 1,
+    "locCloneProduct": 6,
+    "cloneSize": 9
+  },
+  {
+    "clone": "1fc3f2e3ca95c2cf40770f7b310265b6",
+    "cloneID": 130,
+    "occurrences": 3,
+    "locCloneProduct": 15,
+    "cloneSize": 9
+  },
+  {
+    "clone": "eff78f72f2723c864aa5f0092843a3f2",
+    "cloneID": 131,
+    "occurrences": 1,
+    "locCloneProduct": 9,
+    "cloneSize": 9
+  },
+  {
+    "clone": "a62683f5c97ba0e7b6306a2819110acb",
+    "cloneID": 132,
+    "occurrences": 1,
+    "locCloneProduct": 9,
+    "cloneSize": 9
   }
 ]

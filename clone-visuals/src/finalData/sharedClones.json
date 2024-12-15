@@ -1,1155 +1,438 @@
 {
-  "7d7e5a0ada7090b3f4eb21f08bcb670e": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
+  "2e362ff93ee82bb39fdc04ef81c5fe00": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
   ],
-  "257a8d5d468a01ca9e64fd6d08483cc7": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "cd2ab4993a1a9aa81768e9a9a6f3b611": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SQLTokenizer.java"
   ],
-  "84a5b4774da9c890bdd88e1f9245d5c5": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "92520082baa49b1019af85604ce3b7fd": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SQLTokenizer.java"
   ],
-  "1c89d9f6bc5f10517e90d75083dcb222": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexNode.java"
+  "6f5a5b57e6e22c0b87d0956076f6d7d8": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionConvert.java"
   ],
-  "309eea215bba456752ef73734971fe5f": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunction.java"
+  "5feaaa0550f5d00d4a37218f28f61ec6": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampAdd.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java"
   ],
-  "e75825d74ef549bd0a51abb6f68374e6": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunction.java"
+  "a4ffe9cdb5fdf72f43144af803b7d6ec": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
   ],
-  "1923019f0eb191e626fb3571caa097bc": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "b5a3f6f3ce96969a0728d9f3e6ceac94": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
   ],
-  "f55ad0c6a40fbbdbc6d0d1a624f2fd17": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "3f372a9d18921498564c6c467d0b92c0": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
   ],
-  "1dc30b4685096e312bf25ad253082528": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/FileIndexNode.java"
+  "44d3c46ff3dda289bb6154195b66dbe5": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
   ],
-  "bcf818d541f18573a606b72617c1e2a0": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/CommandSelect.java"
+  "86dae10c7f10703e1312a80daf6874f6": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java"
   ],
-  "fbeef0851a23e074d4a5291bfb1a10cb": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
+  "8bad6cdb3f7c343700f8a19ad058d18b": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
   ],
-  "2e6c6948bb68acf55c7dc3609fecd189": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
+  "c49b4d145c5ac80e3476888a0620522a": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java"
   ],
-  "fe97dcd931fc05fc4a7cb2efedd49e20": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
+  "52bbe992044d4f7955f68475a343b8d7": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
   ],
-  "962b06a3fad21bae8835bbf68c7d07b2": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
+  "064c816fdac15a0db1ae33c9cb7850b9": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "4825b964a050610956f21cc722b51dc9": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "69cc33f438c981479d110afd18827c75": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "63872eb1d80d7631ebd2dd99d5ea53df": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnInt.java"
+  "839d2a21bf54b555846154079c116fe4": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunction.java"
   ],
-  "e8ac722c0cd37000d878dbb669492752": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestExceptionMethods.java"
+  "81e0a802a693f77b77e40c90c05707c6": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunction.java"
   ],
-  "0df3e71cdd9010064ea49854aa8e082e": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java"
+  "1dabf3e8ac65bbcbe62878779fa6305e": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestDeleteUpdate.java"
   ],
-  "2a7751d4e58cf31646f36a500f6b2da5": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
+  "7ce0b5aa55f0d52ac9ce411f359871fd": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestDeleteUpdate.java"
   ],
-  "bb9b1cc5106241b22d4390119ab47a62": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "5a5bc71ae95e2ca200834662d721b62f": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/CommandSelect.java"
   ],
-  "0915997096b2add9ec315637a8dfcd10": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StorePageMap.java"
+  "7b99948e83c49bd5010beb733d4d4b15": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
   ],
-  "4555558e20c67a5a6733ca7e6d6478c3": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java"
+  "a2aff4d5d77acd50e719fed56c6913c5": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
   ],
-  "28540f1dd1c96dd35f26580a823be450": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java"
+  "9689a3c0a5319eb9094ce88a1be86efa": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
   ],
-  "cfdc099cc1e0aa7ac962461701d8da0d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "ff681f12344fc3c681b50d5e29464534": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "0e9fd7e062419170333e027619ac2775": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "da5224376ab4d52237b16fc51b836821": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "0267e60bc5c96ba6292367c701e8667b": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable.java"
+  "7e663d006bf3864e3914cda8c45f80b8": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSStatement.java"
   ],
-  "e9cfb7ccf0be7eaefe3d95ef6ab86c30": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "e2b7d861130a4c6c03db8493e6f89563": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestStatement.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestResultSet.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
-  ],
-  "b04c8408d2816321d6084414077ec1ac": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
-  ],
-  "a383a273f7f0fe594c9732054363ccae": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
-  ],
-  "72ef68dcc31cb85fd4da04fdba438189": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
-  ],
-  "1840c55e7b027e1081751afdf84048b2": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Index.java"
-  ],
-  "0a37f8b2a67ca40447c563269b27ff59": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/FileIndexNode.java"
-  ],
-  "1b5e3190af3ad771bc7d7be3e1b2d865": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/View.java"
-  ],
-  "f19e342c5203c1f2ca7c3a1e4e2f2c69": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestThreads.java"
-  ],
-  "4e4220c8a2b4df2f32c362fc503dc97f": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestThreads.java"
-  ],
-  "57de4ef6fada00dec3bfcf92763868c9": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionBitLen.java"
-  ],
-  "5ce372b3b639fca7efc691906f96153a": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionOctetLen.java"
-  ],
-  "bb99f33f9fab0e4b99691fabc439921e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "1249edaf8deb71c0fa4e9160a11a34f9": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
-  ],
-  "d954ad80588577c9889d2f060eadcf78": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
-  ],
-  "0a965b1f979e5cb4a72629a9ce735f24": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "ef6ad308df152ad04b37c7a3dd6b2e45": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampAdd.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java"
-  ],
-  "c62d75d8ee3970972353e96406571ff9": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableNumeric.java"
-  ],
-  "331ab0f3307d6bc45f063f241a7b42e3": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "f91ac3a5c278ac3adaed46e577bfd1b0": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "42e3193092fba6bf6491ddd35d10bbdf": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1Number.java"
-  ],
-  "445444e43fe64c83068ee3a84b537028": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionArithmetic.java"
-  ],
-  "b16bdbf25d115bc6eb447720b4b67b6c": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "294e116d5fc1df5083ca8fb4298ecf18": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "61be9255058b165e0f8cd6c3bea0569a": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "3c51704f60eea9f0b94d0c0ebd4d0164": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTruncate.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRound.java"
-  ],
-  "39ef6e1c33bd7ff4eba993fb713c27bb": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/TableView.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescription.java"
-  ],
-  "08f4a18e5d3930c42ea2be8c143df3c3": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
-  ],
-  "debfde1b1be24d96f0cefc5fd88be9ce": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
-  ],
-  "c481fd9865d0527dca9d998c3f9072d9": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/JoinScroll.java"
-  ],
-  "ee2926afddeda28a930727cfd8e76356": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/JoinScroll.java"
-  ],
-  "3d0d055229eaa479e932956a6eb2bebf": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableNumeric.java"
-  ],
-  "38f30af45999809dc3a24da3a3f9a2f6": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "ad6f567703eb0cbefd045f9b4b2f5899": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
-  ],
-  "60abb366e753ebaab2637823a88fbbf6": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
-  ],
-  "ca06be02a6c6d7ac47c97086eefc5b36": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/FileIndexNode.java"
-  ],
-  "61cec673dd62f07e1d225d9fa99b9973": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "4c8286709d771d35746a1c429ab6fa63": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
-  ],
-  "7e84ae48e3ba95ea042a80dc60697bce": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDataTypes.java"
-  ],
-  "3bc23895a271296c74ad466770c56d81": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexNode.java"
-  ],
-  "7886b717d5ac1499f5bc2d78d34578e4": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
-  ],
-  "3f79da2fd8364b69ea864e2d8de37b48": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java"
-  ],
-  "e3f226ef98fdc67ed1f5429ae4ee3394": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java"
-  ],
-  "1a66ad25c85448d37b95c0e0c6b9e957": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "cc44be1b7345d65eba2a395efba82727": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOther.java"
-  ],
-  "52aed7df37f4e25ad68c2dfb5e66d217": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDeleteUpdate.java"
-  ],
-  "89f0400c573766b15c71796a25a8f22e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDeleteUpdate.java"
-  ],
-  "ff0aeca0a85e182fe21c1a1b4e9f0d44": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "51f94471cff4c476541ce3ff8cd55c17": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
-  ],
-  "653ea336d6c89909ac3e480833630773": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescriptions.java"
-  ],
-  "9d03bd5279ff56a578e8fae166aff547": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Columns.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ForeignKeys.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Strings.java"
-  ],
-  "7cab59b9197de842d1486f7b42e3a7a4": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java"
-  ],
-  "dda5b87c5cde85a0b96156ba1ea4843a": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "cb335b45a64b4c83bc1803e48b77b5f6": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/DateTime.java"
-  ],
-  "0e1cbf2103c34502bc48fbaa3dc4afa0": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/DateTime.java"
-  ],
-  "e9c32134636ea64085ec1de4adadcdf4": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Distinct.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Where.java"
-  ],
-  "2a58075ffff5802a703bdb834466b117": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "2aa4fb3191de6749a42464c245e43415": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "4796a591e15f86ddc3cbfc0025c9c5d6": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "8955672e6aafe88b295c4039945a5190": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Money.java"
-  ],
-  "f34625e96d742ae5e57843b45f19c0db": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Distinct.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Where.java"
-  ],
-  "9c1e61681137e8cd7ee9b06f438be0cb": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
-  ],
-  "ce9065802b3e219c5603a1493a81b8a9": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
-  ],
-  "abb1562bf3e89624639975ca178cc08a": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
-  ],
-  "69f93805c9b1eabdf43c0bd5528c3e28": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java"
-  ],
-  "b4f5a248047cb93318315e4a5512438e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "b88c8b1d0011067828bccab016a8ad8d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSConnection.java"
-  ],
-  "dc76088d4bc06d8a5e814aa32c8fc277": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/DateTime.java"
-  ],
-  "744967fb3cd6868c1ee3600489d421c0": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/DateTime.java"
-  ],
-  "f86a151e3207150648384b2a92b9bdcf": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
-  ],
-  "6dd56e440a39ddc37959fad92f633fd8": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
-  ],
-  "c81779ea81efc13f624971b2aba97202": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Scrollable.java"
-  ],
-  "513f3fb46214aa5935dc79d5cf4cd4fc": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MemoryResult.java"
-  ],
-  "2fa0d1847b957d6db1dd2d33cfa4952e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "22f11e81faa5047115b02a717ec520e6": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "0b0135ecbf58e5941bc6ebac2d436a8f": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSPreparedStatement.java"
-  ],
-  "770b71a770e57a370d52b0a7fb28de39": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSPreparedStatement.java"
-  ],
-  "c573a98502db1a3596a7cdc055e2b261": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
-  ],
-  "5c7ce67370fd2edc98a04a399a10e6c0": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
-  ],
-  "5873e2111326330ba36c6c901ad59219": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableNumeric.java"
-  ],
-  "90227c5c350d1fa7d545bd4d2de12022": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/CommandSelect.java"
-  ],
-  "1380a6556284f700a7c8e293bc52a6bb": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/CommandSelect.java"
-  ],
-  "954ea04806032dbb7e6f116e562a9930": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java"
-  ],
-  "a53a391af1b23e5b531910c4e14bcd71": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java"
-  ],
-  "f2991a017f3916897e053430cf04b057": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestFunctions.java"
-  ],
-  "f5f5295fac8bc3cce395c88fe5500d86": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "19c9b44dc53c0e158b7f7d0a830d1d4b": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnFloat.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionAbs.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionFloor.java"
-  ],
-  "af55146dc6a57a6411ec653e4d870194": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionHour.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMinute.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfMonth.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionYear.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMonth.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfYear.java"
-  ],
-  "ff2e57d7c98649910422ab50c9cbd725": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
-  ],
-  "0b15300557cfef16e91d99b4428f6fbd": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
-  ],
-  "414d3d39522b9c8e6186aa89d91aa429": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Database.java"
-  ],
-  "c1581c8aa0ee1d2efe111f411f59bb52": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java"
-  ],
-  "6fb05969fcda8927c92279ff704bf8f2": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "f03d72c352edf4a93e2e9cab33459f24": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestGroupBy.java"
-  ],
-  "3b8b607907e21b80917a099d437d0598": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
-  ],
-  "5cc2b991e1ba65088d8ec0128b0167c4": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
-  ],
-  "3ce42aac955f1ade52102404da7ffb77": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
-  ],
-  "6e068da435f96944c5b00cbf8ccd94e1": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
-  ],
-  "497e40535587d4f7f30e2abdcfba55bb": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
-  ],
-  "22c16fc2b1b14118c220d9b153e41e3c": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
-  ],
-  "3b2330ddec9a2751237252bf5691e2e8": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
-  ],
-  "067934948d53f9ffa53d75b9131fc445": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/CommandSelect.java"
-  ],
-  "8c6f9052f81012882a0a7f1da4835dbf": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableLong.java"
-  ],
-  "5c8c403eb0bd62ce027164d876b69bc3": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Identity.java"
-  ],
-  "5325cd202de9cc23a978743ae1d222cc": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "7ad2c50cbdfa106a8a03a3487cc176b0": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
-  ],
-  "a76362ecb2b19d163bbe1d420fbba2d6": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "d4bcbe5095c1c2ef0a9df9cfff8052df": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionInsert.java"
-  ],
-  "eb6da32139dbf21c051da4d4f5ae7816": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestGroupBy.java"
-  ],
-  "35810f26a9e6b32dc033817fdaa3cd6c": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestGroupBy.java"
-  ],
-  "d11746526bc3e1216ea67fc403b064a7": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "3e0e231c5d1e5d4fb4e58df27c1747c7": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableNumeric.java"
-  ],
-  "68c09a0367b3016c1bac10515b34bc2f": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
-  ],
-  "b6b782ea219ea3471cadbfe929dd6abf": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
-  ],
-  "1ba807928558989a518f10f21c861bdb": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java"
-  ],
-  "be34260465676340dca5f3fac1867fd9": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
-  ],
-  "a118264da12a7a49f174391dd0bfa852": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
-  ],
-  "721e57596bc32dd0cece186ce1595e84": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Index.java"
-  ],
-  "d79d055f1457a897951507e0f959c020": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLTokenizer.java"
-  ],
-  "71626d540dc7f6a964cc78d03953d4a2": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLTokenizer.java"
-  ],
-  "2bc7ad4aaf6eecbf1b7cd53da95a764e": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Distinct.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Where.java"
-  ],
-  "4be8c6a9a1e1fff7895900b4a1e58b72": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableNumeric.java"
-  ],
-  "bec9cbb7d2af1868d27afd3e60479247": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
-  ],
-  "36c08facd4f6774964ae6a393fb9ac87": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "f1cf5d049923b12c38de1bab07b9de1d": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java"
-  ],
-  "f9978dc8bdf5a0f79ce28cf854bb0dc2": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java"
-  ],
-  "1ae7ffb8a426599d54c956c00cc715d8": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
-  ],
-  "cdec247734a618f0b6ac3c04afe24bbd": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSCallableStatement.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
-  ],
-  "7209242cd5048ef310fb0b56c120b505": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
-  ],
-  "56b41f09ccec9dd0d5633274617c3ae2": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSPreparedStatement.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
-  ],
-  "b45f2a0c2602f7f3b2a524991fe4ab4a": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSPreparedStatement.java"
-  ],
-  "4f684f77425a4b1ffe1a3a312fbb1672": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/StorePage.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ViewResult.java"
-  ],
-  "db4e00a8c6d98242658896751436a668": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSStatement.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
-  ],
-  "9f1170d64dafbfc9b9acaad8ee4a249e": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Database.java"
-  ],
-  "42bbb65376ed89471b7f3df236da3cd4": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Database.java"
-  ],
-  "ac10e7826530a2f88adbe50b2e613de3": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
-  ],
-  "7a063fc5e5a887369664cfd429f68a75": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSConnection.java"
-  ],
-  "10c931e8cbb8b9300381aff438282f10": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
-  ],
-  "1c40c8d6bf5a944293033b0368421dba": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
-  ],
-  "4001b4887936a4e2e0c2af69ab45ca50": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
-  ],
-  "d825e07819452f2574f08723bd3210ea": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "8ba29569ddb0e8bb148fb172ef6a3b9e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java"
-  ],
-  "c7911e4e3cf66577692706975b75abd9": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestGroupBy.java"
-  ],
-  "bd0e5ea918c899556d082738cc6d21c5": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Expression.java"
-  ],
-  "ee54d72db92e3429e095084d12a674d8": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReplace.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRepeat.java"
-  ],
-  "4a3f69e969a5ead6278b164e4cb5a161": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
-  ],
-  "4d8f129e4586c19216c0a5b430542e3f": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
-  ],
-  "20b74f689f5b032ddd9cafdf3e9c4964": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MemoryStream.java"
-  ],
-  "6638a9d7fd9fc515019a993dbeb06a6c": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescription.java"
-  ],
-  "12d986db96b2c08e7fba1f14dafcec18": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/TableView.java"
-  ],
-  "a8c50319c6ccc42aa1a2393a28d96e32": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/TableView.java"
-  ],
-  "df6012120d9c45efafdef4c61badfce8": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTruncate.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRound.java"
-  ],
-  "322770a0a4eac5f71c99f5cc1afba836": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Command.java"
-  ],
-  "1680ffd2d479af198915b22061865c46": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/CommandSelect.java"
-  ],
-  "1d3836683625e814a819e3065688140d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
-  ],
-  "cc43ee9faaadf937df4bf6f64b7bd846": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "7766d5d36186185764befb91352ff3a0": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
-  ],
-  "553dc18730a028f7348740dc95e78486": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "d2c4c99cf70578ec32cfd2ad9abe41ed": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
-  ],
-  "a3a9a104043ba49d2f15d7b15c724f6e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java"
-  ],
-  "83088cfac3453ecb6e0ef483c08dfe80": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java"
-  ],
-  "52203442404368050bd0272230c26644": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java"
-  ],
-  "510e18472491d9f2a4500a88afe1815a": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestGroupBy.java"
-  ],
-  "fa14590183bbc10bdec25c68d67e796a": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
-  ],
-  "d7b97a6ff8e3ece5bb18d9bba681bcee": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "9db109e662ab8ee84e1a345b42b6d145": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable.java"
-  ],
-  "de6aa7fb59f3190c0b9e157e2a9b1125": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable2.java"
-  ],
-  "68a97c8f5c3d929f2b1867cdb43c95d0": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
-  ],
-  "c821f77239809079077b04f2db37c592": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
-  ],
-  "b047fc55b125e33259bd0de284ab5e3d": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestStatement.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
-  ],
-  "e299257b9032b08a11487ef23f05d88e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
-  ],
-  "ea753160d953cc8d9e2efc20b867c06e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
-  ],
-  "1fe0e9b0245ea2465a270f0622a0369b": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionAbs.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionFloor.java"
-  ],
-  "47cdbd06eec1a7acb2162a525c463a71": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "f7d89ea8736572281196acb3cae7f22d": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSPreparedStatement.java"
   ],
   "c135f1522741df3074f947b54be052fd": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
   ],
-  "3d5549b3648720631e98cdf2cf0c65f1": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
+  "5e05b4fe42a45aa9e783e90153b8acca": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
   ],
-  "e640ee89fedd926bd2a9a7efdfd30919": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexScrollStatus.java"
+  "65b417253d107c825d768ec2a440601f": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
   ],
-  "3462b7d98f603eff84cc49aa752771ee": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestStatement.java"
+  "f886e4643255a64e22868a67740e6349": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
   ],
-  "12daec8594669ec46c163faa02751139": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "b5eb33ebe9fc4c7f75baa3aebf63ca81": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "1a5d1b3841e2d06119a50bde3cd7c3f4": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
+  "8ed5531aa38ee51bfb2bf3518fef2b6f": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/MutableNumeric.java"
   ],
-  "6ac2e0dd48d357b9d4e50c7ca3d96d84": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java"
+  "9653d12d835aa5392134dac0c48387a1": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
   ],
-  "ee3995118615d7c6ecad9172f9593366": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSCallableStatement.java"
+  "33d3cba38641fd835aba92c43ab880bf": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
   ],
-  "6ccaa5587b363cd107892120f193e4aa": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnInt.java"
+  "09419dcd4f636c2b88a5e76963a2a3b8": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "b05d9ced898987255ad4b2669de7ad0d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
+  "499940eef492466881d5c42cb60f4d1d": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
   ],
-  "d04dac4caf4a5fbdee1bafa7c29a02cc": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
+  "33ccf74dbff7b18aeac1468cb542fd1b": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
   ],
-  "5cbf802609b008770a67e64e67a093bf": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableDouble.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableLong.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableInteger.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableFloat.java"
+  "ce9065802b3e219c5603a1493a81b8a9": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
   ],
-  "de0a9dc3f1d2fd83a0dfd9317a6f0439": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
+  "a5a9200a09ba0aa1bff3d3b1e4398da5": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
   ],
-  "a5f5bdbcffc0f83f0762879d323f4bb9": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
+  "3f47bc57d360171c82dc3fcefdaab04b": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
   ],
-  "ee4cfd376f3bed08e39ddb06c8c222c0": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
+  "9f6aeccb20b95276edea068c3dcb0239": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Index.java"
   ],
-  "77c73bc2f590218bba90aa9d00f02190": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Database.java"
+  "11ddb523b6aed473e3495413cf84a6e9": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
   ],
-  "a6a392ed88fbcb40f3b48d0c9d4099ae": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLCase.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionUCase.java"
+  "2db34688a19253f3e6102c0990754a28": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
   ],
-  "c274d9fd6bf6e2bf7fa23ac3bc557531": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSPreparedStatement.java"
+  "4e04c795ecedff617eb147e6d7c93977": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
   ],
-  "6a33a807804826aee738cd947bad5b6f": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSStatement.java"
+  "c0747b92e1a8e0856591101fb2229b60": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
   ],
-  "b42e5ddff211d371c84e7c6996fa84e3": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable2.java"
+  "68c09a0367b3016c1bac10515b34bc2f": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
   ],
-  "f2539dddb2cb96fe8ddfad88a4c1d8cd": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "325ed4732f0b8a64c847f02c92587342": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
   ],
-  "77e03d8a9bde32fe82c71cdb0681fde0": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "fdbcbee9ec64252c211e2f9e2267e245": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "d059d7e22d054b9e53793387ec3205bb": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "6e0b048e5ce1a09c77bb6c056f588ef2": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
   ],
-  "2913ae4b5fabde4c8e718e0d7b95fd9c": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/TableResult.java"
+  "3498e359e6749775db0f64fb9d8f5ffe": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
   ],
-  "b9736aab4706d52b71b359e64be94a1e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "8973205b3f124e41875bdebaf4a51c25": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "271d3dcc94ce09de450db7327db782a8": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "ddf6d05c55a12875fa5c235ecd250cf5": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "b3912cad732a10993c3e7b882b7f2db1": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "00af1091194aff30f81b72f059574f6c": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "f8987db49d08c3b89a4df04089b4faed": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "432fbd19fd29d3850f83279779753bf2": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/IndexScrollStatus.java"
   ],
-  "6ce96577aaaccf053bff18b843b175fd": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
+  "010889ea578bee555449b67e66fb8fa0": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/IndexScrollStatus.java"
   ],
-  "036c53883c065629aef47fa3940a5404": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexScrollStatus.java"
+  "ee50936f10c2ae8c5b2c5c24cfd24433": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
   ],
-  "39628f756626a7eada3147e084559491": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "90d3a5eedcea8c6c7a7205a40d8ea68c": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
   ],
-  "637791274ea8c4fbf5dbfb20c3da482a": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "4e540f285cf04361b2ca57390a87554e": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
   ],
-  "68a9fe100f03022fd72d4b14adc5f43d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SmallSQLException.java"
+  "eb1ee4b6b846958590e62c10e85b2876": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "b71ad58090870a0d63ab2bfa1acf5a5f": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "07d1e2e54fc442f208dd53ebe3aeb5ab": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionFloor.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionAbs.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnFloat.java"
   ],
-  "590353095fea8ced13c9316444f5601e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
+  "ce455c7b740c1757ea8969d877a360f6": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "705dd99d96b4a1322d14464d343aa79e": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Distinct.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Where.java"
+  "43d24d59eab9d95c048d3ed79c305848": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "9f0a613a13360a2aabea3add7c3cad47": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestDataTypes.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestFunctions.java"
+  "4acbc2689346701780331b8db4a69911": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "a6f6d88b228b92e5b3de20f14f9f1974": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java"
+  "51492e324720ee35664c790a62e4b2d2": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSCallableStatement.java"
   ],
-  "2728299c1920d1fe4941af2b8af4f7ac": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionValue.java"
+  "3f7aa2c3e3af750b6dfd4259d3e31af8": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/MutableNumeric.java"
   ],
-  "2883dd35132a23909c1dc041a3ff4128": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable2.java"
+  "dfd6ae2867c64b0bb297491598c2e7b3": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Utils.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java"
   ],
-  "3f493c5729354cd83bd1b5e86ef1dfb0": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
+  "3eec9c67404917443647d295eee6cf65": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
   ],
-  "61366fe56f89f0c4a46cf4179eb0ef02": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
+  "2bff0b7032b4d5a3cc499af440e70c89": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
   ],
-  "4e59785724f8bba763f050f551567cd1": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescriptions.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Strings.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ForeignKeys.java"
+  "b4b440c62ffad9398d2ef50237d41dad": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionFloor.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionAbs.java"
   ],
-  "2a754074d657f6f40c55560b372b7d8d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Columns.java"
+  "0fc3150d715e628ed5edbc6ab26800db": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/GroupResult.java"
   ],
-  "2f9ebccfdd44d376b5dd98069b009e1b": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "c6c22044097aaf7b46a7ff72a8acc65e": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/GroupResult.java"
   ],
-  "f3c4147eb1ca97e082270d52df8c0fde": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Scrollable.java"
+  "46b30690221e9344f23263fa6f0b23fe": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "6a8d98485730ed64f0a56b9e3ccb6c6d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Scrollable.java"
+  "48fe7e9e5996e30ca8cd18e50709f6e5": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "11f3a91039be7fdf6ed8ea113b84c6f1": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Scrollable.java"
+  "61ef272791085776d8af586716e6fab9": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestThreads.java"
   ],
-  "8b51e8f0431df6447434a2f75cd17fa7": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "b022ba7ba87faf938a6650fc476540c3": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestThreads.java"
   ],
-  "51a45824413c869ea38d8049f56cb26d": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable2.java"
+  "1c40c8d6bf5a944293033b0368421dba": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
   ],
-  "6d28f6e18d396f840b5b454d3c3ca31a": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
+  "bd93495edf3bfdc6d809649b80776e47": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
   ],
-  "7c657a6a26f9956210acab0de565ba23": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Database.java"
+  "c6d8c300b68f29e6629a1376a45c629d": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionBitLen.java"
   ],
-  "a73afbde714edb1926a3a7d6cc44f551": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
+  "1da9d552dc9e5fcf9d1ace8d347d08c0": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionOctetLen.java"
   ],
-  "46c99be165ddff04f7a237f150dfea50": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
+  "d706cdbe2cd95c02d973558e518e7240": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
   ],
-  "cb40e7026c0490c6e0d1be6bc3eb0552": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/CommandInsert.java"
+  "a89a87304f4265f4c66cd576e894c091": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
   ],
-  "10e6c1d146bb35ce174afbb0ca1ca92e": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Money.java"
+  "edce35112e7a169a41126c5c1c451d6c": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
   ],
-  "1c604339b86914438ec418b60ac7b475": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescription.java"
+  "69732e22d1f4fc5bbf61634d9c6cff57": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java"
   ],
-  "6807be67efb2ac091183a427528cce6f": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/TableView.java"
+  "fa1307e373ccbd650d65e88c4f3167d3": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
   ],
-  "47135122a06c83a32a2d3b65154491ab": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexDescription.java"
+  "a8bf31ca8f01880a738a9833262809f9": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/CommandInsert.java"
   ],
-  "22d338d568aafb092c9e4f92e66d1218": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
+  "bde72063cc82fb722164b9c7ed2ac903": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "a3cd52974b31b0d4c9c90b3d11682cbd": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "101d9d33db3f5959f2a1719fddd887cc": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/DataSources.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/LongList.java"
   ],
-  "d5da733c274f96eec823d84047357bd4": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "fdafe0bfbd97edd5994c1d4806eb9955": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
   ],
-  "6dbe83557a9bb0c85171284a154a9c77": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MemoryStream.java"
+  "4904c60325062f928232ddde0b7fa99b": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
   ],
-  "157b7d832a23252851e3f1e1887b1045": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java"
+  "3bc23895a271296c74ad466770c56d81": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/IndexNode.java"
   ],
-  "04f11f60cb509f575ad93fd5032bfef3": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java"
+  "a2a43897b1ea8ca268bcedaf5ca2d093": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "044dca3254369588025f38978314c2cb": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable2.java"
+  "86c044c8e87b7d121fa0cb1835017527": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java"
   ],
-  "10846da70085138d04d96523690dcc56": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
+  "485c66acf2ea4f9d20b32a77cb4ffc4b": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java"
   ],
-  "8a8f9cb2480b29b1972bb318a6302773": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
+  "f51e5c14cd3d1351440e0540564a2674": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnInt.java"
   ],
-  "c086a02b0f931fbcb1a97b0b2e3d772d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
+  "20fc52fa5867640a4bd53c0d8371869d": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "a8d1458e2e085a277b998b5ad079c1d4": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "4aea65e9859b76ef60283465d7a4e6d0": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
   ],
-  "c7b97427d2f79b5461ae200bbea12a6d": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "591a1904cef5087763200375a3cee20d": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
   ],
-  "c0464e0a70e8bebee921153b7e16e598": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "95b5c56792f6435e98827f8039df1092": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
   ],
-  "67d5261a284d31934ff8be41b3db291d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "2952f1fbcce05869186bd8b1af58ebb4": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "16256a14eec1c6e6ba4a54af6c950f6e": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MutableNumeric.java"
+  "5bcc205dcb6f1c4051f635cfbcb77da1": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
   ],
-  "32780974ef12148aa891825efdfbe7ba": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexScrollStatus.java"
+  "8fd01846e122474413fe85bb072c771b": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "dff85241c0b791c3b37b6c0639e9fa0d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/IndexScrollStatus.java"
+  "957ecb15e587b6c9d32f83f5fdfcf931": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
   ],
-  "76f7c8e583bb8b0547273ae428dd2cac": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "a311b631c77d3f989080c99c954c5466": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Command.java"
   ],
-  "f366bc6ac8ed58e04280b0eb0463da71": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "ed594d340c1a4614ef08822e36eaf2c0": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/CommandSelect.java"
   ],
-  "37dab4a3ddfba5a1ac58933eb7cee59b": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "767e6098ab55be1da317023b6d747241": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRound.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTruncate.java"
   ],
-  "df11b6ba79120dece9da30774cd7c2f2": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionSubstring.java"
+  "9e0cd4232e4542e4f72d1fd3c3fcefde": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
   ],
-  "eff508e5f1edc44a0139bda5d6fcc14c": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java"
+  "48605f023b46ce26cdae5a1499e4f225": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
   ],
-  "59de2ff5b74e1389bc36ca1a3c6508d4": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java"
+  "bef74d5a0e233547f04feb03043caf0a": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java"
   ],
-  "60719ecd4144d39398b31810703b431e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "4378896a5eb6cb51039ed47adf70a6c6": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestLanguage.java"
   ],
-  "7231c9a8e728f88ab6a2a36f1b4fdd25": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/DateTime.java"
+  "af55146dc6a57a6411ec653e4d870194": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionYear.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfMonth.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDayOfYear.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMinute.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMonth.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionHour.java"
   ],
-  "207a3062ee9255177bbbdf00c7051ea5": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionArithmetic.java"
+  "8701cf863e8ea5a898266d9f04cd100d": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Index.java"
   ],
-  "3e0d40caba21e4b7e4a3cf309e13fc9b": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionArithmetic.java"
+  "9c44cd16c745be19560efcbbf0ae94ce": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
   ],
-  "1f9c83802e76bcd1afcb9d163bfb8949": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Index.java"
+  "4594bf77606f26323bc5a1305eafbcbc": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionUCase.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLCase.java"
   ],
-  "b6662a4efa5e0c40b501c81dd821ae55": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/DataSources.java"
+  "f78c2903c75d8ffe96bf28767abc2e0a": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable2.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable.java"
   ],
-  "f32d45d86729c42e05b039d18b415638": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
+  "32d7cfb1a7f1c0aa7248c08cfe4479b9": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
   ],
-  "9d108a96665a77b864e948814eee72a7": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "d0d4d6d950e2e7a586ee4144114e6ce1": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/SSDatabaseMetaData.java"
   ],
-  "8bd5ed21bfbd3f7b5e5b377a8d5f4d5f": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "c116e34905e5c7fdbc36089acd86313d": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestDBMetaData.java"
   ],
-  "0d24b7f050fb33c92b8606f211e78a27": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
+  "5ccda0ea5f881cbc68e5571506e34f37": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestMoneyRounding.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestDataTypes.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestFunctions.java"
   ],
-  "3b2f34028d375d5484fee5f3825a2bc2": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
+  "775f18b9dfa82be9218f369f88a0ecf2": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Money.java"
   ],
-  "041ef20967d3de2c013d3e8ac98bb293": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/CommandSelect.java"
+  "9e8b6213362c60bd2c4149262010cedd": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
   ],
-  "e45426e2ea583dda06b5cd6ad68cf2f5": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
+  "66b4c19b50daef42b7c18dd127d7bf5f": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
   ],
-  "23c6ada6609060d759706493e8570a60": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Language/Language.java"
+  "6efaefb946d2eb71b1bde7848dbc6fb9": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestScrollable.java"
   ],
-  "84190b90c3182038e28595b5d50d19c7": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Language/Language.java"
+  "ec72b560ae5eaadcbeb9ef7f2790b9c7": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/TableResult.java"
   ],
-  "e765a0a86c923d50244845d320beada2": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionConvert.java"
+  "8912000eb0d87030bf881a2b916e441d": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java"
   ],
-  "3d061cf06a9f6447b43b93b0a412889f": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
+  "2a55e26081f975f6244188b105ac1a60": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
   ],
-  "a1146cfdefb28f79731059bad6350ac6": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReplace.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionSubstring.java"
+  "b8ffa3b98e66ac254ba036edb00a7716": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/junit/TestAlterTable2.java"
   ],
-  "d0f9c7c735e2b1cd7889bf8cd5f27cc6": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRight.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLeft.java"
+  "08f5635ac4fd4923b4d19f5936968447": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnString.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnP1StringAndBinary.java"
   ],
-  "9fd5c783b103a994830fda1f19b9a274": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionInsert.java"
+  "d7a1caa8042a6e00cf45060e3d48504a": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/IndexDescriptions.java"
   ],
-  "81498872bf322b2780f0dcf5cc51a64d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
+  "1fc3f2e3ca95c2cf40770f7b310265b6": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/ForeignKeys.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Columns.java",
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/Strings.java"
   ],
-  "ce636087ef69dac8693962a7d6d29cb7": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSCallableStatement.java"
+  "eff78f72f2723c864aa5f0092843a3f2": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/IndexDescription.java"
   ],
-  "41406d68a797ace7a1973b3e967df675": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "3f104423f44f0f3d7c8d8f45a5bd119f": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Command.java"
-  ],
-  "8ca339cc969abffafaa6e532d4489336": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Command.java"
-  ],
-  "272f28b9785f22cce551c827296c294e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "004e42de8bd3022e6bb2f63867139186": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionRound.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionMod.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionATan2.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTruncate.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionPower.java"
-  ],
-  "2fd04ee8a0c67b2930175fe8d04e1a76": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionDifference.java"
-  ],
-  "1f17ce0d162027c8249b2c75b55ea7f3": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampAdd.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionLocate.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java"
-  ],
-  "da35a9340a99512b552bbfb548b0b482": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
-  ],
-  "96c422c6bd4f428fd84758156498c978": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOrderBy.java"
-  ],
-  "5eccb54bb38b891b53825f1104a4d6bd": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
-  ],
-  "956d9977e294981d249cfa4ab8cc1233": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/GroupResult.java"
-  ],
-  "99456c2b9c734c2c27e42bb2e79d218b": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/GroupResult.java"
-  ],
-  "d9051208ca48124f04d09eed59ef01bd": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
-  ],
-  "884ad98164802b291b900e3146661098": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
-  ],
-  "63a7f5e2f87a6f7bd08352b54f1f262a": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "238a31b406f3fcb9048b296fcff49723": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BenchTest.java"
-  ],
-  "8a7a4ec7daa13449cfdfca84b4aa15cf": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/MemoryStream.java"
-  ],
-  "a9865bac8d10293d3593507663005578": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java"
-  ],
-  "7f3b36d7ba08020f23ecbf822b743be1": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
-  ],
-  "b7c0733c1baebb5c07c70aa1efa08548": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "dc5ee9aa2bca06cab058cb3c988ab91a": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTransactions.java"
-  ],
-  "dc452b85a7d669cae5704675921da377": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "3503f77c2307efdeb1e76ee04b7b52b4": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongTreeList.java"
-  ],
-  "a9db94f669e8b4c07deb147a189f8b5e": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "cc95ea36691089ff07dd10c7dabd7e25": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SSResultSet.java"
-  ],
-  "eea75227cb5e44075552730c08b7c493": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SQLParser.java"
-  ],
-  "c13c02377fed66eea0ded24b802fed2c": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/SortedResult.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Scrollable.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Distinct.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Where.java"
-  ],
-  "1cc213ec580ae4d59a1bb93bd703aa15": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionValue.java"
-  ],
-  "84d28c497caad6e7d1df8b92d24d0d24": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionTimestampDiff.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/ExpressionFunctionReturnInt.java"
-  ],
-  "2c4d215754723a6590058f003ef613a5": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
-  ],
-  "e257600cf4f95f4218b47021ffaaafc0": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
-  ],
-  "71b0043403298202d4aaebcf23eb7a9b": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Index.java"
-  ],
-  "b8ff063dba7985c93732217de673ddba": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongList.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/LongLongList.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/Expressions.java",
-    "smallsql/smallsql0.21_src/src/smallsql/database/DataSources.java"
-  ],
-  "65e99494a2f84f966578f5a63c3286c2": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTokenizer.java"
-  ],
-  "d95808f036128e3641d7ef30a90aa9de": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestTokenizer.java"
-  ],
-  "b5cf916b9827aec87a3f151f186f3d80": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/CommandCreateDatabase.java"
-  ],
-  "52a95427b4bc78266cb0370915ae9666": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/CommandDrop.java"
-  ],
-  "da4b7541847adc4ee2af9929c0411e61": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/StoreImpl.java"
-  ],
-  "99c069de10b37bb1e6de24c0e170b08d": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Utils.java"
-  ],
-  "4445a45ebfb770ccb25ffc3af6bf5630": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestOperatoren.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestJoins.java"
-  ],
-  "cd3de21af6649094a68b18d1ced115ac": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
-  ],
-  "ac2698cff13d98cffe13f1db263a9aee": [
-    "smallsql/smallsql0.21_src/src/smallsql/database/Table.java"
-  ],
-  "7df1ec1ad6d1f4f7ba2fd25ab8a66a58": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/BasicTestCase.java",
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestExceptionMethods.java"
-  ],
-  "1e227d0beb523a8e245c9c03d68e5c29": [
-    "smallsql/smallsql0.21_src/src/smallsql/junit/TestExceptionMethods.java"
+  "a62683f5c97ba0e7b6306a2819110acb": [
+    "/home/jan/Nextcloud/uni/SEvolution/series2-Jan/smallsql/smallsql0.21_src/src/smallsql/database/TableView.java"
   ]
 }

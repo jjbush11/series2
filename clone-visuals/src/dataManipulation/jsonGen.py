@@ -4,41 +4,41 @@ from collections import defaultdict
 
 def main():
 
-    # Remove the path of your personal machine from the project path
+ # Remove the path of your personal machine from the project path
     path_to_remove = "/Users/james/OneDrive/Desktop/SEseries/series2Rascal/series2jan/"
-    lcos_per_file_path = "/Users/james/OneDrive/Desktop/SEseries/series2Rascal/series2jan/src/main/locPerFileTest.json"
-    write_path = "../finalData/locsPerFilePath.json"
+    lcos_per_file_path = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/outputFromRascal/locPerFileTest.json"
+    write_path = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/locsPerFilePath.json"
     remove_locs_per_file_personal_path(lcos_per_file_path, path_to_remove, write_path)
-
-    clone_class_path = "/Users/james/OneDrive/Desktop/SEseries/series2Rascal/series2jan/src/main/cloneClassTest.json"
-    write_path = "../finalData/cloneClassPath.json"
+    
+    clone_class_path = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/outputFromRascal/cloneClassTest.json"
+    write_path = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/cloneClassPath.json"
     remove_clone_class_personal_path(clone_class_path, path_to_remove, write_path)
-
+    
     # Extract the code snippets and combine into one json
-    clone_class_path = "../finalData/cloneClassPath.json"
-    locs_per_file_path = "../finalData/locsPerFilePath.json"
-    out_file = "../finalData/codeExample.json"
+    clone_class_path = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/cloneClassPath.json"
+    locs_per_file_path = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/locsPerFilePath.json"
+    out_file = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/codeExample.json"
     extract_code_snippets(clone_class_path, locs_per_file_path, out_file)
-
+    
     # Create the shared clones file 
-    code_example_json = "../finalData/codeExample.json"
-    shared_clones_json = "../finalData/sharedClones.json"
+    code_example_json = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/codeExample.json"
+    shared_clones_json = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/sharedClones.json"
     generate_shared_clones(code_example_json, shared_clones_json)
-
+    
     # Generate json for the bar chart 
-    bar_char_json = "../finalData/barChart.json"
+    bar_char_json = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/barChart.json"
     generate_data_for_bar_chart(code_example_json, bar_char_json)
-
+    
     # Reformat the json so it shows the hierarchy
-    hierarchy_data = "../finalData/hierarchyData.json"
+    hierarchy_data = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/hierarchyData.json"
     reformat_to_show_structure(code_example_json, hierarchy_data)
-
+    
     # Add percent of clones field 
-    poc_data = "../finalData/pocData.json"
+    poc_data = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/pocData.json"
     calculate_poc(code_example_json, hierarchy_data, poc_data)
-
+    
     # Replace the clones field with the files where those clones are located 
-    tree_map_data = "../finalData/treeMap.json"
+    tree_map_data = "/home/jan/Nextcloud/uni/SEvolution/series2_james/clone-visuals/src/finalData/treeMap.json"
     update_clones_field(poc_data, shared_clones_json, tree_map_data)
 
 
@@ -47,9 +47,9 @@ def remove_locs_per_file_personal_path(file_path, path_to_remove, write_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
-    # Modify the paths
-    for item in data:
-        item[0]['path'] = item[0]['path'].replace(path_to_remove, '')
+    # # Modify the paths
+    # for item in data:
+    #     item[0]['path'] = item[0]['path'].replace(path_to_remove, '')
 
     # Write the updated data back to the file
     with open(write_path, 'w', encoding='utf-8') as file:

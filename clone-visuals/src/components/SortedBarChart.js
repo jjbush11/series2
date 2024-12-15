@@ -5,8 +5,10 @@ import rawData from "../finalData/barChart.json";
 const SortedBarChart = ({ onBarClick }) => {
   const [selectedBar, setSelectedBar] = useState(null);
 
-  // Sort data by locCloneProduct in descending order
-  const sortedData = [...rawData].sort((a, b) => b.locCloneProduct - a.locCloneProduct);
+  // Sort data by locCloneProduct in descending order and limit to 20 items
+  const sortedData = [...rawData]
+    .sort((a, b) => b.locCloneProduct - a.locCloneProduct)
+    .slice(0, 20); // Limit to the top 20 items
 
   // Create a map of clone to cloneID for label formatting
   const cloneToCloneIDMap = sortedData.reduce((acc, item) => {
@@ -49,7 +51,7 @@ const SortedBarChart = ({ onBarClick }) => {
             legend: "Class ID",
             legendPosition: "middle",
             legendOffset: 40, // Adjust legend offset
-            format: d => cloneToCloneIDMap[d],
+            format: (d) => cloneToCloneIDMap[d],
           }}
           axisLeft={{
             tickSize: 5,
@@ -116,10 +118,9 @@ const SortedBarChart = ({ onBarClick }) => {
           motionConfig="wobbly"
           role="application"
           ariaLabel="Bar chart showing LOC size x clone count"
-          onClick={(data) => { 
-            setSelectedBar(data.indexValue)
-            onBarClick(data.indexValue)
-            console.log(data.indexValue)
+          onClick={(data) => {
+            setSelectedBar(data.indexValue);
+            onBarClick(data.indexValue);
           }} // Update selectedBar state on click
         />
       </div>
