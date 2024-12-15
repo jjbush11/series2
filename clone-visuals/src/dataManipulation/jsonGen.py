@@ -173,7 +173,7 @@ def generate_data_for_bar_chart(input_file, output_file):
             'cloneID': clone_ids[clone_hash],
             'occurrences': occurrences[clone_hash],
             'locCloneProduct': total_clone_size,
-            'cloneSize': clone_size
+            'cloneSize': total_clone_size/occurrences[clone_hash]#clone_size
         }
         output_data.append(output_entry)
     

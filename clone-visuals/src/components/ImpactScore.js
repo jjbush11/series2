@@ -34,7 +34,7 @@ const ImpactScore = ({ selectedClone }) => {
       </div>
       <div style={{ flex: 1 }}>
         <p><strong>Code Snippet:</strong></p>
-        <div style={{ overflowX: 'auto' }}>
+        <div style={{ overflowX: 'auto', maxWidth: '25%' }}>
           <SyntaxHighlighter language="java" style={darcula}>
             {codeExample ? codeExample.example : 'No code snippet available'}
           </SyntaxHighlighter>

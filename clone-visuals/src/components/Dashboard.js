@@ -15,7 +15,8 @@ export default function Dashboard() {
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
       <h1>Clone Detection Dashboard</h1>
       <TreeMap selectedCloneClass={sharedClones[selectedClone]} />
-      <div className="side-by-side-container">
+      {/* <div className="side-by-side-container"> */}
+      <div>
         <SortedBarChart onBarClick={handleBarClick} />
         <ImpactScore selectedClone={selectedClone} />
         
